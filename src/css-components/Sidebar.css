@@ -1,0 +1,38 @@
+.hamburger {
+    top: 1.5rem;
+    left: 1.5rem;
+    z-index: 1;
+    position: absolute;
+}
+
+.sidebar-open {
+    background: linear-gradient(#111, transparent);
+    width: 275px;
+    height: 100vh;
+    transition: .8s;
+    position: absolute;
+}
+
+.sidebar-closed {
+    background: linear-gradient(#111, transparent);
+    width: 275px;
+    height: 100vh;
+    transition: .8s;
+    transform: translateX(-276px);
+    position: absolute;
+}
+
+.nav {
+    position: absolute;
+    top: 6rem;
+    left: 2rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
