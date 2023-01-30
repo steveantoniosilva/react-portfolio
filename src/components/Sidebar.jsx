@@ -6,6 +6,11 @@ import Nav from './Nav';
 
 export default function Sidbar() {
   const [isOpen, setOpen] = useState();
+
+  const handlleClick = () => {
+    setOpen(prevState => !prevState);
+  };
+
   return (
     <>
       <HamburgerIcon
@@ -13,7 +18,7 @@ export default function Sidbar() {
         setOpen={setOpen}
       />
       <div className={isOpen ? 'sidebar-open' : 'sidebar-closed'}>
-        <Nav />
+        <Nav onClick={handlleClick} />
       </div>
       <Outlet />
     </>

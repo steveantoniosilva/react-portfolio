@@ -5,6 +5,7 @@ import Contact from './components/Contact';
 import Resume from './components/Resume';
 import NoPage from './components/NoPage';
 import Sidebar from './components/Sidebar';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
@@ -16,6 +17,10 @@ function App() {
           <Route
             index
             element={<Home />}
+          />
+          <Route
+            path='portfolio'
+            element={<Portfolio />}
           />
           <Route
             path='contact'
