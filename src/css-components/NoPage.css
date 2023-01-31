@@ -1,0 +1,20 @@
+.noPage {
+    background-color: oldlace;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1507097170108-a3ff72da837a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE0fHxsb3N0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
+    background-size: cover;
+    background-blend-mode: multiply;
+    display: flex;
+    align-items: center;
+    background-position: center;
+    justify-content: center;
+}
+
+.noPage h1 {
+    color: whitesmoke;
+    letter-spacing: 4px;
+    line-height: 44px;
+    max-width: 55%;
+    margin: auto;
+}

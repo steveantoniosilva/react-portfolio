@@ -6,6 +6,7 @@ import Resume from './components/Resume';
 import NoPage from './components/NoPage';
 import Sidebar from './components/Sidebar';
 import Portfolio from './components/Portfolio';
+import MusicApp from './components/MusicApp';
 
 function App() {
   return (
@@ -21,6 +22,10 @@ function App() {
           <Route
             path='portfolio'
             element={<Portfolio />}
+          />
+          <Route
+            path='music-app'
+            element={<MusicApp />}
           />
           <Route
             path='contact'

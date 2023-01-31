@@ -12,13 +12,16 @@ export default function Nav({ isOpen, setOpen, onClick }) {
             <Link to='/portfolio'>Portfolio</Link>
           </li>
           <li>
+            <Link to='/music-app'>Music App</Link>
+          </li>
+          <li>
+            <Link to='/travel-journal'>Travel Journal</Link>
+          </li>
+          <li>
             <Link to='/resume'>Resume</Link>
           </li>
           <li>
             <Link to='/contact'>Contact</Link>
-          </li>
-          <li>
-            <Link to='*'>404</Link>
           </li>
         </ul>
       </nav>

@@ -1,16 +1,17 @@
 .hamburger {
-    top: 1.5rem;
-    left: 1.5rem;
-    z-index: 1;
+    top: 22px;
+    left: 11px;
+    z-index: 2;
     position: absolute;
 }
 
 .sidebar-open {
-    background: linear-gradient(#111, transparent);
+    background: #111;
     width: 275px;
     height: 100vh;
     transition: .8s;
     position: absolute;
+    z-index: 1;
 }
 
 .sidebar-closed {
@@ -24,12 +25,24 @@
 
 .nav {
     position: absolute;
-    top: 6rem;
-    left: 2rem;
+    top: 66px;
+    left: 22px;
+    z-index: 1;
 }
 
 nav ul {
     list-style: none;
+}
+
+nav li {
+    margin: 1em 0;
+    font-size: 1.5rem;
+    transition: .5s;
+}
+
+nav li:hover {
+    padding-left: .25em;
+    transition: .5s;
 }
 
 nav a {

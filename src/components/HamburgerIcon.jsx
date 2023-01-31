@@ -7,7 +7,7 @@ export default function HamburgerIcon({ isOpen, setOpen }) {
         color='gray'
         toggled={isOpen}
         toggle={setOpen}
-        duration={0.7}
+        duration={.8}
         direction='left'
       />
     </div>
