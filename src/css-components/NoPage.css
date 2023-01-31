@@ -1,20 +1,41 @@
 .noPage {
-    background-color: oldlace;
+    background-color: silver;
     width: 100vw;
     height: 100vh;
-    background-image: url('https://images.unsplash.com/photo-1507097170108-a3ff72da837a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTE0fHxsb3N0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
+    background-image: url('https://images.unsplash.com/photo-1615266895738-11f1371cd7e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjJ8fGZ1bm55JTIwcHVwcGllc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60');
     background-size: cover;
     background-blend-mode: multiply;
     display: flex;
     align-items: center;
-    background-position: center;
     justify-content: center;
+    background-position: center;
+}
+
+.message {
+    text-align: center;
+    margin-top: 11em;
 }
 
 .noPage h1 {
+    border: 1px solid whitesmoke;
+    padding: 1em;
     color: whitesmoke;
-    letter-spacing: 4px;
-    line-height: 44px;
-    max-width: 55%;
-    margin: auto;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 1.5rem;
+}
+
+.noPagebutton {
+    margin-top: 2em;
+    padding: 1em;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    color: #111;
+    border: 1px solid white;
+    text-transform: uppercase;
+    box-shadow: 0 0 55px silver;
+}
+
+button:hover {
+    cursor: pointer;
 }

@@ -6,16 +6,17 @@
 }
 
 .sidebar-open {
-    background: #111;
+    background-color: gray;
     width: 275px;
     height: 100vh;
     transition: .8s;
     position: absolute;
     z-index: 1;
+    transform: translateX(44deg);
 }
 
 .sidebar-closed {
-    background: linear-gradient(#111, transparent);
+    background: transparent;
     width: 275px;
     height: 100vh;
     transition: .8s;
