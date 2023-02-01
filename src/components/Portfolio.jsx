@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import '../css-components/Portfolio.css';
 
 export default function Portfolio() {
@@ -22,9 +23,13 @@ export default function Portfolio() {
         <h1>{map}</h1>
       </div>
       {show && (
-        <button className='portfolioButton'>
-          1st<i className='fa-regular fa-hand-point-down'></i>App
-        </button>
+        <div className='buttonDiv'>
+          <Link to='/music-app'>
+            <button className='portfolioButton'>
+              1st<i className='fa-regular fa-hand-point-down'></i>App
+            </button>
+          </Link>
+        </div>
       )}
     </div>
   );

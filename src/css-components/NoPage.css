@@ -1,23 +1,22 @@
 .noPage {
-    background-color: silver;
     width: 100vw;
     height: 100vh;
-    background-image: url('https://images.unsplash.com/photo-1615266895738-11f1371cd7e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjJ8fGZ1bm55JTIwcHVwcGllc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60');
+    background-image: url('https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NjZ8fGN1dGUlMjBwdXBweXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60');
     background-size: cover;
     background-blend-mode: multiply;
+    background-color: moccasin;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     background-position: center;
 }
 
-.message {
+.noPageInfo {
     text-align: center;
-    margin-top: 11em;
+    margin-bottom: 5em;
 }
 
-.noPage h1 {
-    border: 1px solid whitesmoke;
+.noPageInfo h1 {
     padding: 1em;
     color: whitesmoke;
     font-weight: 100;
@@ -25,7 +24,7 @@
     font-size: 1.5rem;
 }
 
-.noPagebutton {
+.noPageInfo button {
     margin-top: 2em;
     padding: 1em;
     border-radius: 5px;

@@ -1,0 +1,159 @@
+.musicApp {
+    text-align: center;
+    background-image: url('../assets/music-app-background.avif');
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-color: dimgray;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+.progressBar {
+    width: 90%;
+    height: 1px;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 1px;
+}
+
+.progress {
+    width: 0.5px;
+    background-color: tomato;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.overlay {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    width: 58%;
+    height: 60%;
+    max-width: 356px;
+    border-radius: 22px;
+    transition: 0.5s;
+    padding: 0.5em;
+    background-color: rgba(77, 77, 77, .3);
+    position: relative;
+    border: 1px solid dimgray;
+}
+
+.albumCover {
+    position: absolute;
+    background-color: #111;
+    box-shadow: 0 0 1px white;
+    border-radius: 22px;
+    height: 200px;
+    width: 200px;
+    margin: 22px;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.albumCover img {
+    height: 100%;
+    width: 100%;
+    border-radius: 22px;
+    filter: sepia(11%)
+}
+
+.musicAppButtons {
+    position: relative;
+    z-index: 1;
+    transition: 1s;
+    margin: .5em 0;
+}
+
+.musicAppButton {
+    font-size: 2.3rem;
+    margin: .75em;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 1);
+    transition: .5s;
+}
+
+.musicAppButton:nth-child(2) {
+    padding-bottom: 3em;
+}
+
+.musicAppButton:nth-child(3) {
+    padding-top: 3em;
+}
+
+.musicApp i:hover {
+    transition: 0.2s;
+    color: tomato;
+    text-shadow: 0 0 33px tomato;
+}
+
+.musicApp i:active {
+    transform: scale(0.95);
+}
+
+.songTitle,
+.artist {
+    color: oldlace;
+    text-shadow: 0 0 111px #111;
+    opacity: 0.6;
+    letter-spacing: 1px;
+    z-index: 2;
+    margin: 1em 0;
+}
+
+@media screen and (min-width: 878px) {
+    .overlay {
+        flex-direction: colomn;
+        display: flex;
+        width: 82%;
+        height: 41%;
+        max-width: 808px;
+        line-height: 33px;
+    }
+
+    .musicAppButton {
+        margin: 0.4em;
+        font-size: 3rem;
+    }
+
+    .musicAppButtons {
+        display: flex;
+        margin: 6.5em 0;
+        margin-left: 1.5em;
+    }
+
+    .songTitle,
+    .artist {
+        letter-spacing: 4px;
+        margin: 2em 0;
+    }
+
+    .albumCover {
+        height: 255px;
+        width: 255px;
+    }
+
+    .musicAppButton:nth-child(2) {
+        padding-bottom: 0;
+    }
+
+    .musicAppButton:nth-child(3) {
+        padding-top: 0;
+    }
+
+    .musicAppButton:nth-child(2) {
+        padding-right: 3.5em;
+    }
+
+    .musicAppButton:nth-child(3) {
+        padding-left: 3.5em;
+    }
+}

@@ -1,18 +1,22 @@
 .hamburger {
     top: 22px;
     left: 11px;
-    z-index: 2;
+    z-index: 111;
     position: absolute;
 }
 
 .sidebar-open {
-    background-color: gray;
+    background-image: url('https://images.unsplash.com/photo-1621262402468-a1c27d6ba468?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZHJhd2VyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
     width: 275px;
     height: 100vh;
     transition: .8s;
     position: absolute;
-    z-index: 1;
-    transform: translateX(44deg);
+    z-index: 11;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: silver;
+    background-blend-mode: multiply;
 }
 
 .sidebar-closed {
@@ -24,29 +28,28 @@
     position: absolute;
 }
 
-.nav {
+.navMenu {
     position: absolute;
     top: 66px;
     left: 22px;
     z-index: 1;
 }
 
-nav ul {
+.navMenu nav ul {
     list-style: none;
 }
 
-nav li {
+.navMenu nav li {
     margin: 1em 0;
     font-size: 1.5rem;
-    transition: .5s;
+    transition: .25s;
 }
 
-nav li:hover {
+.navMenu nav li:hover {
     padding-left: .25em;
-    transition: .5s;
+    transition: .25s;
 }
 
-nav a {
-    text-decoration: none;
+.navMenu nav a {
     color: white;
 }
