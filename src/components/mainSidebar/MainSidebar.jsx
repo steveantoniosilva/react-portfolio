@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router-dom';
 import { useState } from 'react';
-import HamburgerIcon from './HamburgerIcon';
-import '../css-components/Sidebar.css';
+import MainHamburgerIcon from './MainHamburgerIcon';
+import '../../css-components/MainSidebar.css';
 import Nav from './Nav';
 
 export default function Sidbar() {
@@ -13,11 +13,11 @@ export default function Sidbar() {
 
   return (
     <>
-      <HamburgerIcon
+      <MainHamburgerIcon
         isOpen={isOpen}
         setOpen={setOpen}
       />
-      <div className={isOpen ? 'sidebar-open' : 'sidebar-closed'}>
+      <div className={isOpen ? 'main-sidebar-open' : 'main-sidebar-closed'}>
         <Nav onClick={handlleClick} />
       </div>
       <Outlet />

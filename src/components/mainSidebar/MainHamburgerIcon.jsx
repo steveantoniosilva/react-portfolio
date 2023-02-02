@@ -1,8 +1,8 @@
 import Hamburger from 'hamburger-react';
 
-export default function HamburgerIcon({ isOpen, setOpen }) {
+export default function MainHamburgerIcon({ isOpen, setOpen }) {
   return (
-    <div className='hamburger'>
+    <div className='main-hamburger'>
       <Hamburger
         color='saddlebrown'
         toggled={isOpen}

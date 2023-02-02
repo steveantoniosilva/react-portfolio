@@ -4,9 +4,10 @@ import Home from './components/Home';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import NoPage from './components/NoPage';
-import Sidebar from './components/Sidebar';
+import MainSidebar from './components/mainSidebar/MainSidebar';
 import Portfolio from './components/Portfolio';
 import MusicApp from './components/MusicApp';
+import PomodoroApp from './components/pomodoro/PomodoroApp';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <Routes>
         <Route
           path='/'
-          element={<Sidebar />}>
+          element={<MainSidebar />}>
           <Route
             index
             element={<Home />}
@@ -26,6 +27,10 @@ function App() {
           <Route
             path='music-app'
             element={<MusicApp />}
+          />
+          <Route
+            path='pomodoro-app'
+            element={<PomodoroApp />}
           />
           <Route
             path='contact'

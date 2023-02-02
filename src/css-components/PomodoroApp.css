@@ -1,0 +1,196 @@
+.PomodoroApp {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pomodoro-timer {
+    font-size: 3rem;
+    margin: .5em;
+    margin-bottom: 1em;
+    color: silver;
+}
+
+.pomodoro-timer span {
+    background-color: #333;
+    margin: 0 3px;
+    padding: .1em .2em;
+    border-radius: 8px;
+    color: whitesmoke;
+}
+
+.pomodoro-heading {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    padding-bottom: 1em;
+    text-shadow: 1px 1px 11px white;
+    color: silver;
+}
+
+/* Hamburger Icon */
+
+.pomodoro-hamburger {
+    position: absolute;
+    top: 22px;
+    right: 22px;
+    z-index: 1111;
+}
+
+.pomodoro-sidebar-open {
+    background: linear-gradient(222deg, black, #333, transparent);
+    width: 275px;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 11;
+    transition: 1.5s;
+}
+
+.pomodoro-sidebar-closed {
+    width: 275px;
+    height: 100vh;
+    background: linear-gradient(black, dimgray, gray, transparent, transparent);
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 111;
+    transform: translateY(-1111px);
+    transition: 1.5s;
+    overflow: hidden;
+}
+
+/* Toggle switch css */
+
+.pomodoro-toggle {
+    z-index: 11;
+}
+
+[type="checkbox"] {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all .05s ease-in-out;
+    width: 80px;
+    height: 110px;
+    z-index: 2;
+    opacity: 0.001;
+    cursor: pointer;
+    outline: none;
+}
+
+[type="checkbox"]~.switch {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all .05s ease-in-out;
+    width: 80px;
+    height: 110px;
+    border-radius: 12px;
+    background: linear-gradient(to bottom, #d2d4d6, #fff);
+    box-shadow: inset 0 -2px 4px rgba(212, 205, 199, 0.75),
+        inset 0 -8px 0 1px rgba(156, 156, 157, 0.85),
+        0 0 0 1px rgba(116, 116, 118, 0.8),
+        0 6px 6px rgba(41, 41, 41, 0.3),
+        0 0 0 4px #d4d7d8;
+    filter: contrast(1);
+}
+
+[type="checkbox"]~.switch::before,
+[type="checkbox"]~.switch::after {
+    content: 'dark';
+    position: absolute;
+    left: 0;
+    bottom: 11px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+    transition: all .05s ease-in-out;
+}
+
+[type="checkbox"]~.switch::after {
+    content: 'light';
+    bottom: auto;
+    top: 5px;
+    color: rgba(0, 0, 0, 0.45);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+[type="checkbox"]:checked~.switch {
+    background: linear-gradient(to bottom, #a1a2a3, #f0f0f0);
+    box-shadow: inset 0 2px 4px rgba(212, 205, 199, 0.75),
+        inset 0 8px 0 1px rgba(255, 255, 255, 0.77),
+        0 0 0 1px rgba(116, 116, 118, 0.8),
+        0 -2px 2px rgba(41, 41, 41, 0.18),
+        0 0 0 4px #d4d7d8;
+    filter: none;
+}
+
+[type="checkbox"]:checked~.switch::before {
+    bottom: 3px;
+    color: rgba(0, 0, 0, 0.5);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+[type="checkbox"]:checked~.switch::after {
+    top: 13px;
+    color: rgba(0, 0, 0, 0.45);
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+[type="checkbox"]~.light {
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: multiply;
+    pointer-events: none;
+    z-index: 2;
+}
+
+[type="checkbox"]:checked~.light {
+    opacity: 0;
+}
+
+/* @media  */
+
+@media (min-width: 675px) {
+    .timer {
+        font-size: 3.1rem;
+    }
+
+    .heading {
+        font-size: 1.6rem;
+    }
+
+    .pomodoro-button {
+        font-size: 1.4rem;
+    }
+}
+
+@media (min-width: 1175px) {
+    .timer {
+        font-size: 3.2rem;
+    }
+
+    .heading {
+        font-size: 1.7rem;
+    }
+
+    .pomodoro-button {
+        font-size: 1.5rem;
+    }
+}

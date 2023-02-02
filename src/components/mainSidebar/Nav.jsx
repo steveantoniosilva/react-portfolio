@@ -15,7 +15,7 @@ export default function Nav({ isOpen, setOpen, onClick }) {
             <Link to='/music-app'>Music App</Link>
           </li>
           <li>
-            <Link to='/travel-journal'>Travel Journal</Link>
+            <Link to='/pomodoro-app'>Pomodoro App</Link>
           </li>
           <li>
             <Link to='/resume'>Resume</Link>
