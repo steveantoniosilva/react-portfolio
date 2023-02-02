@@ -2,8 +2,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Cormorant', serif;
 }
 
 a {
     text-decoration: none;
+}
+
+button {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+:root {
+    --sb10: rgba(139, 69, 19, 1);
+    --sb9: rgba(139, 69, 19, .9);
+    --sb8: rgba(139, 69, 19, .8);
+    --sb7: rgba(139, 69, 19, .7);
+    --sb6: rgba(139, 69, 19, .6);
+    --sb5: rgba(139, 69, 19, .5);
+    --sb4: rgba(139, 69, 19, .4);
+    --sb3: rgba(139, 69, 19, .3);
+    --sb2: rgba(139, 69, 19, .2);
+    --sb1: rgba(139, 69, 19, .1);
 }

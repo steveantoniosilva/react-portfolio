@@ -11,17 +11,20 @@ export default function Nav({ isOpen, setOpen, onClick }) {
           <li>
             <Link to='/portfolio'>Portfolio</Link>
           </li>
-          <li>
+          <li className='nested'>
             <Link to='/music-app'>Music App</Link>
           </li>
-          <li>
-            <Link to='/pomodoro-app'>Pomodoro App</Link>
+          <li className='nested'>
+            <Link to='/pomodoro-app'>Pomodoro</Link>
           </li>
           <li>
             <Link to='/resume'>Resume</Link>
           </li>
           <li>
             <Link to='/contact'>Contact</Link>
+          </li>
+          <li>
+            <Link to='/About'>About</Link>
           </li>
         </ul>
       </nav>

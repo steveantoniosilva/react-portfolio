@@ -1,37 +1,37 @@
 .main-hamburger {
-    top: 22px;
-    left: 11px;
+    top: 33px;
+    left: 33px;
     z-index: 111;
     position: absolute;
+    background-color: rgba(255,255,255,.1);
 }
 
 .main-sidebar-open {
-    background-image: url('https://images.unsplash.com/photo-1548092176-dff0757b8ee6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDB8fHN0YWNrJTIwb2YlMjBib29rc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60');
+    background: linear-gradient(121deg, var(--sb1), transparent);
     width: 275px;
     height: 100vh;
-    transition: .8s;
+    transition: 1s;
     position: absolute;
     z-index: 11;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: silver;
+    background-color: var(--sb3);
     background-blend-mode: multiply;
 }
 
 .main-sidebar-closed {
-    background: transparent;
     width: 275px;
     height: 100vh;
-    transition: .8s;
+    transition: 1s;
     transform: translateX(-276px);
     position: absolute;
 }
 
 .navMenu {
     position: absolute;
-    top: 66px;
-    left: 22px;
+    top: 6em;
+    left: 2em;
     z-index: 1;
 }
 
@@ -41,13 +41,20 @@
 
 .navMenu nav li {
     margin: 1em 0;
-    font-size: 1.5rem;
-    transition: .25s;
+    font-size: 1.25rem;
+    transition: .5s;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.navMenu nav li.nested {
+    margin-left: .7em;
+    font-size: 1rem;
 }
 
 .navMenu nav li:hover {
-    padding-left: .25em;
-    transition: .25s;
+    padding-left: .2em;
+    transition: .5s;
 }
 
 .navMenu nav a {

@@ -40,11 +40,11 @@
     position: absolute;
     top: 22px;
     right: 22px;
-    z-index: 1111;
+    z-index: 111;
 }
 
 .pomodoro-sidebar-open {
-    background: linear-gradient(222deg, black, #333, transparent);
+    background: linear-gradient(222deg, silver, transparent);
     width: 275px;
     height: 100vh;
     position: absolute;
@@ -52,12 +52,12 @@
     top: 0;
     z-index: 11;
     transition: 1.5s;
+    mix-blend-mode:multiply;
 }
 
 .pomodoro-sidebar-closed {
     width: 275px;
     height: 100vh;
-    background: linear-gradient(black, dimgray, gray, transparent, transparent);
     position: absolute;
     right: 0;
     top: 0;
@@ -67,7 +67,7 @@
     overflow: hidden;
 }
 
-/* Toggle switch css */
+/* Toggle switch */
 
 .pomodoro-toggle {
     z-index: 11;

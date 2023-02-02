@@ -1,10 +1,10 @@
 .musicApp {
     text-align: center;
-    background-image: url('../assets/music-app-background.avif');
+    background-image: url('https://images.unsplash.com/photo-1571954490877-f0acf81b16c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nzh8fHBpYW5vfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
     height: 100vh;
     width: 100vw;
     background-position: center;
-    background-color: dimgray;
+    background-color: gray;
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
@@ -25,7 +25,7 @@
 
 .progress {
     width: 0.5px;
-    background-color: tomato;
+    background-color: ivory;
     height: 100%;
     position: absolute;
     z-index: 1;
@@ -36,63 +36,59 @@
     align-items: center;
     flex-direction: column;
     display: flex;
-    width: 58%;
-    height: 60%;
+    width: 65%;
+    height: 65%;
     max-width: 356px;
     border-radius: 22px;
-    transition: 0.5s;
     padding: 0.5em;
-    background-color: rgba(77, 77, 77, .3);
+    background-color: var(--sb5);
     position: relative;
-    border: 1px solid dimgray;
+    transition: .5s;
+    border: 2px ridge var(--sb10);
 }
 
 .albumCover {
     position: absolute;
-    background-color: #111;
-    box-shadow: 0 0 1px white;
     border-radius: 22px;
-    height: 200px;
-    width: 200px;
-    margin: 22px;
+    height: 185px;
+    width: 185px;
     z-index: 1;
-    transition: 0.5s;
+    transition: 1s;
+    border: 3px ridge var(--sb10);
 }
 
 .albumCover img {
     height: 100%;
     width: 100%;
     border-radius: 22px;
-    filter: sepia(11%)
+    transition: 1s;
+    border: 3px solid #111;
 }
 
 .musicAppButtons {
     position: relative;
     z-index: 1;
     transition: 1s;
-    margin: .5em 0;
 }
 
-.musicAppButton {
-    font-size: 2.3rem;
-    margin: .75em;
-    cursor: pointer;
-    color: rgba(255, 255, 255, 1);
+.musicAppButtons .group1 {
+    margin-bottom: 14em;
     transition: .5s;
 }
 
-.musicAppButton:nth-child(2) {
-    padding-bottom: 3em;
+.musicAppButton {
+    font-size: 2rem;
+    margin: .75em;
+    cursor: pointer;
+    transition: 1s;
+    padding: .2em;
+    border-radius: 11px;
 }
 
-.musicAppButton:nth-child(3) {
-    padding-top: 3em;
-}
 
 .musicApp i:hover {
     transition: 0.2s;
-    color: tomato;
-    text-shadow: 0 0 33px tomato;
+    color: ivory;
 }
 
 .musicApp i:active {
@@ -106,7 +102,7 @@
     opacity: 0.6;
     letter-spacing: 1px;
     z-index: 2;
-    margin: 1em 0;
+    margin: 1.5em 0;
 }
 
 @media screen and (min-width: 878px) {
@@ -141,19 +137,19 @@
         width: 255px;
     }
 
-    .musicAppButton:nth-child(2) {
-        padding-bottom: 0;
+    .musicAppButtons .group1 {
+        margin-top: 14em;
+        margin-right: 20em;
+        display: flex;
+        transition: 1s;
+
     }
 
-    .musicAppButton:nth-child(3) {
-        padding-top: 0;
+    .musicAppButtons .group2 {
+        margin-top: 14em;
+        display: flex;
+        transition: 1s;
+        padding-right: 1.5em;
     }
 
-    .musicAppButton:nth-child(2) {
-        padding-right: 3.5em;
-    }
-
-    .musicAppButton:nth-child(3) {
-        padding-left: 3.5em;
-    }
 }

@@ -8,8 +8,6 @@ function MusicApp() {
   const [running, setRunning] = useState(false);
   const [progressBar, setProgressBar] = useState(0);
 
-  console.log(count);
-
   const play = () => {
     sound.current.play();
     setRunning(true);
@@ -75,25 +73,29 @@ function MusicApp() {
           <h2 className='songTitle'>{songs.title}</h2>
         </div>
         <div className='musicAppButtons'>
-          <div
-            onClick={play}
-            className='musicAppButton'>
-            <i className='fa-solid fa-play'></i>
+          <div className='group1'>
+            <div
+              onClick={play}
+              className='musicAppButton'>
+              <i className='fa-solid fa-play'></i>
+            </div>
+            <div
+              onClick={pause}
+              className='musicAppButton pause'>
+              <i className='fa-solid fa-pause'></i>
+            </div>
           </div>
-          <div
-            onClick={pause}
-            className='musicAppButton pause'>
-            <i className='fa-solid fa-pause'></i>
-          </div>
-          <div
-            onClick={forward}
-            className='musicAppButton'>
-            <i className='fa-solid fa-forward'></i>
-          </div>
-          <div
-            onClick={backward}
-            className='musicAppButton backward'>
-            <i className='fa-solid fa-backward'></i>
+          <div className='group2'>
+            <div
+              onClick={forward}
+              className='musicAppButton'>
+              <i className='fa-solid fa-forward'></i>
+            </div>
+            <div
+              onClick={backward}
+              className='musicAppButton backward'>
+              <i className='fa-solid fa-backward'></i>
+            </div>
           </div>
         </div>
         <div>

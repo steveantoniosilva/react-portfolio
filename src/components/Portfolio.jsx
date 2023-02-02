@@ -6,7 +6,7 @@ export default function Portfolio() {
   const [show, setShow] = useState(false);
 
   const quote =
-    'Steve Jobs said, "Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do."';
+    '"Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do." - - Steve Jobs';
 
   const quoteToArray = quote.split(' ');
   const map = quoteToArray.map((word, index) => (
@@ -19,14 +19,14 @@ export default function Portfolio() {
 
   return (
     <div className='portfolio'>
-      <div>
-        <h1>{map}</h1>
+      <div className='text-div'>
+        <div>{map}</div>
       </div>
       {show && (
         <div className='buttonDiv'>
           <Link to='/music-app'>
             <button className='portfolioButton'>
-              1st<i className='fa-regular fa-hand-point-down'></i>App
+              1st<i className='fa-regular fa-hand-point-down'></i>app
             </button>
           </Link>
         </div>

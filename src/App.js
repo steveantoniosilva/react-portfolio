@@ -8,6 +8,7 @@ import MainSidebar from './components/mainSidebar/MainSidebar';
 import Portfolio from './components/Portfolio';
 import MusicApp from './components/MusicApp';
 import PomodoroApp from './components/pomodoro/PomodoroApp';
+import About from './components/About';
 
 function App() {
   return (
@@ -39,6 +40,10 @@ function App() {
           <Route
             path='resume'
             element={<Resume />}
+          />
+          <Route
+            path='about'
+            element={<About />}
           />
           <Route
             path='*'

@@ -4,7 +4,7 @@ export default function MainHamburgerIcon({ isOpen, setOpen }) {
   return (
     <div className='main-hamburger'>
       <Hamburger
-        color='saddlebrown'
+        color='saddleBrown'
         toggled={isOpen}
         toggle={setOpen}
         duration={0.8}

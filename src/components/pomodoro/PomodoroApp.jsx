@@ -14,7 +14,7 @@ export default function App() {
   const [seconds, setSeconds] = useState(0);
   const [isActive, setIsActive] = useState(false);
   const [count, setCount] = useState(1);
-  const [checked, setChecked] = useState(false);
+  const [checked, setChecked] = useState(true);
 
   const handleIsActiveClick = () => {
     setIsActive(!isActive);
@@ -78,7 +78,7 @@ export default function App() {
     backgroundImage: checked
       ? `url(${darkBackground})`
       : `url(${lightBackground})`,
-    backgroundColor: checked ? '#555' : '',
+    backgroundColor: checked ? 'var(--sb10)' : '',
   };
 
   return (
