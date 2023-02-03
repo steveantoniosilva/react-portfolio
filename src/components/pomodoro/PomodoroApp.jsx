@@ -4,7 +4,6 @@ import endShortBreak from '../../assets/pomodoro-assets/endShortBreak.mp3';
 import longBreak from '../../assets/pomodoro-assets/longBreak.mp3';
 import buttonClick from '../../assets/pomodoro-assets/buttonClick.mp3';
 import darkBackground from '../../assets/pomodoro-assets/darkBackground.jpg';
-import lightBackground from '../../assets/pomodoro-assets/lightBackground.jpg';
 import PomodoroButton from './PomodoroButton';
 import PomodoroSidebar from './PomodoroSidebar';
 import React, { useState, useEffect } from 'react';
@@ -14,7 +13,7 @@ export default function App() {
   const [seconds, setSeconds] = useState(0);
   const [isActive, setIsActive] = useState(false);
   const [count, setCount] = useState(1);
-  const [checked, setChecked] = useState(true);
+  const [checked, setChecked] = useState(false);
 
   const handleIsActiveClick = () => {
     setIsActive(!isActive);
@@ -77,8 +76,8 @@ export default function App() {
   const styles = {
     backgroundImage: checked
       ? `url(${darkBackground})`
-      : `url(${lightBackground})`,
-    backgroundColor: checked ? 'var(--sb10)' : '',
+      : `url('https://images.unsplash.com/photo-1608156639585-b3a032ef9689?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjEzfHxoZWFkcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60')`,
+    backgroundColor: checked ? 'var(--sb10)' : 'navajowhite',
   };
 
   return (

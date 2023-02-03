@@ -3,7 +3,8 @@ import PomodoroHamburgerIcon from './PomodoroHamburgerIcon';
 import '../../css-components/PomodoroApp.css';
 
 function Sidebar({ checked, handleInputClick }) {
-  const [isOpen, setOpen] = useState(false);
+  const [isOpen, setOpen] = useState(true);
+  console.log(isOpen);
 
   return (
     <div>

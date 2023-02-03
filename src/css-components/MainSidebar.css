@@ -3,7 +3,6 @@
     left: 33px;
     z-index: 111;
     position: absolute;
-    background-color: var(--sb6);
 }
 
 .main-sidebar-open {
