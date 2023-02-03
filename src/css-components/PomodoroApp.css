@@ -38,13 +38,13 @@
 
 .pomodoro-hamburger {
     position: absolute;
-    top: 22px;
-    right: 22px;
+    top: 33px;
+    right: 33px;
     z-index: 111;
 }
 
 .pomodoro-sidebar-open {
-    background: linear-gradient(222deg, silver, transparent);
+    background: linear-gradient(242deg, var(--sb10), var(--sb5), transparent);
     width: 275px;
     height: 100vh;
     position: absolute;
@@ -52,7 +52,6 @@
     top: 0;
     z-index: 11;
     transition: 1.5s;
-    mix-blend-mode:multiply;
 }
 
 .pomodoro-sidebar-closed {
@@ -64,13 +63,12 @@
     z-index: 111;
     transform: translateY(-1111px);
     transition: 1.5s;
-    overflow: hidden;
 }
 
 /* Toggle switch */
 
 .pomodoro-toggle {
-    z-index: 11;
+    z-index: 111;
 }
 
 [type="checkbox"] {

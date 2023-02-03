@@ -69,11 +69,9 @@ function MusicApp() {
             alt=''
           />
         </div>
-        <div>
-          <h2 className='songTitle'>{songs.title}</h2>
-        </div>
         <div className='musicAppButtons'>
           <div className='group1'>
+            <h2 className='songTitle'>{songs.title}</h2>
             <div
               onClick={play}
               className='musicAppButton'>
@@ -96,10 +94,8 @@ function MusicApp() {
               className='musicAppButton backward'>
               <i className='fa-solid fa-backward'></i>
             </div>
+            <h2 className='artist'> {songs.artist}</h2>
           </div>
-        </div>
-        <div>
-          <h2 className='artist'> {songs.artist}</h2>
         </div>
       </div>
     </div>

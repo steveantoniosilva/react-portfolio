@@ -21,10 +21,10 @@ export default function Nav({ isOpen, setOpen, onClick }) {
             <Link to='/resume'>Resume</Link>
           </li>
           <li>
-            <Link to='/contact'>Contact</Link>
+            <Link to='/about'>About</Link>
           </li>
           <li>
-            <Link to='/About'>About</Link>
+            <Link to='/contact'>Contact</Link>
           </li>
         </ul>
       </nav>
