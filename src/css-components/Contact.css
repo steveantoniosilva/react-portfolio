@@ -1,5 +1,5 @@
 .contact {
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -7,35 +7,38 @@
     width: 100vw;
     text-align: center;
     font-weight: bold;
-    background-image: url('https://images.unsplash.com/photo-1577567751159-fdaaba7b2032?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzZ8fGVtYWlsfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=700&q=60');
+    background-image: url('https://images.unsplash.com/photo-1592471657072-8f998e2af6aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fG1haWx8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: var(--sb9);
+    background-color: var(--sb5);
     background-blend-mode: multiply;
 }
 
 .contact p {
-    margin: 6em;
+    margin: 3em;
     max-width: 555px;
-    color: whitesmoke;
+    color: white;
     font-size: 1rem;
     line-height: 1.75em;
-    letter-spacing: 4px;
+    letter-spacing: 5px;
     transition: .25s;
     text-transform: uppercase;
+    text-shadow: 1px 1px 11px var(--sb9);
 }
 
 .contact a {
     text-decoration: none;
-    color: silver;
+    color: whitesmoke;
 }
 
+.contact span {
+    font-weight: 100;
+    font-style: italic;
+}
 
-
-@media screen and (min-width: 1111px) {
-    .contact {
-        display: flex;
-        flex-direction: row;
+@media screen and (min-width: 888px) {
+    .contact p {
+        font-size: 1.25rem;
     }
 }

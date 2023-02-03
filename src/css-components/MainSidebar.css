@@ -7,7 +7,7 @@
 }
 
 .main-sidebar-open {
-    background: linear-gradient(121deg, var(--sb10), transparent);
+    background: linear-gradient(121deg, ivory, transparent);
     width: 275px;
     height: 100vh;
     transition: 1s;

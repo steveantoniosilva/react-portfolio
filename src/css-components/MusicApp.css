@@ -41,11 +41,11 @@
     max-width: 456px;
     border-radius: 22px;
     padding: 0.5em;
-    background-color: var(--sb5);
+    background-color: var(--sb2);
     position: relative;
-    transition: .75s;
-    border: 5px ridge #222;
-    outline: 5px solid var(--sb10);
+    transition: .5s;
+    border: 6px ridge #222;
+    outline: 5px solid var(--sb8);
 }
 
 .albumCover {
@@ -55,7 +55,8 @@
     width: 200px;
     z-index: 1;
     transition: 1s;
-    border: 5px solid var(--sb6);
+    border: 3px solid var(--sb6);
+    outline: 5px solid #222;
 }
 
 .albumCover img {
@@ -63,7 +64,6 @@
     width: 100%;
     border-radius: 22px;
     transition: 1s;
-    border: 4px ridge #111;
 }
 
 .musicAppButtons .group1 {
@@ -78,6 +78,7 @@
     padding: .2em;
     border-radius: 11px;
     transition: .5s;
+    color: cornsilk;
 }
 
 
