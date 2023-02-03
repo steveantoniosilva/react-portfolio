@@ -9,6 +9,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-image: url('../assets/pomodoro-assets/darkBackground.jpg');
 }
 
 .pomodoro-timer {
@@ -34,134 +35,11 @@
     color: silver;
 }
 
-/* Hamburger Icon */
-
-.pomodoro-hamburger {
-    position: absolute;
-    top: 33px;
-    right: 33px;
-    z-index: 111;
-}
-
-.pomodoro-sidebar-open {
-    width: 101px;
-    height: 133px;
-    position: absolute;
-    right: 5em;
-    top: 6em;
-    z-index: 111;
-    transition: 1.5s;
-    border-radius: 22px;
-}
-
-.pomodoro-sidebar-closed {
-    right: -3em;
-    background: #111;
-    position: absolute;
-    top: 6em;
-    z-index: 111;
-    transition: 1.5s;
-    border-radius: 11px;
-    transform: translateY(-555px);
-}
-
-/* Toggle switch */
-
 .pomodoro-toggle {
-    z-index: 111;
-}
-
-[type="checkbox"] {
+    width: 222px;
+    height: 222px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: all .05s ease-in-out;
-    width: 80px;
-    height: 110px;
-    z-index: 2;
-    opacity: 0.001;
-    cursor: pointer;
-}
 
-[type="checkbox"]~.switch {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    transition: all .05s ease-in-out;
-    width: 80px;
-    height: 110px;
-    border-radius: 12px;
-    background: linear-gradient(to bottom, #d2d4d6, #fff);
-    box-shadow: inset 0 -2px 4px rgba(212, 205, 199, 0.75),
-        inset 0 -8px 0 1px rgba(156, 156, 157, 0.85),
-        0 0 0 1px rgba(116, 116, 118, 0.8),
-        0 6px 6px rgba(41, 41, 41, 0.3),
-        0 0 0 4px #d4d7d8;
-    filter: contrast(1);
-    border: gray ridge 1px;
-}
-
-[type="checkbox"]~.switch::before,
-[type="checkbox"]~.switch::after {
-    content: 'dark';
-    position: absolute;
-    left: 0;
-    bottom: 11px;
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 20px;
-    width: 100%;
-    text-align: center;
-    text-transform: uppercase;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-    transition: all .05s ease-in-out;
-}
-
-[type="checkbox"]~.switch::after {
-    content: 'light';
-    bottom: auto;
-    top: 5px;
-    color: rgba(0, 0, 0, 0.45);
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
-}
-
-[type="checkbox"]:checked~.switch {
-    background: linear-gradient(to bottom, #a1a2a3, #f0f0f0);
-    box-shadow: inset 0 2px 4px rgba(212, 205, 199, 0.75),
-        inset 0 8px 0 1px rgba(255, 255, 255, 0.77),
-        0 0 0 1px rgba(116, 116, 118, 0.8),
-        0 -2px 2px rgba(41, 41, 41, 0.18),
-        0 0 0 4px #d4d7d8;
-    filter: none;
-    border: var(--sb9) ridge 2px;
-}
-
-[type="checkbox"]:checked~.switch::before {
-    bottom: 3px;
-    color: rgba(0, 0, 0, 0.5);
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-}
-
-[type="checkbox"]:checked~.switch::after {
-    top: 13px;
-    color: rgba(0, 0, 0, 0.45);
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.15);
-}
-
-[type="checkbox"]~.light {
-    opacity: 0.7;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    mix-blend-mode: multiply;
-    pointer-events: none;
-    z-index: 2;
-}
-
-[type="checkbox"]:checked~.light {
-    opacity: 0;
 }
 
 /* @media  */

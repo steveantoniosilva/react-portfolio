@@ -1,30 +1,24 @@
 .contact {
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
     height: 100vh;
     width: 100vw;
-    text-align: center;
-    font-weight: bold;
-    background-image: url('https://images.unsplash.com/photo-1592471657072-8f998e2af6aa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzN8fG1haWx8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: var(--sb5);
+    background: ivory;
+    background-color: var(--sb7);
     background-blend-mode: multiply;
 }
 
 .contact p {
-    margin: 3em;
     max-width: 555px;
     color: white;
-    font-size: 1rem;
-    line-height: 1.75em;
-    letter-spacing: 5px;
+    text-shadow: 0 0 11px var(--sb10);
+    line-height: 2.75em;
+    letter-spacing: 3px;
     transition: .25s;
     text-transform: uppercase;
-    text-shadow: 1px 1px 11px var(--sb9);
+    margin: 1em;
 }
 
 .contact a {
@@ -32,10 +26,111 @@
     color: whitesmoke;
 }
 
-.contact span {
-    font-weight: 100;
-    font-style: italic;
+/* BUSINESS CARD */
+
+.contact .container {
+    justify-content: center;
+    align-items: center;
+    perspective: 100vw;
+    perspective-origin: center;
 }
+
+.contact .d-flex {
+    display: flex;
+}
+
+.contact .flex-column {
+    flex-direction: column;
+}
+
+.contact .flex-row {
+    flex-direction: row;
+}
+
+.contact .card {
+    width: 320px;
+    height: 200px;
+    border-radius: 2px;
+    overflow: hidden;
+    position: relative;
+    background: var(--sb9);
+    transform-style: preserve-3d;
+    transition: all ease 700ms;
+    border: 11px ridge var(--sb6);
+    box-shadow: 18px 15px 11px 0px var(--sb7);   
+
+}
+
+.contact .card:hover {
+    transform: rotate3d(1, 5, 0, 5deg);
+    box-shadow: -11px 15px 11px var(--sb7);
+    background-color: var(--sb10);
+}
+
+.contact .card:after {
+    width: 200%;
+    height: 120%;
+
+    content: "";
+    background: linear-gradient(115deg,
+            #ffffff00,
+            #f5f9ff23,
+            #ffffff00);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    transition: all ease 600ms;
+}
+
+.contact .card:hover:after {
+    left: -100%;
+    top: -20%;
+}
+
+.contact .card-content {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .logo {
+    width: 35px;
+    height: 35px;
+    margin-right: 1rem;
+    border: 1px solid tan;
+
+    color: tan;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.contact .logo:before {
+    content: "S";
+}
+
+.contact .title {
+    color: ivory;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+    border-bottom: 1px dotted tan;
+    line-height: 28px;
+}
+
+.contact .subtitle {
+    color: white;
+    font-weight: 300;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* @MEDIA */
 
 @media screen and (min-width: 888px) {
     .contact p {

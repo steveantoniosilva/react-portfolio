@@ -3,7 +3,6 @@ import hiphop from '../../assets/pomodoro-assets/hiphop.mp3';
 import endShortBreak from '../../assets/pomodoro-assets/endShortBreak.mp3';
 import longBreak from '../../assets/pomodoro-assets/longBreak.mp3';
 import buttonClick from '../../assets/pomodoro-assets/buttonClick.mp3';
-import darkBackground from '../../assets/pomodoro-assets/darkBackground.jpg';
 import PomodoroButton from './PomodoroButton';
 import PomodoroSidebar from './PomodoroSidebar';
 import React, { useState, useEffect } from 'react';
@@ -13,7 +12,7 @@ export default function App() {
   const [seconds, setSeconds] = useState(0);
   const [isActive, setIsActive] = useState(false);
   const [count, setCount] = useState(1);
-  const [checked, setChecked] = useState(false);
+  const [checked, setChecked] = useState(true);
 
   const handleIsActiveClick = () => {
     setIsActive(!isActive);
@@ -74,9 +73,6 @@ export default function App() {
     minutes < 10 ? `0${minutes.toString()}` : minutes.toString();
 
   const styles = {
-    backgroundImage: checked
-      ? `url(${darkBackground})`
-      : `url('https://images.unsplash.com/photo-1608156639585-b3a032ef9689?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjEzfHxoZWFkcGhvbmVzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60')`,
     backgroundColor: checked ? 'var(--sb10)' : 'navajowhite',
   };
 
