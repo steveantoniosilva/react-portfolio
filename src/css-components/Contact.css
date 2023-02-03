@@ -16,8 +16,6 @@
     text-shadow: 0 0 11px var(--sb10);
     line-height: 2.75em;
     letter-spacing: 3px;
-    transition: .25s;
-    text-transform: uppercase;
     margin: 1em;
 }
 
@@ -33,6 +31,9 @@
     align-items: center;
     perspective: 100vw;
     perspective-origin: center;
+    padding: 22px;
+    border-radius: 22px;
+
 }
 
 .contact .d-flex {
@@ -50,21 +51,20 @@
 .contact .card {
     width: 320px;
     height: 200px;
-    border-radius: 2px;
     overflow: hidden;
     position: relative;
     background: var(--sb9);
     transform-style: preserve-3d;
-    transition: all ease 700ms;
     border: 11px ridge var(--sb6);
-    box-shadow: 18px 15px 11px 0px var(--sb7);   
-
+    outline: 11px ridge var(--sb10);
+    box-shadow: 22px 22px 11px #111;
+    border-radius: 11px;
+    transition: 1s;
 }
 
 .contact .card:hover {
-    transform: rotate3d(1, 5, 0, 5deg);
-    box-shadow: -11px 15px 11px var(--sb7);
     background-color: var(--sb10);
+    box-shadow: none;
 }
 
 .contact .card:after {
@@ -82,11 +82,6 @@
     left: 0;
 
     transition: all ease 600ms;
-}
-
-.contact .card:hover:after {
-    left: -100%;
-    top: -20%;
 }
 
 .contact .card-content {

@@ -8,17 +8,19 @@ export default function Contact() {
   useEffect(() => {
     const tiltNode = contactCardRef.current;
     VanillaTilt.init(tiltNode, {
-      max: 5,
-      speed: 100,
+      max: 7,
+      speed: 1,
       glare: true,
-      'max-glare': 0.75,
+      'max-glare': 0.5,
+      transition: true,
+      easing: '1',
+      reverse: true,
     });
     return () => tiltNode.vanillaTilt.destroy();
   }, []);
 
   return (
     <div className='contact'>
-      <p>click card to email:</p>
       <div
         ref={contactCardRef}
         className='container flex-column d-flex'>
