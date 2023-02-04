@@ -33,11 +33,13 @@ export default function Contact() {
               <div className='card-content d-flex'>
                 <div className='logo'></div>
                 <div className='d-flex'>
-                  <span className='title'>Steve Antonio Silva</span>
+                  <span className='title'>
+                    Steve <span className='antonio'>antonio</span> Silva
+                  </span>
                 </div>
               </div>
             </div>
-        <span className='tooltiptext'>Click Card to Email</span>
+            <span className='tooltiptext'>Click Card to Email</span>
           </a>
         </div>
       </div>
