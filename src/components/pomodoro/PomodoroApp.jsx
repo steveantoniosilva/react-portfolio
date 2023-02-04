@@ -4,7 +4,6 @@ import endShortBreak from '../../assets/pomodoro-assets/endShortBreak.mp3';
 import longBreak from '../../assets/pomodoro-assets/longBreak.mp3';
 import buttonClick from '../../assets/pomodoro-assets/buttonClick.mp3';
 import PomodoroButton from './PomodoroButton';
-import PomodoroSidebar from './PomodoroSidebar';
 import React, { useState, useEffect } from 'react';
 
 export default function App() {
@@ -12,15 +11,10 @@ export default function App() {
   const [seconds, setSeconds] = useState(0);
   const [isActive, setIsActive] = useState(false);
   const [count, setCount] = useState(1);
-  const [checked, setChecked] = useState(true);
 
   const handleIsActiveClick = () => {
     setIsActive(!isActive);
     playSoundEffect(buttonClick);
-  };
-
-  const handleInputClick = () => {
-    setChecked(prevState => !prevState);
   };
 
   const playSoundEffect = sound => {
@@ -72,18 +66,8 @@ export default function App() {
   const timerMinutes =
     minutes < 10 ? `0${minutes.toString()}` : minutes.toString();
 
-  const styles = {
-    backgroundColor: checked ? 'var(--sb10)' : 'navajowhite',
-  };
-
   return (
-    <div
-      style={styles}
-      className='PomodoroApp'>
-      <PomodoroSidebar
-        checked={checked}
-        handleInputClick={handleInputClick}
-      />
+    <div className='PomodoroApp'>
       <div className='pomodoro-heading'>
         {count % 2 !== 0 ? '' : <h1>Start Break</h1>}
       </div>

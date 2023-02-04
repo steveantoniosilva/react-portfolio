@@ -7,7 +7,7 @@
 }
 
 .main-sidebar-open {
-    background: linear-gradient(121deg, navajowhite, transparent);
+    background: linear-gradient(rgba(255, 255, 255, 1), transparent);
     width: 275px;
     height: 100vh;
     transition: 1s;
@@ -16,11 +16,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: var(--sb3);
     background-blend-mode: multiply;
 }
 
 .main-sidebar-closed {
+    background: rgba(255, 255, 255, 1);
     width: 275px;
     height: 100vh;
     transition: 1s;
@@ -41,14 +41,14 @@
 
 .navMenu nav li {
     margin: 1em 0;
-    font-size: 1.25rem;
+    font-size: 1.35rem;
     transition: .5s;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-transform: uppercase;
 }
 
 .navMenu nav li.nested {
-    margin-left: .7em;
+    margin-left: 1em;
     font-size: 1rem;
 }
 
@@ -58,5 +58,5 @@
 }
 
 .navMenu nav a {
-    color: white;
+    color: #333;
 }

@@ -8,7 +8,7 @@ export default function Contact() {
   useEffect(() => {
     const tiltNode = contactCardRef.current;
     VanillaTilt.init(tiltNode, {
-      max: 7,
+      max: 11,
       speed: 1,
       glare: true,
       'max-glare': 0.5,
@@ -20,20 +20,26 @@ export default function Contact() {
   }, []);
 
   return (
-    <div className='contact'>
-      <div
-        ref={contactCardRef}
-        className='container flex-column d-flex'>
-        <a href='mailto:steveantoniosilva@gmail.com'>
-          <div className='card'>
-            <div className='card-content flex-row d-flex'>
-              <div className='logo'></div>
-              <div className='d-flex flex-column'>
-                <span className='title'>Steve Antonio Silva</span>
+    <div className='contact-page'>
+      <div className='style-background-div1'></div>
+      <div className='style-background-div2'></div>
+      <div className='style-background-div3'></div>
+      <div className='tooltip'>
+        <div
+          ref={contactCardRef}
+          className='container'>
+          <a href='mailto:steveantoniosilva@gmail.com'>
+            <div className='card'>
+              <div className='card-content d-flex'>
+                <div className='logo'></div>
+                <div className='d-flex'>
+                  <span className='title'>Steve Antonio Silva</span>
+                </div>
               </div>
             </div>
-          </div>
-        </a>
+        <span className='tooltiptext'>Click Card to Email</span>
+          </a>
+        </div>
       </div>
     </div>
   );
