@@ -22,13 +22,26 @@ export default function Resume() {
           <div className='resume-education-page-img'></div>
         </div>
         <div>
-          <h3 className='resume-education-h3'>M.B.A. 19'</h3>
-          <h4 className='resume-education-h4'>summa cum laude</h4>
-          <h3 className='resume-education-h3'>
-            B.A.S. <small>17'</small>
-          </h3>
-          <h4 className='resume-education-h4'>magna cum laude</h4>
+          <div>
+            <h3 className='resume-education-h3'>B.A.S. 17'</h3>
+            <h4 className='resume-education-h4'>magna cum laude</h4>
+          </div>
+          <div>
+            <h3 className='resume-education-h3'>M.B.A. 19'</h3>
+            <h4 className='resume-education-h4'>summa cum laude</h4>
+          </div>
+          <div className='resume-coding-bootcamp'>
+            <h3 className='resume-education-h3'>
+              Coding
+              <br />
+              BootCamp 21'
+            </h3>
+            <h4 className='resume-education-h4'>Tech Talent South</h4>
+          </div>
         </div>
+      </div>
+      <div className='awards-page'>
+        <div>awards</div>
       </div>
     </div>
   );

@@ -44,7 +44,7 @@
     font-weight: 100;
 }
 
-/* EDUCATION  */
+/* EDUCATION PAGE  */
 
 .resume-education-page {
     height: 100vh;
@@ -53,36 +53,42 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #333;
     text-align: center;
     text-transform: uppercase;
     padding: 22px;
+    transition: .75s;
+    background-color: var(--sb1);
 }
 
 .resume-education-page-img {
-    width: 301px;
-    height: 301px;
-    margin: 2em 0;
+    width: 275px;
+    height: 275px;
+    margin: 1em 0;
     background-image: url('https://1000logos.net/wp-content/uploads/2022/01/Boise-State-Broncos-Logo-1969.png');
     background-size: cover;
     background-position: center;
 }
 
+.resume-coding-bootcamp h3 {
+    font-size: 1.5rem;
+}
+
 .resume-education-h1 {
     font-size: 2rem;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-transform: uppercase;
     margin: .3em 0;
-
+    color: #0033A0;
 }
 
 .resume-education-h2 {
     font-size: 1.25rem;
     font-weight: 100;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-transform: uppercase;
     margin: .5em 0;
+    color: #D64309;
 }
 
 .resume-education-h3 {
@@ -90,46 +96,84 @@
     font-weight: bold;
     letter-spacing: 3px;
     line-height: 2rem;
+    color: #0033A0;
 }
 
 .resume-education-h4 {
     font-size: 1.1rem;
     font-weight: 100;
     font-style: italic;
-    margin: .5em 0;
+    margin: .1em 0;
     margin-bottom: 1.5em;
+    text-transform: none;
+    letter-spacing: 2px;
+    color: #D64309;
+}
+
+/* AWARDS PAGE */
+
+.awards-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--sb2);
 }
 
 
 
-@media screen and (min-width: 878px) {
+@media screen and (min-width: 956px) {
     .resume-landing-page {
         display: flex;
         flex-direction: row-reverse;
+        transition: .75s;
     }
 
     .resume-landing-page-img {
         height: 385px;
         width: 260px;
         margin: 5em;
-        transition: all .75s;
+        transition: .75s;
     }
 
     .resume-landing-page .resume-name {
         letter-spacing: 4px;
         font-size: .7rem;
-        transition: all .75s;
+        transition: .75s;
         margin: 5em;
     }
 
     .resume-education-page {
         display: flex;
         flex-direction: row;
+        transition: .75s;
     }
 
     .resume-education-page-img {
         width: 301px;
         height: 301px;
         margin: 4em;
+        transition: .75s;
+    }
+
+    .resume-education-h1 {
+        font-size: 2.25rem;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        margin-bottom: .75em;
+    }
+
+    .resume-education-h3 {
+        font-size: 1.75rem;
+        letter-spacing: 5px;
+        margin-top: 2em;
+    }
+
+    .resume-education-h4 {
+        font-size: 1.25rem;
+        margin-bottom: 3em;
+        letter-spacing: 3px;
     }
 }

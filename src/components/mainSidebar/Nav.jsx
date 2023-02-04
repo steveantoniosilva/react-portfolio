@@ -9,10 +9,10 @@ export default function Nav({ isOpen, setOpen, onClick }) {
             <Link to='/'>Home</Link>
           </li>
           <li>
-            <Link to='/resume'>Resume</Link>
+            <Link to='/contact'>Contact</Link>
           </li>
           <li>
-            <Link to='/contact'>Contact</Link>
+            <Link to='/resume'>Resume</Link>
           </li>
           <li>
             <Link to='/portfolio'>Portfolio</Link>
