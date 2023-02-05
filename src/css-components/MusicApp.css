@@ -1,10 +1,10 @@
 .musicApp {
     text-align: center;
-    background-image: url('https://images.unsplash.com/photo-1616877809047-d943e086b079?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzB8fHBpYW5vfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
+    background-image: url('../assets/music-app-background.avif');
     height: 100vh;
     width: 100vw;
     background-position: bottom;
-    background-color: var(--sb1);
+    background-color: var(--sb13);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,12 +20,12 @@
     height: 1px;
     margin-bottom: 15px;
     position: absolute;
-    top: 1px;
+    top: 3px;
 }
 
 .progress {
     width: 0.5px;
-    background-color: orange;
+    background-color: ivory;
     height: 100%;
     position: absolute;
     z-index: 1;
@@ -39,13 +39,11 @@
     width: 65%;
     height: 75%;
     max-width: 426px;
-    border-radius: 22px;
+    border-radius: 15px;
     padding: 0.5em;
     background-color: var(--sb4);
     position: relative;
     transition: .5s;
-    border: 6px ridge #222;
-    outline: 3px solid var(--sb8);
 }
 
 .albumCover {
@@ -55,15 +53,16 @@
     width: 200px;
     z-index: 1;
     transition: 1s;
-    border: 3px solid var(--sb6);
-    outline: 5px solid #222;
+    border: 11px ridge white;
 }
 
 .albumCover img {
     height: 100%;
     width: 100%;
-    border-radius: 22px;
+    border-radius: 11px;
     transition: 1s;
+    border: 1px solid white;
+    object-fit: cover;
 }
 
 .musicAppButtons .group1 {
@@ -73,12 +72,12 @@
 
 .musicAppButton {
     font-size: 2rem;
-    margin: .3em;
+    margin: .4em;
     cursor: pointer;
     padding: .2em;
     border-radius: 11px;
     transition: .5s;
-    color: moccasin;
+    border-radius: 5%;
 }
 
 
@@ -93,41 +92,41 @@
 
 .songTitle,
 .artist {
-    color: whitesmoke;
+    color: ivory;
     opacity: 0.6;
     z-index: 2;
     text-transform: uppercase;
     font-size: 1.25rem;
+    letter-spacing: 4px;
+    font-weight: bold;
 }
 
 @media screen and (min-width: 878px) {
     .overlay {
         flex-direction: colomn;
         display: flex;
-        width: 80%;
-        height: 45%;
-        max-width: 808px;
+        width: 85%;
+        height: 40%;
+        max-width: 898px;
         line-height: 33px;
     }
 
     .musicAppButton {
-        margin: 0.4em;
-        font-size: 3rem;
+        margin: 1em;
+        font-size: 2.5rem;
     }
 
-    .musicAppButtons {
-        display: flex;
-        margin-top: 14em;
-    }
+    /* .musicAppButtons {
 
-    .group1 {
+    } */
+
+    /* .group1 {
         margin-right: 12em;
-        margin-top: 1em;
     }
 
     .group2 {
-        margin-left: 12em;
-    }
+        margin-left: 13em;
+    } */
 
     .albumCover {
         height: 255px;

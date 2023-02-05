@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home';
 import Contact from './components/Contact';
-import Resume from './components/Resume';
+import Resume from './components/resume/Resume.jsx';
 import NoPage from './components/NoPage';
 import MainSidebar from './components/mainSidebar/MainSidebar';
 import Portfolio from './components/Portfolio';

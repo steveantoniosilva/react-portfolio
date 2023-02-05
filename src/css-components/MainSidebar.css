@@ -3,7 +3,7 @@
     left: 33px;
     z-index: 111;
     position: fixed;
-    background-color: var(--sb4);
+    background-color: var(--sb8);
 }
 
 .main-sidebar-open {
@@ -43,13 +43,15 @@
     margin: 1em 0;
     font-size: 1.35rem;
     transition: .5s;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
     text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .navMenu nav li.nested {
     margin-left: 1em;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .navMenu nav li:hover {
@@ -58,5 +60,5 @@
 }
 
 .navMenu nav a {
-    color: #333;
+    color: var(--sb8);
 }

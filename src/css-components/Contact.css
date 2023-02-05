@@ -26,13 +26,6 @@
     transform: skewY(11deg);
 }
 
-.contact-page .style-background-div3 {
-    background-color: var(--sb3);
-    position: absolute;
-    height: 56px;
-    width: 100vw;
-}
-
 /* BUSINESS CARD */
 
 .contact-page .container {
@@ -109,14 +102,15 @@
     text-transform: uppercase;
     font-weight: bold;
     font-size: .75rem;
-    letter-spacing: 2px;
-    border-bottom: 1px solid black;
+    letter-spacing: 3px;
+    border-bottom: 1px solid ivory;
     line-height: 28px;
     transition: .5s;
 }
 
 .contact-page .antonio {
     font-weight: 100;
+    font-style: italic;
 }
 
 .tooltip {
@@ -136,7 +130,7 @@
     letter-spacing: 2px;
     font-size: .75rem;
     width: 222px;
-    bottom: 15%;
+    bottom: 19%;
     margin-left: 3em;
     opacity: .6;
     cursor: pointer;

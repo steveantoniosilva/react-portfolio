@@ -64,22 +64,27 @@
     width: 275px;
     height: 275px;
     margin: 1em 0;
-    background-image: url('https://1000logos.net/wp-content/uploads/2022/01/Boise-State-Broncos-Logo-1969.png');
+    background-image: url('../assets/BoiseState.png');
     background-size: cover;
     background-position: center;
 }
 
-.resume-coding-bootcamp h3 {
-    font-size: 1.5rem;
+.resume-education-coding-page-img {
+    width: 275px;
+    height: 275px;
+    margin: 1em 0;
+    background-image: url('https://www.iroidtechnologies.com/static/home/images/service/sub-images/1543149683-development-concept-illustration_114360-562.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .resume-education-h1 {
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: bold;
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin: .3em 0;
     color: #0033A0;
+    margin: .25em;
 }
 
 .resume-education-h2 {
@@ -87,7 +92,6 @@
     font-weight: 100;
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin: .5em 0;
     color: #D64309;
 }
 
@@ -104,7 +108,6 @@
     font-weight: 100;
     font-style: italic;
     margin: .1em 0;
-    margin-bottom: 1.5em;
     text-transform: none;
     letter-spacing: 2px;
     color: #D64309;
@@ -128,6 +131,7 @@
     .resume-landing-page {
         display: flex;
         flex-direction: row-reverse;
+        justify-content: center;
         transition: .75s;
     }
 
@@ -148,19 +152,32 @@
     .resume-education-page {
         display: flex;
         flex-direction: row;
+        justify-content: center;
+        align-items: center;
         transition: .75s;
+    }
+
+    .coding-education-container {
+        margin-top: 4.5em;
     }
 
     .resume-education-page-img {
         width: 301px;
         height: 301px;
-        margin: 4em;
+        margin: 2.5em;
+        transition: .75s;
+    }
+
+    .resume-education-coding-page-img {
+        width: 301px;
+        height: 301px;
+        margin: 2.5em;
         transition: .75s;
     }
 
     .resume-education-h1 {
-        font-size: 2.25rem;
-        letter-spacing: 3px;
+        font-size: 1.75rem;
+        letter-spacing: 1px;
         text-transform: uppercase;
         margin-bottom: .75em;
     }
@@ -168,7 +185,6 @@
     .resume-education-h3 {
         font-size: 1.75rem;
         letter-spacing: 5px;
-        margin-top: 2em;
     }
 
     .resume-education-h4 {

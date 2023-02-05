@@ -26,7 +26,7 @@ export default function Portfolio() {
         <div className='buttonDiv'>
           <Link to='/music-app'>
             <button className='portfolioButton'>
-              1st<i className='fa-regular fa-hand-point-down'></i>app
+              pomo<i className='fa-regular fa-hand-point-down'></i>doro
             </button>
           </Link>
         </div>

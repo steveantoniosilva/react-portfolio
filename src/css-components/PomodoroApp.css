@@ -12,8 +12,15 @@
     background-image: url('../assets/pomodoro-assets/darkBackground.jpg');
 }
 
+.pomodoro-toggle {
+    font-size: 40px;
+    position: absolute;
+    top: 33px;
+    right: 33px;
+}
+
 .pomodoro-timer {
-    font-size: 3rem;
+    font-size: 7rem;
     margin: .5em;
     margin-bottom: 1em;
     color: silver;
@@ -33,13 +40,6 @@
     padding-bottom: 1em;
     text-shadow: 1px 1px 11px white;
     color: silver;
-}
-
-.pomodoro-toggle {
-    width: 222px;
-    height: 222px;
-    position: absolute;
-
 }
 
 /* @media  */

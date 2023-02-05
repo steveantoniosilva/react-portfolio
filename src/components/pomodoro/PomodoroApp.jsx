@@ -11,10 +11,15 @@ export default function App() {
   const [seconds, setSeconds] = useState(0);
   const [isActive, setIsActive] = useState(false);
   const [count, setCount] = useState(1);
+  const [darkMode, setDarkMode] = useState(true);
 
   const handleIsActiveClick = () => {
     setIsActive(!isActive);
     playSoundEffect(buttonClick);
+  };
+
+  const darkModeToggle = () => {
+    setDarkMode(prevState => !prevState);
   };
 
   const playSoundEffect = sound => {
@@ -66,8 +71,26 @@ export default function App() {
   const timerMinutes =
     minutes < 10 ? `0${minutes.toString()}` : minutes.toString();
 
+  const toggleStyle = {
+    color: darkMode ? 'ivory' : '#111',
+    transform: darkMode ? 'rotate(180deg)' : '',
+  };
+
   return (
-    <div className='PomodoroApp'>
+    <div
+      style={{
+        backgroundColor: darkMode ? '#333' : 'ivory',
+      }}
+      className='PomodoroApp'>
+      <div
+        onClick={darkModeToggle}
+        className='pomodoro-toggle'>
+        <i
+          style={toggleStyle}
+          className={
+            darkMode ? 'fa-solid fa-toggle-off' : 'fa-solid fa-toggle-off'
+          }></i>
+      </div>
       <div className='pomodoro-heading'>
         {count % 2 !== 0 ? '' : <h1>Start Break</h1>}
       </div>
