@@ -32,7 +32,7 @@ export default function ResumeCodingEducation() {
         <div>
           <div className='resume-education-coding-page-img'></div>
         </div>
-        <div className='coding-education-container'>
+        <div className='education-container'>
           <div>
             <h3
               style={{ color: '#333', fontSize: '1.25rem' }}

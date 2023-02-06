@@ -26,7 +26,7 @@ export default function ResumeFormalEducation() {
         <div>
           <div className='resume-education-page-img'></div>
         </div>
-        <div>
+        <div className="education-container">
           <div>
             <h3 className='resume-education-h3'>
               M.B.A.{' '}

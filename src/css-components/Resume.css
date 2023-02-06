@@ -121,10 +121,28 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    background-color: var(--sb2);
+    align-items: start;
+    background-color: var(--sb1);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.awards-h1 {
+    margin: .5em 0;
+}
+
+.trophy-div {
+    display: flex;
+    align-items: center;
+}
+
+.trophy-div i {
+    margin-right: 1em;
+}
+
+
+.awards-page .date {
+    margin-left: 2.75em;
+}
 
 
 @media screen and (min-width: 956px) {
@@ -157,7 +175,7 @@
         transition: .75s;
     }
 
-    .coding-education-container {
+    .education-container {
         margin-top: 4.5em;
     }
 
