@@ -10,66 +10,10 @@
     text-align: center;
 }
 
-.portfolio .buttonDiv {
-    position: absolute;
-    bottom: 5em;
-    animation: MoveUpDown 1.4s linear infinite;
-    border-radius: 11px;
-}
-
 .portfolio .text-div {
     width: 70%;
     max-width: 888px;
-}
-
-.portfolio i {
-    font-size: 1.75rem;
-    color: var(--sb2);
-    cursor: pointer;
-    margin: 0 5px;
-}
-
-.portfolioButton {
-    border: 1px dotted var(--sb1);
-    padding: .6em 1.5em;
-    border-radius: 11px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: var(--sb4);
-    font-size: .9rem;
-    background-color: white;
-}
-
-.portfolioButton:hover {
-    border: 1px solid var(--sb3);
-    color: var(--sb5);
-}
-
-.portfolioButton i:hover {
-    color: var(--sb5);
-}
-
-@keyframes MoveUpDown {
-
-    0%,
-    100% {
-        bottom: 5rem;
-        box-shadow: 2px 5px 7px lightgray;
-    }
-
-    50% {
-        bottom: 4.5rem;
-        box-shadow: 0 0 0 gainsboro;
-    }
-}
-
-@keyframes scale {
-    100% {
-        transform: scale(1);
-    }
+    margin-top: 2em;
 }
 
 .portfolio span {
@@ -78,7 +22,7 @@
     filter: blur(4px);
     margin: .2em;
     color: var(--sb8);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     letter-spacing: 5px;
     font-weight: bold;
     text-transform: uppercase;
@@ -266,16 +210,15 @@
 
 .portfolio span:nth-child(45) {
     animation: fade-in 0.8s 4.5s forwards;
-    font-size: 1.5rem;
-    color: var(--sb4);
+    font-size: 1.25rem;
+    color: var(--sb3);
     font-weight: 100;
-    margin-left: 5em;
 }
 
 .portfolio span:nth-child(46) {
     animation: fade-in 0.8s 4.6s forwards;
-    font-size: 1.5rem;
-    color: var(--sb4);
+    font-size: 1.25rem;
+    color: var(--sb3);
     font-weight: 100;
     text-transform: none;
     letter-spacing: 1px;
@@ -283,8 +226,8 @@
 
 .portfolio span:nth-child(47) {
     animation: fade-in 0.8s 4.7s forwards;
-    font-size: 1.5rem;
-    color: var(--sb4);
+    font-size: 1.25rem;
+    color: var(--sb3);
     font-weight: 100;
     text-transform: none;
     letter-spacing: 1px;

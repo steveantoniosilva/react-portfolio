@@ -4,7 +4,7 @@
     height: 100vh;
     width: 100vw;
     background-position: center;
-    background-color: var(--sb1);
+    background-color: var(--sb2);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,11 +16,11 @@
 }
 
 .progressBar {
-    width: 90%;
+    width: 91%;
     height: 1px;
     margin-bottom: 15px;
     position: absolute;
-    top: 3px;
+    top: 0;
 }
 
 .progress {
@@ -32,15 +32,14 @@
 }
 
 .overlay {
-    width: 65%;
+    width: 75%;
     height: 77%;
     max-width: 426px;
-    border-radius: 15px;
-    padding: 0.5em;
-    background-color: var(--sb4);
+    border-radius: 11px;
+    background-color: var(--sb1);
     position: relative;
     transition: .5s;
-    outline: 2px ridge var(--sb10);
+    outline: 11px ridge var(--sb4);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,17 +51,17 @@
     width: 200px;
     z-index: 1;
     transition: 1s;
-    border: 5px ridge white;
-    margin: 1em 0;
+    border: 11px solid white;
+    margin: 1em auto;
 }
 
 .albumCover img {
-    height: 100%;
     width: 100%;
-    border-radius: 18px;
+    height: 100%;
+    border-radius: 11px;
     transition: 1s;
-    border: 1px solid white;
     object-fit: cover;
+    border: 3px solid gray;
 }
 
 .musicAppButton {
@@ -74,12 +73,7 @@
     border-radius: 5%;
 }
 
-.musicAppButtons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .musicApp i {
     transition: 0.5s;
@@ -97,15 +91,14 @@
 
 .songTitle,
 .artist {
-    color: ivory;
+    color: white;
     opacity: 0.6;
     z-index: 2;
     text-transform: uppercase;
     font-size: 1.25rem;
     letter-spacing: 4px;
     font-weight: bold;
-    margin: .25em 0;
-    font-weight: bold;
+    text-shadow: 0 0 3px black;
 }
 
 @media screen and (min-width: 878px) {

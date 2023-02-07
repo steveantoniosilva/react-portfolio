@@ -36,17 +36,20 @@
     font-weight: bold;
 }
 
+.home .title .antonio {
+    font-weight: 100;
+    color: black;
+    background-color: aliceblue;
+    padding: 11px 11px;
+
+}
+
 .home .sub-title p {
-    letter-spacing: 1px;
+    letter-spacing: 5px;
     color: navajowhite;
     text-transform: uppercase;
     font-size: 1.1rem;
     margin-bottom: 1.5em;
-}
-
-.home .sub-title span {
-    color: navajowhite;
-    font-weight: bold;
 }
 
 @media screen and (min-width: 877px) {

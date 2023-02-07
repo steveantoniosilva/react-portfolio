@@ -71,18 +71,29 @@ export default function App() {
   const timerMinutes = minutes < 10 ? `0${minutes}` : minutes;
 
   const toggleStyle = {
-    color: darkMode ? 'tan' : '#777',
+    color: darkMode ? 'rgb(255, 222, 173)' : 'navajowhite',
+    opacity: darkMode ? '.2' : '1',
     transform: darkMode ? 'rotate(180deg)' : '',
+  };
+
+  const divStyle = {
+    backgroundImage: darkMode
+      ? `url(${darkBackground})`
+      : `url('https://images.unsplash.com/photo-1584582835835-c483999a7ae7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80')`,
+  };
+
+  const breakTime = {
+    color: darkMode ? 'rgba(112, 82, 53)' : 'white',
+  };
+
+  const timerStyle = {
+    color: darkMode ? 'navajowhite' : 'navajowhite',
+    opacity: darkMode ? '.1' : '.3',
   };
 
   return (
     <div
-      style={{
-        backgroundColor: darkMode ? 'var(--sb6)' : 'var(--sb4)',
-        backgroundImage: darkMode
-          ? `url(${darkBackground})`
-          : `url('https://images.unsplash.com/photo-1584582835835-c483999a7ae7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80')`,
-      }}
+      style={divStyle}
       className='PomodoroApp'>
       <div
         onClick={darkModeToggle}
@@ -95,10 +106,10 @@ export default function App() {
       </div>
       <div>
         <div className='pomodoro-heading'>
-          {count % 2 !== 0 ? '' : <h1>Take a Break</h1>}
+          {count % 2 !== 0 ? '' : <h1 style={breakTime}>Take a Break</h1>}
         </div>
         <div className='pomodoro-timer'>
-          <h1>
+          <h1 style={timerStyle}>
             {timerMinutes}:{timerSeconds}
           </h1>
         </div>

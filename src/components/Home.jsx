@@ -7,13 +7,12 @@ export default function Home() {
       <div className='title'>
         {' '}
         <p>
-          <span>Steve </span>Antonio <span>Silva</span>
+          <span>Steve </span> <span className='antonio'> Antonio</span>{' '}
+          <span>Silva</span>
         </p>
         <div className='sub-title'>
           {' '}
-          <p>
-            <span>React + </span>Javascript + <span>Engineer</span>
-          </p>
+          <p>Jr. React Engineer</p>
         </div>
       </div>
     </div>

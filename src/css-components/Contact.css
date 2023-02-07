@@ -29,87 +29,53 @@
 /* BUSINESS CARD */
 
 .contact-page .container {
-    justify-content: center;
-    align-items: center;
-    perspective: 100vw;
-    perspective-origin: center;
-    padding: 35px;
-    border-radius: 33px;
+    padding: 11px;
     cursor: pointer;
-}
-
-.contact-page .d-flex {
-    display: flex;
+    border: 1px ridge navajowhite;
+    border-radius: 33px;
 }
 
 .contact-page .card {
-    width: 288px;
-    height: 188px;
-    overflow: hidden;
-    position: relative;
-    background: var(--sb9);
-    transform-style: preserve-3d;
-    border: 2px ridge var(--sb3);
-    outline: 11px ridge var(--sb5);
-    border-radius: 11px;
+    width: 311px;
+    height: 201px;
+    background: var(--sb4);
+    border: 7px solid var(--sb3);
+    outline: 1px solid white;
     transition: .5s;
-}
-
-.contact-page .card:hover {
-    background-color: var(--sb10);
-    box-shadow: none;
-}
-
-.contact-page .card:after {
-    width: 200%;
-    height: 120%;
-    content: "";
-    background: linear-gradient(115deg,
-            #ffffff00,
-            #f5f9ff23,
-            #ffffff00);
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: all ease 600ms;
-}
-
-.contact-page .card-content {
-    width: 100%;
-    height: 100%;
-    justify-content: center;
+    display: flex;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 22px;
 }
 
-.contact-page .logo {
-    width: 35px;
-    height: 35px;
-    margin-right: .5em;
-    border: 1px solid tan;
-
-    color: tan;
-    text-align: center;
-    font-size: 25px;
-    font-weight: 300;
-}
-
-.contact-page .logo:before {
-    content: "S";
-}
-
-.contact-page .title {
-    color: ivory;
+.contact-page .card h1 {
+    color: white;
     text-transform: uppercase;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 0 1em;
     font-weight: bold;
-    font-size: .75rem;
-    letter-spacing: 3px;
-    border-bottom: 1px dotted ivory;
-    line-height: 28px;
+    font-size: 1rem;
+    letter-spacing: 5px;
+    line-height: 33px;
     transition: .5s;
+    margin-top: 1em;
+    padding-top: .5em;
 }
 
-.contact-page .antonio {
+.contact-page .card p {
+    border-bottom: 2px solid var(--sb6);
+    border-right: 2px solid var(--sb6);
+    color: #555;
+    text-transform: uppercase;
     font-weight: 100;
+    font-size: 1rem;
+    letter-spacing: 6px;
+    transition: .5s;
+    padding-left: 13px;
+    padding-top: 7px;
 }
 
 .tooltip {
@@ -127,10 +93,8 @@
     border-radius: 6px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: .75rem;
-    width: 222px;
-    bottom: 19%;
-    margin-left: 3em;
+    font-size: .9rem;
+    bottom: 8%;
     opacity: .6;
     cursor: pointer;
     position: absolute;
@@ -139,6 +103,7 @@
 
 .tooltip:hover .tooltiptext {
     visibility: visible;
+    color: white;
 }
 
 @media screen and (min-width: 877px) {

@@ -1,13 +1,15 @@
 .main-hamburger {
-    top: 33px;
-    left: 33px;
+    top: 22px;
+    left: 22px;
     z-index: 111;
     position: fixed;
     background-color: tan;
+    border-radius: 4px;
+    border: 5px ridge navajowhite;
 }
 
 .main-sidebar-open {
-    background: rgba(255, 255, 255, .2);
+    background-Image: url('https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80');
     width: 275px;
     height: 100vh;
     transition: 1s;
@@ -17,10 +19,11 @@
     background-repeat: no-repeat;
     background-position: center;
     background-blend-mode: multiply;
+    background-color: var(--sb7);
 }
 
 .main-sidebar-closed {
-    background: rgba(255, 255, 255, 1);
+    background-color: navajowhite;
     width: 275px;
     height: 100vh;
     transition: 1s;
@@ -60,5 +63,5 @@
 }
 
 .navMenu nav a {
-    color: var(--sb8);
+    color: navajowhite;
 }

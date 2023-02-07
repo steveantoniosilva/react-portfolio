@@ -29,16 +29,14 @@ export default function Contact() {
           className='container'>
           <a href='mailto:steveantoniosilva@gmail.com'>
             <div className='card'>
-              <div className='card-content d-flex'>
-                <div className='logo'></div>
-                <div className='d-flex'>
-                  <span className='title'>
-                    Steve <span className='antonio'>antonio</span> Silva
-                  </span>
-                </div>
+              <span className='tooltiptext'>Click Card to Email</span>
+              <div>
+                <h1>Steve Antonio Silva</h1>
+              </div>
+              <div>
+                <p>Jr. React Developer</p>
               </div>
             </div>
-            <span className='tooltiptext'>Click Card to Email</span>
           </a>
         </div>
       </div>
