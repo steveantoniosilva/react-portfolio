@@ -5,7 +5,7 @@ import longBreak from '../../assets/pomodoro-assets/longBreak.mp3';
 import buttonClick from '../../assets/pomodoro-assets/buttonClick.mp3';
 import PomodoroButton from './PomodoroButton';
 import React, { useState, useEffect } from 'react';
-import darkBackground from '../../assets/pomodoro-assets/darkBackground.jpg';
+import darkBackground from '../../assets/pomodoro-assets/darkBackground.avif';
 
 export default function App() {
   const [minutes, setMinutes] = useState(0);
@@ -80,7 +80,7 @@ export default function App() {
       style={{
         backgroundColor: darkMode ? 'var(--sb6)' : 'var(--sb4)',
         backgroundImage: darkMode
-          ? `url('https://images.unsplash.com/photo-1484950763426-56b5bf172dbb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80')`
+          ? `url(${darkBackground})`
           : `url('https://images.unsplash.com/photo-1584582835835-c483999a7ae7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80')`,
       }}
       className='PomodoroApp'>
