@@ -61,7 +61,6 @@
     letter-spacing: 5px;
     line-height: 33px;
     transition: .5s;
-    margin-top: 1em;
     padding-top: .5em;
 }
 
@@ -117,14 +116,5 @@
         font-size: 1.2rem;
         margin-left: 5px;
         transition: .5s;
-    }
-
-    .tooltip .tooltiptext {
-        margin-left: 25%;
-    }
-
-    .tooltip .tooltiptext {
-
-        margin-left: 7em;
     }
 }
