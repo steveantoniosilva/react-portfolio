@@ -7,7 +7,7 @@ export default function ResumeCodingEducation() {
         className='resume-education-page'>
         <div>
           <h1
-            style={{ color: '#333' }}
+            style={{ color: '#555' }}
             className='resume-education-h1'>
             Coding{' '}
             <span
@@ -17,17 +17,6 @@ export default function ResumeCodingEducation() {
               Education
             </span>
           </h1>
-          <h2
-            style={{ color: '#333' }}
-            className='resume-education-h2'>
-            Boot Camp /{' '}
-            <span
-              style={{
-                fontWeight: 'bold',
-              }}>
-              Self-Taught
-            </span>
-          </h2>
         </div>
         <div>
           <div className='resume-education-coding-page-img'></div>
@@ -35,38 +24,42 @@ export default function ResumeCodingEducation() {
         <div className='education-container'>
           <div>
             <h3
-              style={{ color: '#333', fontSize: '1.25rem' }}
+              style={{ color: '#555', fontSize: '1.25rem' }}
               className='resume-education-h3'>
-              Epic React
+              Epic React{' '}
             </h3>
             <h4
-              style={{ color: '#333' }}
+              style={{ color: 'red' }}
               className='resume-education-h4'>
-              Current
+              Kent C. Dodds,{' '}
+              <span style={{ fontSize: '1.1rem', textTransform: 'capitalize' }}>
+                Current
+              </span>
             </h4>
           </div>
           <div>
             <h3
-              style={{ color: '#333', fontSize: '1.25rem' }}
+              style={{ color: '#555', fontSize: '1.25rem' }}
               className='resume-education-h3'>
-              Front-End Dev Path
+              Front-End DEV PATH
             </h3>
             <h4
-              style={{ color: '#333' }}
+              style={{ color: 'red' }}
               className='resume-education-h4'>
-              Scrimba, 2022
+              Scrimba, <span style={{ fontSize: '1.1rem' }}>2022</span>
             </h4>
           </div>
           <div>
             <h3
-              style={{ color: '#333', fontSize: '1.25rem' }}
+              style={{ color: '#555', fontSize: '1.25rem' }}
               className='resume-education-h3'>
               Coding Bootcamp
             </h3>
             <h4
-              style={{ color: '#333' }}
+              style={{ color: 'red' }}
               className='resume-education-h4'>
-              Tech Talent South, 2021
+              Tech Talent South,{' '}
+              <span style={{ fontSize: '1.1rem' }}>2021</span>
             </h4>
           </div>
         </div>

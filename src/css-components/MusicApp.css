@@ -3,8 +3,8 @@
     background-image: url('../assets/music-app-background.avif');
     height: 100vh;
     width: 100vw;
-    background-position: bottom;
-    background-color: var(--sb13);
+    background-position: center;
+    background-color: var(--sb1);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,54 +32,59 @@
 }
 
 .overlay {
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    display: flex;
     width: 65%;
-    height: 75%;
+    height: 77%;
     max-width: 426px;
     border-radius: 15px;
     padding: 0.5em;
     background-color: var(--sb4);
     position: relative;
     transition: .5s;
+    outline: 2px ridge var(--sb10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .albumCover {
-    position: absolute;
     border-radius: 22px;
     height: 200px;
     width: 200px;
     z-index: 1;
     transition: 1s;
-    border: 11px ridge white;
+    border: 5px ridge white;
+    margin: 1em 0;
 }
 
 .albumCover img {
     height: 100%;
     width: 100%;
-    border-radius: 11px;
+    border-radius: 18px;
     transition: 1s;
     border: 1px solid white;
     object-fit: cover;
 }
 
-.musicAppButtons .group1 {
-    margin-bottom: 15em;
-    transition: .5s;
-}
-
 .musicAppButton {
     font-size: 2rem;
-    margin: .4em;
     cursor: pointer;
-    padding: .2em;
+    padding: .25em;
     border-radius: 11px;
     transition: .5s;
     border-radius: 5%;
 }
 
+.musicAppButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.musicApp i {
+    transition: 0.5s;
+    color: rgba(0, 20, 0, .6);
+}
 
 .musicApp i:hover {
     transition: 0.5s;
@@ -99,14 +104,18 @@
     font-size: 1.25rem;
     letter-spacing: 4px;
     font-weight: bold;
+    margin: .25em 0;
+    font-weight: bold;
 }
 
 @media screen and (min-width: 878px) {
     .overlay {
-        flex-direction: colomn;
         display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
         width: 85%;
-        height: 40%;
+        height: 50%;
         max-width: 898px;
         line-height: 33px;
     }
@@ -116,22 +125,24 @@
         font-size: 2.5rem;
     }
 
-    /* .musicAppButtons {
-
-    } */
-
-    /* .group1 {
-        margin-right: 12em;
+    .musicAppButtons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
     }
-
-    .group2 {
-        margin-left: 13em;
-    } */
 
     .albumCover {
         height: 255px;
         width: 255px;
         transition: 1s;
+        margin: 1em 3.5em;
+    }
+
+    .songTitle,
+    .artist {
+        font-size: 1.375rem;
+
     }
 
 }

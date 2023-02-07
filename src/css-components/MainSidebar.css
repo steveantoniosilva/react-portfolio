@@ -3,11 +3,11 @@
     left: 33px;
     z-index: 111;
     position: fixed;
-    background-color: var(--sb8);
+    background-color: tan;
 }
 
 .main-sidebar-open {
-    background: linear-gradient(rgba(255, 255, 255, 1), transparent);
+    background: rgba(255, 255, 255, .2);
     width: 275px;
     height: 100vh;
     transition: 1s;

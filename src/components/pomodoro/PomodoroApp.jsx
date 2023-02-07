@@ -5,10 +5,11 @@ import longBreak from '../../assets/pomodoro-assets/longBreak.mp3';
 import buttonClick from '../../assets/pomodoro-assets/buttonClick.mp3';
 import PomodoroButton from './PomodoroButton';
 import React, { useState, useEffect } from 'react';
+import darkBackground from '../../assets/pomodoro-assets/darkBackground.jpg';
 
 export default function App() {
-  const [minutes, setMinutes] = useState(25);
-  const [seconds, setSeconds] = useState(0);
+  const [minutes, setMinutes] = useState(0);
+  const [seconds, setSeconds] = useState(2);
   const [isActive, setIsActive] = useState(false);
   const [count, setCount] = useState(1);
   const [darkMode, setDarkMode] = useState(true);
@@ -66,20 +67,21 @@ export default function App() {
     return () => clearInterval(interval);
   }, [seconds, minutes, isActive, count]);
 
-  const timerSeconds =
-    seconds < 10 ? `0${seconds.toString()}` : seconds.toString();
-  const timerMinutes =
-    minutes < 10 ? `0${minutes.toString()}` : minutes.toString();
+  const timerSeconds = seconds < 10 ? `0${seconds}` : seconds;
+  const timerMinutes = minutes < 10 ? `0${minutes}` : minutes;
 
   const toggleStyle = {
-    color: darkMode ? 'ivory' : '#111',
+    color: darkMode ? 'tan' : '#777',
     transform: darkMode ? 'rotate(180deg)' : '',
   };
 
   return (
     <div
       style={{
-        backgroundColor: darkMode ? '#333' : 'ivory',
+        backgroundColor: darkMode ? 'var(--sb6)' : 'var(--sb4)',
+        backgroundImage: darkMode
+          ? `url('https://images.unsplash.com/photo-1484950763426-56b5bf172dbb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80')`
+          : `url('https://images.unsplash.com/photo-1584582835835-c483999a7ae7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80')`,
       }}
       className='PomodoroApp'>
       <div
@@ -91,21 +93,19 @@ export default function App() {
             darkMode ? 'fa-solid fa-toggle-off' : 'fa-solid fa-toggle-off'
           }></i>
       </div>
-      <div className='pomodoro-heading'>
-        {count % 2 !== 0 ? '' : <h1>Start Break</h1>}
-      </div>
       <div>
+        <div className='pomodoro-heading'>
+          {count % 2 !== 0 ? '' : <h1>Take a Break</h1>}
+        </div>
+        <div className='pomodoro-timer'>
+          <h1>
+            {timerMinutes}:{timerSeconds}
+          </h1>
+        </div>
         <PomodoroButton
           handleIsActiveClick={handleIsActiveClick}
           isActive={isActive}
         />
-        <div>
-          <p className='pomodoro-timer'>
-            <span>{timerMinutes[0]}</span>
-            <span>{timerMinutes[1]}</span>:<span>{timerSeconds[0]}</span>
-            <span>{timerSeconds[1]}</span>
-          </p>
-        </div>
       </div>
     </div>
   );

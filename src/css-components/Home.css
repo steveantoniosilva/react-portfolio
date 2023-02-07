@@ -1,9 +1,9 @@
 .home {
-    background-image: url('https://images.unsplash.com/photo-1611269154421-4e27233ac5c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60');
+    background-image: url('https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: var(--sb1);
+    background-color: var(--sb10);
     background-blend-mode: multiply;
     height: 100vh;
     width: 100vw;
@@ -11,6 +11,7 @@
     align-items: center;
     justify-content: center;
     font-weight: 100;
+    text-align: center;
 }
 
 .home .style-div {
@@ -21,18 +22,30 @@
     margin-bottom: 3em;
 }
 
-.home p {
-    color: black;
+.home .title p {
+    color: ivory;
     text-transform: uppercase;
-    font-size: 1.6rem;
-    letter-spacing: 3px;
+    font-size: 1.25rem;
+    letter-spacing: 6px;
     line-height: 1.5rem;
-    position: absolute;
     margin-bottom: 1.5em;
 }
 
-.home span {
-    color: #111;
+.home .title span {
+    color: ivory;
+    font-weight: bold;
+}
+
+.home .sub-title p {
+    letter-spacing: 1px;
+    color: navajowhite;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin-bottom: 1.5em;
+}
+
+.home .sub-title span {
+    color: navajowhite;
     font-weight: bold;
 }
 

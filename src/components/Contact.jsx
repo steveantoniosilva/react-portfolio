@@ -8,8 +8,8 @@ export default function Contact() {
   useEffect(() => {
     const tiltNode = contactCardRef.current;
     VanillaTilt.init(tiltNode, {
-      max: 11,
-      speed: 1,
+      max: 22,
+      speed: 0.1,
       glare: true,
       'max-glare': 0.5,
       transition: true,

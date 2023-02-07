@@ -8,8 +8,8 @@ export default function Resume() {
   return (
     <>
       <ResumeLandingPage />
-      <ResumeFormalEducation />
       <ResumeCodingEducation />
+      <ResumeFormalEducation />
       <ResumeAwards />
     </>
   );

@@ -3,7 +3,7 @@ export default function Button({ isActive, handleIsActiveClick }) {
     <button
       onClick={handleIsActiveClick}
       className='pomodoro-button'>
-      {isActive ? 'Pause' : 'Play'}
+      {isActive ? 'PAUSE' : 'START'}
     </button>
   );
 }

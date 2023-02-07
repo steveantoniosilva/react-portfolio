@@ -49,8 +49,8 @@
     position: relative;
     background: var(--sb9);
     transform-style: preserve-3d;
-    border: 11px ridge var(--sb10);
-    outline: 22px ridge var(--sb8);
+    border: 2px ridge var(--sb3);
+    outline: 11px ridge var(--sb5);
     border-radius: 11px;
     transition: .5s;
 }
@@ -103,14 +103,13 @@
     font-weight: bold;
     font-size: .75rem;
     letter-spacing: 3px;
-    border-bottom: 1px solid ivory;
+    border-bottom: 1px dotted ivory;
     line-height: 28px;
     transition: .5s;
 }
 
 .contact-page .antonio {
     font-weight: 100;
-    font-style: italic;
 }
 
 .tooltip {

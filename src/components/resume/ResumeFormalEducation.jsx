@@ -2,7 +2,9 @@ export default function ResumeFormalEducation() {
   return (
     <div>
       {' '}
-      <div className='resume-education-page'>
+      <div
+        style={{ backgroundColor: 'rgba(242, 121, 53, .9)' }}
+        className='resume-education-page'>
         <div>
           <h1 className='resume-education-h1'>
             <span
@@ -26,7 +28,7 @@ export default function ResumeFormalEducation() {
         <div>
           <div className='resume-education-page-img'></div>
         </div>
-        <div className="education-container">
+        <div className='education-container'>
           <div>
             <h3 className='resume-education-h3'>
               M.B.A.{' '}
@@ -37,7 +39,11 @@ export default function ResumeFormalEducation() {
                 19'
               </span>
             </h3>
-            <h4 className='resume-education-h4'>summa cum laude</h4>
+            <h4
+              style={{ marginTop: '.4em' }}
+              className='resume-education-h4'>
+              summa cum laude
+            </h4>
           </div>
           <div>
             <h3 className='resume-education-h3'>
@@ -49,7 +55,11 @@ export default function ResumeFormalEducation() {
                 17'
               </span>
             </h3>
-            <h4 className='resume-education-h4'>magna cum laude</h4>
+            <h4
+              style={{ marginTop: '.4em' }}
+              className='resume-education-h4'>
+              magna cum laude
+            </h4>
           </div>
         </div>
       </div>

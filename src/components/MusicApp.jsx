@@ -59,19 +59,8 @@ function MusicApp() {
             style={{ width: `${progressBar}%`, transition: '1s' }}
             className='progress'></div>
         </div>
-        <audio
-          autoPlay
-          ref={sound}
-          src={songs.song}></audio>
-        <div className='albumCover'>
-          <img
-            src={songs.albumCover}
-            alt=''
-          />
-        </div>
         <div className='musicAppButtons'>
           <div className='group1'>
-            <h2 className='songTitle'>{songs.title}</h2>
             <div
               onClick={play}
               className='musicAppButton'>
@@ -82,6 +71,20 @@ function MusicApp() {
               className='musicAppButton pause'>
               <i className='fa-solid fa-pause'></i>
             </div>
+          </div>
+          <div>
+            <h2 className='songTitle'>{songs.title}</h2>
+            <div className='albumCover'>
+              <audio
+                autoPlay
+                ref={sound}
+                src={songs.song}></audio>
+              <img
+                src={songs.albumCover}
+                alt=''
+              />
+            </div>
+            <h2 className='artist'> {songs.artist}</h2>
           </div>
           <div className='group2'>
             <div
@@ -94,7 +97,6 @@ function MusicApp() {
               className='musicAppButton backward'>
               <i className='fa-solid fa-backward'></i>
             </div>
-            <h2 className='artist'> {songs.artist}</h2>
           </div>
         </div>
       </div>
