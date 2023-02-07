@@ -31,7 +31,7 @@
 }
 
 .pomodoro-button {
-    background: var(--sb5);
+    background: var(--sb8);
     color: rgb(255, 222, 173);
     border: 5px ridge rgba(112, 82, 53);
     font-size: 1.25rem;

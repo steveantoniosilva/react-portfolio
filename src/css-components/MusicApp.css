@@ -17,7 +17,7 @@
 
 .progressBar {
     width: 91%;
-    height: 1px;
+    height: 2px;
     margin-bottom: 15px;
     position: absolute;
     top: 0;
@@ -36,48 +36,45 @@
     height: 77%;
     max-width: 426px;
     border-radius: 11px;
-    background-color: var(--sb1);
+    background-color: var(--sb2);
     position: relative;
     transition: .5s;
-    outline: 11px ridge var(--sb4);
+    outline: 4px ridge #555;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .albumCover {
-    border-radius: 22px;
+    border-radius: 11px;
     height: 200px;
     width: 200px;
     z-index: 1;
     transition: 1s;
-    border: 11px solid white;
-    margin: 1em auto;
+    border: 7px solid white;
+    margin: .5em auto;
 }
 
 .albumCover img {
     width: 100%;
     height: 100%;
-    border-radius: 11px;
+    border-radius: 5px;
     transition: 1s;
     object-fit: cover;
-    border: 3px solid gray;
+    border: 4px solid gray;
 }
 
 .musicAppButton {
     font-size: 2rem;
     cursor: pointer;
-    padding: .25em;
     border-radius: 11px;
     transition: .5s;
     border-radius: 5%;
 }
 
-
-
 .musicApp i {
     transition: 0.5s;
-    color: rgba(0, 20, 0, .6);
+    color: rgba(0, 11, 0, .6);
 }
 
 .musicApp i:hover {
@@ -107,7 +104,7 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        width: 85%;
+        width: 80%;
         height: 50%;
         max-width: 898px;
         line-height: 33px;
@@ -129,7 +126,7 @@
         height: 255px;
         width: 255px;
         transition: 1s;
-        margin: 1em 3.5em;
+        margin: 1em 5.5em;
     }
 
     .songTitle,

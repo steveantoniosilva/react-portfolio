@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--sb2);
+    background-color: var(--sb1);
     text-align: center;
 }
 
@@ -15,8 +15,6 @@
     background-image: url('../assets/PortfolioPhoto.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: var(--sb1);
-    border: 1px ridge var(--sb9);
     outline: 3px ridge var(--sb4);
     background-blend-mode: multiply;
     border-radius: 50%;
@@ -28,30 +26,17 @@
 
 .resume-landing-page .resume-name {
     text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: .8rem;
-    color: #555;
+    letter-spacing: 5px;
+    font-size: .75rem;
+    color: var(--sb6);
     transition: .75s;
+    line-height: 33px;
 }
 
-.resume-landing-page .resume-name h1 {
-    margin: .5em 0;
-}
-
-.resume-landing-page .resume-name h2 {
+.resume-landing-page h2 {
+    letter-spacing: 2px;
+    color: rgb(89, 67, 62);
     font-size: 1rem;
-    letter-spacing: 1px;
-    font-weight: 100;
-}
-
-.resume-landing-page,
-.resume-name .resume-firstName,
-.resume-landing-page .resume-thirdName {
-    font-weight: bold;
-}
-
-.resume-landing-page .resume-name .resume-secondName {
-    font-weight: 100;
 }
 
 /* EDUCATION PAGE  */
@@ -196,10 +181,15 @@
     }
 
     .resume-landing-page .resume-name {
-        letter-spacing: 4px;
-        font-size: .7rem;
+        letter-spacing: 6px;
+        font-size: 1rem;
         transition: .75s;
         margin: 5em;
+    }
+
+    .resume-landing-page h2 {
+        letter-spacing: 4px;
+        margin: .5em 0;
     }
 
     .resume-education-page {

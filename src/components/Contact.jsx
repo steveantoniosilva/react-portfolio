@@ -34,7 +34,7 @@ export default function Contact() {
                 <h1>Steve Antonio Silva</h1>
               </div>
               <div>
-                <p>Jr. React Developer</p>
+                <p>React Engineer</p>
               </div>
             </div>
           </a>

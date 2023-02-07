@@ -1,9 +1,9 @@
 .home {
-    background-image: url('https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80');
+    background-image: url('https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: var(--sb10);
+    background-color: var(--sb6);
     background-blend-mode: multiply;
     height: 100vh;
     width: 100vw;
@@ -14,21 +14,13 @@
     text-align: center;
 }
 
-.home .style-div {
-    width: 100vw;
-    height: 111px;
-    background-color: var(--sb1);
-    position: absolute;
-    margin-bottom: 3em;
-}
-
-.home .title p {
+.home .title h1 {
     color: ivory;
     text-transform: uppercase;
     font-size: 1.25rem;
-    letter-spacing: 6px;
+    letter-spacing: 11px;
     line-height: 1.5rem;
-    margin-bottom: 1.5em;
+    margin-bottom: 2.25em;
 }
 
 .home .title span {
@@ -38,9 +30,11 @@
 
 .home .title .antonio {
     font-weight: 100;
-    color: black;
-    background-color: aliceblue;
-    padding: 11px 11px;
+    color: navajowhite;
+    background-color: var(--sb7);
+    padding: 11px;
+    letter-spacing: 1px;
+    margin-right: 7px;
 
 }
 
@@ -48,8 +42,9 @@
     letter-spacing: 5px;
     color: navajowhite;
     text-transform: uppercase;
+    border-top: 1px solid white;
     font-size: 1.1rem;
-    margin-bottom: 1.5em;
+    line-height: 4em;
 }
 
 @media screen and (min-width: 877px) {

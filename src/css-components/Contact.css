@@ -67,14 +67,14 @@
 .contact-page .card p {
     border-bottom: 2px solid var(--sb6);
     border-right: 2px solid var(--sb6);
-    color: #555;
+    color: #444;
     text-transform: uppercase;
     font-weight: 100;
     font-size: 1rem;
-    letter-spacing: 6px;
     transition: .5s;
-    padding-left: 13px;
+    letter-spacing: 11px;
     padding-top: 7px;
+    padding-left: 6px;
 }
 
 .tooltip {
