@@ -15,10 +15,11 @@
     font-style: italic;
 }
 
+
+
 .progressBar {
     width: 91%;
     height: 2px;
-    margin-bottom: 15px;
     position: absolute;
     top: 0;
 }
@@ -64,16 +65,16 @@
     border: 3px solid gray;
 }
 
-.group1 {
+.musicApp .group1 {
+    padding-top: 5px;
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
 }
 
 .group2 {
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
+    padding-top: 5px;
 }
 
 .musicAppButton {
@@ -82,7 +83,6 @@
     border-radius: 11px;
     transition: .5s;
     border-radius: 5%;
-    margin: .1em .75em;
 }
 
 .musicApp i {
@@ -102,13 +102,10 @@
 .songTitle,
 .artist {
     color: white;
-    opacity: 0.6;
     z-index: 2;
     text-transform: uppercase;
     font-size: 1.25rem;
     letter-spacing: 4px;
-    font-weight: bold;
-    text-shadow: 0 0 3px black;
 }
 
 @media screen and (min-width: 878px) {
