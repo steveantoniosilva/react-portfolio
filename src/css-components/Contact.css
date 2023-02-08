@@ -50,11 +50,11 @@
 }
 
 .contact-page .card h1 {
-    color: white;
+    color: navajowhite;
     text-transform: uppercase;
-    border-top: 1px solid white;
-    border-left: 1px solid white;
-    border-bottom: 1px solid white;
+    border-top: 1px solid navajowhite;
+    border-left: 1px solid navajowhite;
+    border-bottom: 1px solid navajowhite;
     padding: 0 1em;
     font-weight: bold;
     font-size: 1rem;
@@ -65,9 +65,9 @@
 }
 
 .contact-page .card p {
-    border-bottom: 2px solid var(--sb6);
-    border-right: 2px solid var(--sb6);
-    color: #444;
+    border-bottom: 2px solid var(--sb7);
+    border-right: 2px solid var(--sb7);
+    color: #333;
     text-transform: uppercase;
     font-weight: 100;
     font-size: 1rem;

@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     background-blend-mode: multiply;
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -23,7 +23,6 @@
 .pomodoro-timer h1 {
     color: navajowhite;
     font-size: 8rem;
-    font-family: 'NTR', sans-serif;
     letter-spacing: 11px;
     opacity: .1;
 }

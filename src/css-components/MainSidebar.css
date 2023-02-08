@@ -3,7 +3,6 @@
     left: 22px;
     z-index: 11111;
     position: fixed;
-    border-radius: 4px;
 }
 
 .main-sidebar-open {
@@ -13,7 +12,7 @@
     position: fixed;
     z-index: 1111;
     backdrop-filter: blur(5px);
-    background: linear-gradient(rgba(255, 255, 255, .3), transparent);
+    background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, .7), transparent);
 }
 
 .main-sidebar-closed {
@@ -26,7 +25,7 @@
 
 .navMenu {
     position: absolute;
-    top: 6em;
+    top: 5em;
     left: 2em;
     z-index: 1;
 }
@@ -58,5 +57,5 @@
 }
 
 .navMenu nav a {
-    color: #333;
+    color: #555;
 }
