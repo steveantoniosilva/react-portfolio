@@ -1,9 +1,8 @@
 .main-hamburger {
-    top: 22px;
-    left: 22px;
-    z-index: 111;
+    top: 33px;
+    left: 33px;
+    z-index: 11111;
     position: fixed;
-    background-color: tan;
     border-radius: 4px;
     border: 3px ridge #555;
 }
@@ -13,7 +12,7 @@
     height: 100vh;
     transition: 1s;
     position: fixed;
-    z-index: 11;
+    z-index: 1111;
     background: rgba(255, 255, 255, 1);
 }
 
