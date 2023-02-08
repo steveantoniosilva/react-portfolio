@@ -15,8 +15,8 @@ function Tesla() {
   );
   return (
     <MapContainer
-      center={[37.8230613, -94.9939304]}
-      zoom={4.1}
+      center={[38.1230613, -95.9939304]}
+      zoom={3}
       scrollWheelZoom={false}>
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
