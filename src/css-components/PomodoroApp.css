@@ -9,14 +9,12 @@
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('../assets/pomodoro-assets/darkBackground.avif');
-    background-color: var(--sb6);
 }
 
 .pomodoro-toggle {
     font-size: 40px;
     position: absolute;
-    top: 33px;
+    top: 11px;
     right: 33px;
     cursor: pointer;
     transform: rotate(90deg);
@@ -31,7 +29,7 @@
 }
 
 .pomodoro-button {
-    background: var(--sb8);
+    background: var(--sb5);
     color: rgb(255, 222, 173);
     border: 5px ridge rgba(112, 82, 53);
     font-size: 1.25rem;

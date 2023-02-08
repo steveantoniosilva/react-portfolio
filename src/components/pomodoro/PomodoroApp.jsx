@@ -5,14 +5,14 @@ import longBreak from '../../assets/pomodoro-assets/longBreak.mp3';
 import buttonClick from '../../assets/pomodoro-assets/buttonClick.mp3';
 import PomodoroButton from './PomodoroButton';
 import React, { useState, useEffect } from 'react';
-import darkBackground from '../../assets/pomodoro-assets/darkBackground.avif';
+import darkHeadphones from '../../assets/pomodoro-assets/darkHeadphones.jpg';
 
 export default function App() {
   const [minutes, setMinutes] = useState(0);
   const [seconds, setSeconds] = useState(2);
   const [isActive, setIsActive] = useState(false);
   const [count, setCount] = useState(1);
-  const [darkMode, setDarkMode] = useState(true);
+  const [darkMode, setDarkMode] = useState(false);
 
   const handleIsActiveClick = () => {
     setIsActive(!isActive);
@@ -71,15 +71,15 @@ export default function App() {
   const timerMinutes = minutes < 10 ? `0${minutes}` : minutes;
 
   const toggleStyle = {
-    color: darkMode ? 'rgb(255, 222, 173)' : 'navajowhite',
-    opacity: darkMode ? '.2' : '1',
+    color: darkMode ? 'rgba(112, 82, 53)' : 'navajowhite',
     transform: darkMode ? 'rotate(180deg)' : '',
   };
 
   const divStyle = {
     backgroundImage: darkMode
-      ? `url(${darkBackground})`
+      ? `url(${darkHeadphones})`
       : `url('https://images.unsplash.com/photo-1584582835835-c483999a7ae7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80')`,
+    backgroundColor: darkMode ? '#332211' : 'var(--sb6)',
   };
 
   const breakTime = {
@@ -88,7 +88,7 @@ export default function App() {
 
   const timerStyle = {
     color: darkMode ? 'navajowhite' : 'navajowhite',
-    opacity: darkMode ? '.1' : '.3',
+    opacity: darkMode ? '.2' : '.3',
   };
 
   return (

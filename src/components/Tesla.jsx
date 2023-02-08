@@ -19,12 +19,14 @@ function Tesla() {
   const teslaUSA = teslaData.filter(
     chargingStationInfo => chargingStationInfo.address.country === 'USA',
   );
+
+  console.dir(ZoomControl);
+
   return (
     <MapContainer
       center={[38.1230613, -95.9939304]}
       zoomControl={false}
-      zoom={3}
-      scrollWheelZoom={false}>
+      zoom={3}>
       <ZoomControl position='topright' />
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'

@@ -1,13 +1,13 @@
-import Hamburger from 'hamburger-react';
+import { Twirl as Hamburger } from 'hamburger-react';
 
 export default function MainHamburgerIcon({ isOpen, setOpen }) {
   return (
     <div className='main-hamburger'>
       <Hamburger
-        color='#777'
+        color='navajowhite'
         toggled={isOpen}
         toggle={setOpen}
-        duration={0.8}
+        duration={0.5}
         direction='left'
       />
     </div>

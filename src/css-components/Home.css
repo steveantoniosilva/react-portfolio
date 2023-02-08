@@ -1,9 +1,9 @@
 .home {
-    background-image: url('https://images.pexels.com/photos/12905114/pexels-photo-12905114.jpeg?auto=compress&cs=tinysrgb&w=300');
+    background-image: url('../assets/pomodoro-assets/darkBackground.avif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: var(--sb6);
+    background-color: var(--sb4);
     background-blend-mode: multiply;
     height: 100vh;
     width: 100vw;
@@ -30,19 +30,19 @@
 
 .home .title .antonio {
     font-weight: 100;
-    color: navajowhite;
-    background-color: var(--sb7);
-    padding: 11px;
+    color: sandybrown;
+    border: 5px ridge white;
+    border-radius: 5px;
+    background-color: white;
+    padding: 33px 9px;
     letter-spacing: 1px;
     margin-right: 7px;
-
 }
 
 .home .sub-title p {
     letter-spacing: 5px;
     color: navajowhite;
     text-transform: uppercase;
-    border-top: 1px solid white;
     font-size: 1.1rem;
     line-height: 4em;
 }

@@ -9,3 +9,13 @@
     width: 100vw;
     opacity: 1;
 }
+
+.leaflet-bar a {
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: .1em;
+}

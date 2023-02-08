@@ -13,15 +13,18 @@ function MusicApp() {
     setRunning(true);
     setProgressBar(0.001);
   };
+
   const pause = () => {
     sound.current.pause();
     setRunning(false);
   };
+
   const forward = () => {
     count < data.length - 1
       ? setCount(prevCount => prevCount + 1)
       : setCount(0);
   };
+
   const backward = () => {
     count > 0
       ? setCount(prevCount => prevCount - 1)
