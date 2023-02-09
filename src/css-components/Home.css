@@ -20,18 +20,19 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 1em;
-    border: 1px ridge tan;
+    border: 1px solid navajowhite;
     padding: 3em 1em;
-    background-color: var(--sb1);
+    background-color: var(--sb3);
     transition: .5s;
     border-radius: 33px;
+    transform: skew(-4deg);
 }
 
 .home .title h1 {
     color: #222;
     background-color: rgba(255, 255, 255, .3);
-    font-size: 2.5rem;
-    letter-spacing: 33px;
+    font-size: 2.4rem;
+    letter-spacing: 30px;
     text-transform: uppercase;
     padding-left: 22px;
     transition: .5s;
@@ -40,7 +41,7 @@
 
 .home .title .antonio {
     font-size: 1rem;
-    background-color: rgba(34, 34, 34, .6);
+    background-color: rgba(44, 44, 44, .7);
     color: white;
     text-transform: uppercase;
     letter-spacing: 33px;
@@ -85,24 +86,23 @@
         letter-spacing: 22px;
         background-color: transparent;
         border-top: 1px solid tan;
-        color: #222;
+        color: #333;
     }
 
     .home .title .antonio {
         letter-spacing: 11px;
-        background-color: rgba(255, 222, 173, .3);
+        border-top: transparent;
         padding-left: 11px;
         color: #111;
         margin-left: 11px;
-
+        background-color: rgba(34, 34, 34, .2);
+        color: white;
     }
 
     .home-style {
         height: 66px;
         width: 777px;
-        background-color: rgba(255, 255, 255, .1);
-        z-index: -1;
         position: absolute;
-        backdrop-filter: blur(2px);
+        backdrop-filter: blur(11px);
     }
 }

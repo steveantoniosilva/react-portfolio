@@ -9,8 +9,8 @@ import darkbackground from '../../assets/pomodoro-assets/darkBackground.avif';
 import lightBackground from '../../assets/pomodoro-assets/lightBackground.avif';
 
 export default function App() {
-  const [minutes, setMinutes] = useState(0);
-  const [seconds, setSeconds] = useState(2);
+  const [minutes, setMinutes] = useState(25);
+  const [seconds, setSeconds] = useState(0);
   const [isActive, setIsActive] = useState(false);
   const [count, setCount] = useState(1);
   const [darkMode, setDarkMode] = useState(false);
