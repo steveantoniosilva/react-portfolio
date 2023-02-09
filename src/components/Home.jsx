@@ -5,6 +5,7 @@ export default function Home() {
     <div className='home'>
       <div className='title'>
         <div className='title-inner-div'>
+          <div className='home-style'></div>
           <div>
             <h1>Steve</h1>
           </div>
