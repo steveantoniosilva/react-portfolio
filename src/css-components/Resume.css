@@ -21,7 +21,7 @@
     height: 333px;
     width: 233px;
     margin: 4em;
-    transition: .75s;
+    transition: .5s;
 }
 
 .resume-landing-page .resume-name {
@@ -29,13 +29,13 @@
     letter-spacing: 5px;
     font-size: .75rem;
     color: var(--sb6);
-    transition: .75s;
+    transition: .5s;
     line-height: 33px;
 }
 
 .resume-landing-page h2 {
-    letter-spacing: 2px;
-    color: rgb(89, 67, 62);
+    letter-spacing: 11px;
+    color: #665;
     font-size: 1rem;
 }
 
@@ -51,7 +51,7 @@
     text-align: center;
     text-transform: uppercase;
     padding: 22px;
-    transition: .75s;
+    transition: .5s;
 }
 
 .resume-education-page-img {
@@ -86,8 +86,6 @@
     letter-spacing: 1px;
     text-transform: uppercase;
     color: white;
-    margin-top: .75em;
-    margin-bottom: .5em;
 }
 
 .resume-education-h3 {
@@ -99,8 +97,8 @@
 }
 
 .resume-education-h4 {
-    font-size: .8rem;
-    margin-bottom: 1.5em;
+    font-size: 1rem;
+    margin-bottom: .5em;
     font-weight: 100;
     letter-spacing: 2px;
     color: #0033A0;
@@ -112,56 +110,56 @@
 .awards-page {
     width: 100%;
     height: 100vh;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-}
-
-.resume-awards-main-div {
-    margin: auto;
+    justify-content: space-evenly;
+    background-color: tan;
 }
 
 .awards-h1 {
-    text-align: center;
-    margin: 1.7em 0;
     text-transform: uppercase;
-    font-weight: 600;
-    font-size: 1.75rem;
-    color: white;
-    background-color: var(--sb5);
-    padding: .3em 0;
-    border-radius: 1px;
-    outline: ridge 5px var(--sb5);
-    border: ridge 2px var(--sb6);
-    letter-spacing: 1px;
+    width: 90vw;
+    font-size: 2rem;
+    color: antiquewhite;
+    background-color: var(--sb1);
+    border-top: ridge 1px antiquewhite;
+    border-bottom: ridge 1px antiquewhite;
+    letter-spacing: 2px;
+    text-align: center;
+    transition: .5s;
 }
 
 .trophy-div {
     display: flex;
 }
 
+.awards-h5 {
+    color: white;
+    letter-spacing: 1px;
+}
+
 .trophy-div h5 {
-    color: var(--sb10);
-    font-style: italic;
-    font-size: .9rem;
+    color: #665;
+    font-size: 1rem;
     font-weight: 100;
+    line-height: 22px;
 }
 
 .trophy-div i {
-    margin-right: 1em;
-    color: var(--sb5);
+    margin-right: .5em;
+    color: #665;
+    font-size: 49px;
 }
 
-
 .awards-page .date {
-    margin-left: 3em;
-    margin-top: -1em;
-    margin-bottom: 1.75em;
-    font-style: italic;
+    margin-left: 4.2em;
+    margin-top: -1.5em;
+    margin-bottom: .5em;
     letter-spacing: 1px;
     font-weight: 100;
-    color: var(--sb5);
+    color: var(--sb4);
 }
 
 
@@ -169,70 +167,105 @@
     .resume-landing-page {
         display: flex;
         flex-direction: row-reverse;
-        justify-content: center;
-        transition: .75s;
+        justify-content: space-evenly;
+        transition: .5s;
     }
 
     .resume-landing-page-img {
         height: 385px;
         width: 260px;
-        margin: 5em;
-        transition: .75s;
+        transition: .5s;
     }
 
     .resume-landing-page .resume-name {
-        letter-spacing: 6px;
-        font-size: 1rem;
-        transition: .75s;
-        margin: 5em;
+        letter-spacing: 1px;
+        font-size: 1.25rem;
+        transition: .5s;
+        margin: 2em;
     }
 
     .resume-landing-page h2 {
         letter-spacing: 4px;
         margin: .5em 0;
+        transition: .5s;
     }
 
     .resume-education-page {
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
-        transition: .75s;
-    }
-
-    .education-container {
-        margin-top: 4.5em;
+        transition: .5s;
     }
 
     .resume-education-page-img {
-        width: 301px;
-        height: 301px;
-        margin: 2.5em;
-        transition: .75s;
+        width: 255px;
+        height: 255px;
+        transition: .5s;
     }
 
     .resume-education-coding-page-img {
-        width: 301px;
-        height: 301px;
-        margin: 2.5em;
-        transition: .75s;
+        width: 266px;
+        height: 266px;
+        transition: .5s;
     }
 
     .resume-education-h1 {
         font-size: 1.75rem;
-        letter-spacing: 1px;
         text-transform: uppercase;
-        margin-bottom: .75em;
     }
 
     .resume-education-h3 {
-        font-size: 1.75rem;
-        letter-spacing: 5px;
+        font-size: 2.5rem;
     }
 
     .resume-education-h4 {
-        font-size: 1.25rem;
-        margin-bottom: 3em;
-        letter-spacing: 3px;
+        font-size: rem;
+        margin-bottom: 2em;
     }
+
+    .awards-page {
+        transition: .5s;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .awards-h1 {
+        font-size: 4rem;
+        letter-spacing: 2px;
+        transition: .25s;
+        color: white;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        width: auto;
+    }
+
+    .awards-h5 {
+        color: white;
+        letter-spacing: 5px;
+    }
+
+    .trophy-div h5 {
+        color: #665;
+        font-size: 1.5rem;
+    }
+
+    .trophy-div i {
+        margin-right: .5em;
+        color: #665;
+        font-size: 49px;
+    }
+
+    .awards-page .date {
+        margin-left: 4.2em;
+        margin-top: -1.5em;
+        margin-bottom: .5em;
+        letter-spacing: 1px;
+        font-weight: 100;
+        color: var(--sb4);
+    }
+
 }
