@@ -11,12 +11,20 @@ export default function ResumeCodingEducation() {
             className='resume-education-h1'>
             Coding Education
           </h1>
+          <h2
+            style={{
+              color: 'silver',
+              fontSize: '1.25rem',
+              letterSpacing: '.25vw',
+            }}>
+            Bootcamp / Self-Taught
+          </h2>
           <div className='resume-education-coding-page-img'></div>
         </div>
         <div className='education-container'>
           <div>
             <h3
-              style={{ color: '#777', fontSize: '2rem' }}
+              style={{ color: '#777', fontSize: '1.4rem' }}
               className='resume-education-h3'>
               Coding Bootcamp
             </h3>
@@ -29,7 +37,7 @@ export default function ResumeCodingEducation() {
           </div>
           <div>
             <h3
-              style={{ color: '#777', fontSize: '2rem' }}
+              style={{ color: '#777', fontSize: '1.4rem' }}
               className='resume-education-h3'>
               Front-End DEV PATH
             </h3>
@@ -41,7 +49,7 @@ export default function ResumeCodingEducation() {
           </div>
           <div>
             <h3
-              style={{ color: '#777', fontSize: '2rem' }}
+              style={{ color: '#777', fontSize: '1.4rem' }}
               className='resume-education-h3'>
               Epic React{' '}
             </h3>

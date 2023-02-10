@@ -11,60 +11,61 @@
     justify-content: center;
     font-weight: 100;
     text-align: center;
-    background-blend-mode: multiply;
+    background-blend-mode: color;
     text-align: center;
     font-style: italic;
+    /* background-color: var(--sb9); */
+    background-color: rgba(250, 235, 215, .3);
 }
 
 .home .title {
     display: flex;
     flex-direction: column;
     margin-bottom: 1em;
-    border: 1px solid navajowhite;
     padding: 3em 1em;
-    background-color: var(--sb3);
     transition: .5s;
-    border-radius: 33px;
+    border-radius: 11px;
     transform: skew(-4deg);
+    border: 1px dotted moccasin;
+    width: 75%;
 }
 
 .home .title h1 {
-    color: #222;
-    background-color: rgba(255, 255, 255, .3);
+    color: #333;
     font-size: 2.4rem;
     letter-spacing: 30px;
     text-transform: uppercase;
     padding-left: 22px;
-    transition: .5s;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(8px);
 }
 
 .home .title .antonio {
     font-size: 1rem;
-    background-color: rgba(44, 44, 44, .7);
+    background-color: rgba(44, 44, 44, .5);
     color: white;
     text-transform: uppercase;
-    letter-spacing: 33px;
-    padding-left: 33px;
+    letter-spacing: 22px;
     transition: .5s;
+    border-top: 1px solid antiquewhite;
+    border-bottom: 1px solid antiquewhite;
 }
 
 .home .sub-title p .react-span {
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: white;
     text-transform: uppercase;
-    letter-spacing: 5px;
     transition: .5s;
 }
 
 .home .sub-title p .engineer-span {
-    background-color: #222;
     transform: skew(-11deg);
     color: navajowhite;
-    padding: 0 .5em;
+    padding-right: .5em;
     text-transform: uppercase;
-    font-size: .75rem;
-    letter-spacing: 11px;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin-top: 11px;
+    transform: skew(-11deg);
 }
 
 @media screen and (min-width: 877px) {
@@ -73,20 +74,18 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        transition: .5s;
     }
 
     .home .title {
         transform: skew(-11deg);
-        background-color: rgba(255, 255, 255, .3);
         width: 711px;
+        border: none;
     }
 
     .home .title h1 {
-        letter-spacing: 22px;
-        background-color: transparent;
+        letter-spacing: 2vw;
         border-top: 1px solid tan;
-        color: #333;
+        color: antiquewhite;
     }
 
     .home .title .antonio {
@@ -94,9 +93,8 @@
         border-top: transparent;
         padding-left: 11px;
         color: #111;
-        margin-left: 11px;
-        background-color: rgba(34, 34, 34, .2);
-        color: white;
+        background-color: rgba(34, 34, 34, .6);
+        color: tan;
     }
 
     .home-style {
