@@ -3,7 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -15,7 +15,7 @@
     text-align: center;
     font-style: italic;
     /* background-color: var(--sb9); */
-    background-color: rgba(250, 235, 215, .3);
+    background-color: rgba(250, 235, 215, .2);
 }
 
 .home .title {
@@ -31,7 +31,7 @@
 }
 
 .home .title h1 {
-    color: #333;
+    color: antiquewhite;
     font-size: 2.4rem;
     letter-spacing: 30px;
     text-transform: uppercase;
@@ -41,11 +41,10 @@
 
 .home .title .antonio {
     font-size: 1rem;
-    background-color: rgba(44, 44, 44, .5);
-    color: white;
+    color: rgba(44, 44, 44, .6);
     text-transform: uppercase;
-    letter-spacing: 22px;
-    transition: .5s;
+    background-color: antiquewhite;
+    letter-spacing: 4vw;
     border-top: 1px solid antiquewhite;
     border-bottom: 1px solid antiquewhite;
 }
@@ -54,7 +53,7 @@
     font-size: 3.5rem;
     color: white;
     text-transform: uppercase;
-    transition: .5s;
+    letter-spacing: .5vw;
 }
 
 .home .sub-title p .engineer-span {
@@ -63,7 +62,7 @@
     padding-right: .5em;
     text-transform: uppercase;
     font-size: 1.5rem;
-    letter-spacing: 1px;
+    letter-spacing: .5vw;
     margin-top: 11px;
     transform: skew(-11deg);
 }
@@ -89,12 +88,12 @@
     }
 
     .home .title .antonio {
-        letter-spacing: 11px;
         border-top: transparent;
         padding-left: 11px;
         color: #111;
         background-color: rgba(34, 34, 34, .6);
         color: tan;
+        letter-spacing: 2vw;
     }
 
     .home-style {

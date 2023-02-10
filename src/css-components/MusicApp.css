@@ -1,8 +1,8 @@
 .musicApp {
     text-align: center;
     background-image: url('../assets/music-app-background.avif');
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    width: 100%;
     background-position: center;
     background-color: var(--sb2);
     background-blend-mode: multiply;
@@ -31,55 +31,55 @@
 }
 
 .overlay {
-    width: 400px;
-    height: 585px;
+    max-width: 422px;
+    width: 75vw;
+    height: 85vh;
     border-radius: 44px;
     background-color: rgba(255, 222, 173, .2);
-    position: relative;
-    transition: .5s;
     outline: 3px solid #eee;
     display: flex;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .albumCover {
-    border-radius: 2px;
+    border-radius: 26px;
     height: 222px;
     width: 222px;
     z-index: 1;
     transition: 1s;
-    border: 5px solid white;
-    margin: 1.9em auto;
+    border: 5px solid rgba(255, 255, 255, .9);
 }
 
 .albumCover img {
     width: 100%;
     height: 100%;
-    border-radius: 2px;
+    border-radius: 22px;
     transition: 1s;
     object-fit: cover;
-    border: 3px solid gray;
+    border: 5px solid gray;
 }
 
 .musicApp .group1 {
-    padding-top: 5px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 0 1em;
+    width: 45%;
 }
 
-.group2 {
+.musicApp .group2 {
     display: flex;
-    justify-content: space-evenly;
-    padding-top: 5px;
+    justify-content: space-between;
+    padding: 0 1em;
+    width: 45%;
 }
 
 .musicAppButton {
-    font-size: 2.5rem;
+    font-size: 3rem;
     cursor: pointer;
-    border-radius: 11px;
-    transition: .5s;
     border-radius: 5%;
+    display: flex;
 }
 
 .musicApp i {
@@ -102,54 +102,47 @@
     z-index: 2;
     text-transform: uppercase;
     font-size: 1.25rem;
-    letter-spacing: 4px;
+    letter-spacing: .5vw;
 }
 
 @media screen and (min-width: 878px) {
     .overlay {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        width: 747px;
+        width: 85%;
         height: 397px;
         max-width: 898px;
-        line-height: 33px;
+        display: flex;
+        flex-direction: row;
     }
 
     .musicAppButton {
-        margin: 1em;
-        font-size: 2.5rem;
-    }
-
-    .musicAppButtons {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: row;
+        font-size: 3rem;
     }
 
     .group1 {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 45%;
     }
 
     .group2 {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        height: 45%;
     }
 
     .albumCover {
         height: 255px;
         width: 255px;
         transition: 1s;
-        margin: 1em 3.75em;
+        margin: .5em 0;
     }
 
     .songTitle,
     .artist {
         font-size: 1.375rem;
-
     }
 
 }

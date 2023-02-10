@@ -62,44 +62,42 @@ function MusicApp() {
             style={{ width: `${progressBar}%`, transition: '1s' }}
             className='progress'></div>
         </div>
-        <div className='musicAppButtons'>
-          <div className='group1'>
-            <div
-              onClick={play}
-              className='musicAppButton'>
-              <i className='fa-solid fa-play'></i>
-            </div>
-            <div
-              onClick={pause}
-              className='musicAppButton pause'>
-              <i className='fa-solid fa-pause'></i>
-            </div>
+        <div className='group1'>
+          <div
+            onClick={play}
+            className='musicAppButton'>
+            <i className='fa-solid fa-play'></i>
           </div>
-          <div>
-            <h2 className='songTitle'>{songs.title}</h2>
-            <div className='albumCover'>
-              <audio
-                autoPlay
-                ref={sound}
-                src={songs.song}></audio>
-              <img
-                src={songs.albumCover}
-                alt=''
-              />
-            </div>
-            <h2 className='artist'> {songs.artist}</h2>
+          <div
+            onClick={pause}
+            className='musicAppButton'>
+            <i className='fa-solid fa-pause'></i>
           </div>
-          <div className='group2'>
-            <div
-              onClick={forward}
-              className='musicAppButton'>
-              <i className='fa-solid fa-forward'></i>
-            </div>
-            <div
-              onClick={backward}
-              className='musicAppButton backward'>
-              <i className='fa-solid fa-backward'></i>
-            </div>
+        </div>
+        <div>
+          <h2 className='songTitle'>{songs.title}</h2>
+          <div className='albumCover'>
+            <audio
+              autoPlay
+              ref={sound}
+              src={songs.song}></audio>
+            <img
+              src={songs.albumCover}
+              alt=''
+            />
+          </div>
+          <h2 className='artist'> {songs.artist}</h2>
+        </div>
+        <div className='group2'>
+          <div
+            onClick={forward}
+            className='musicAppButton'>
+            <i className='fa-solid fa-forward'></i>
+          </div>
+          <div
+            onClick={backward}
+            className='musicAppButton'>
+            <i className='fa-solid fa-backward'></i>
           </div>
         </div>
       </div>
