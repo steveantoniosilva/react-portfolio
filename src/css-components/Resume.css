@@ -57,7 +57,6 @@
     background-image: url('../assets/BoiseState.png');
     background-size: cover;
     background-position: center;
-    margin-top: .5em;
 }
 
 .resume-education-coding-page-img {
@@ -71,18 +70,18 @@
 }
 
 .resume-education-h1 {
-    font-size: 1.75rem;
+    font-size: 2.5rem;
     letter-spacing: .5vw;
     text-transform: uppercase;
-    color: #0033A0;
     margin-bottom: -.8em;
+    color: white;
 }
 
 .resume-education-h2 {
-    font-size: 1rem;
+    font-size: 2rem;
     letter-spacing: .5vw;
     text-transform: uppercase;
-    color: white;
+    color: darkslateblue;
 }
 
 .resume-education-h3 {
@@ -110,6 +109,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    background-color: var(--sb1);
 }
 
 .awards-letter-container {
@@ -117,8 +117,8 @@
     align-items: center;
     justify-content: space-evenly;
     width: 60%;
-    height: 11px;
-    background-color: #665;
+    height: 5px;
+    background-color: rgba(102, 102, 85, .8);
 }
 
 .awards-letter {
@@ -126,8 +126,8 @@
     text-align: center;
     font-size: 1.4rem;
     color: antiquewhite;
-    border: 5px ridge #665;
-    background-color: #665;
+    border: 5px ridge rgba(102, 102, 85, .6);
+    background-color: rgba(102, 102, 85, .4);
 }
 
 .trophy-div {
@@ -154,10 +154,19 @@
 
 .trophy-div i {
     margin: .5em;
-    color: rgba(102, 102, 111, .2);
+    color: rgba(102, 102, 111, .3);
     font-size: 2.5rem;
 }
 
+/* Experience Page */
+
+.resume-experience-page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 @media screen and (min-width: 956px) {
     .resume-landing-page {
@@ -205,7 +214,7 @@
     }
 
     .resume-education-h1 {
-        font-size: 1.75rem;
+        font-size: 2.5rem;
     }
 
     .resume-education-h3 {
@@ -228,16 +237,15 @@
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        height: 50%;
-        width: 55px;
-        margin-bottom: 1em;
+        height: 0%;
+        width: 33px;
         align-items: center;
-        background-color: #665;
+        background-color: rgba(102, 102, 85, .5);
     }
 
     .awards-letter {
         border: 5px ridge gray;
-        margin: 15px;
+        margin: 11px;
         color: antiquewhite;
     }
 

@@ -6,8 +6,8 @@ export default function ResumeFormalEducation() {
         style={{ backgroundColor: 'rgba(242, 121, 53, .9)' }}
         className='resume-education-page'>
         <div>
-          <h1 className='resume-education-h1'>Formal Education</h1>
-          <h2 className='resume-education-h2'>Boise State University</h2>
+          <h1 className='resume-education-h1'>Education</h1>
+          <h2 className='resume-education-h2'>Boise State</h2>
         </div>
         <div>
           <div className='resume-education-page-img'></div>
