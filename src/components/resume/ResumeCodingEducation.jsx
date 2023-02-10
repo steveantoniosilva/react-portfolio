@@ -29,7 +29,7 @@ export default function ResumeCodingEducation() {
               Coding Bootcamp
             </h3>
             <h4
-              style={{ color: 'red' }}
+              style={{ color: 'tomato' }}
               className='resume-education-h4'>
               Tech Talent South,{' '}
               <span style={{ fontSize: '1.1rem' }}>2021</span>
@@ -42,7 +42,7 @@ export default function ResumeCodingEducation() {
               Front-End DEV PATH
             </h3>
             <h4
-              style={{ color: 'red' }}
+              style={{ color: 'tomato' }}
               className='resume-education-h4'>
               Scrimba, <span style={{ fontSize: '1.1rem' }}>2022</span>
             </h4>
@@ -54,7 +54,7 @@ export default function ResumeCodingEducation() {
               Epic React{' '}
             </h3>
             <h4
-              style={{ color: 'red' }}
+              style={{ color: 'tomato' }}
               className='resume-education-h4'>
               Kent C. Dodds,{' '}
               <span style={{ fontSize: '1.1rem', textTransform: 'capitalize' }}>

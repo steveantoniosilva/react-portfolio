@@ -70,7 +70,7 @@
 }
 
 .resume-education-h1 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     letter-spacing: .5vw;
     text-transform: uppercase;
     margin-bottom: -.8em;
@@ -78,7 +78,7 @@
 }
 
 .resume-education-h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     letter-spacing: .5vw;
     text-transform: uppercase;
     color: darkslateblue;
@@ -161,11 +161,23 @@
 /* Experience Page */
 
 .resume-experience-page {
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.experience-item-container {
+    margin-bottom: 1em;
+}
+
+.experience-title-and-date {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85vw;
 }
 
 @media screen and (min-width: 956px) {
