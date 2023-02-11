@@ -16,17 +16,17 @@ export default function ResumeExperience() {
           </div>
         </div>
         <h3 className='experience-content-subtitle'>
-          WORLD CLASS REACT TRAINING COURSE FOR PROFESSIONAL REACT DEVELOPERS
+          REACT TRAINING COURSE FOR PROFESSIONAL REACT DEVELOPERS
         </h3>
         <h5 className='experience-content-h5'>
-          - I LEFT MY SOFTWARE TRAINING ROLE AT A TECH CO. TO FOCUS FULL-TIME ON
-          BECOMING A REACT DEVELOPER
+          - I LEFT MY PREVIOUS ROLE AT A SOFTWARE COMPANY TO FOCUS FULL-TIME ON
+          REACT
         </h5>
       </div>
       <div className='experience-item-container'>
         <div className='experience-content'>
           <div>
-            <h2>SOFTWARE TRAINING & IMPLEMENTATION</h2>
+            <h2>CLIENT SOFTWARE TRAINING & NEW CLIENT SOFTWARE ONBOARDING</h2>
           </div>
           <div>
             <h3 className='date'>21'-22'</h3>
@@ -34,17 +34,18 @@ export default function ResumeExperience() {
         </div>
 
         <h3 className='experience-content-subtitle'>
-          SOFTWARE CO. FOR NON-PROFITS
+          SAAS SOFTWARE FOR NON-PROFITS
         </h3>
 
         <h5 className='experience-content-h5'>
           - HOST LIVE SOFTWARE TRAINING SESSIONS FOR NON PROFITS ACROSS THE U.S.
         </h5>
         <h5 className='experience-content-h5'>
-          - SOFTWARE TESTING TO IDENTIFY & DOCUMENT BUGS FOR OUR DEV TEAM
+          - LIVE SOFTWARE TESTING TO IDENTIFY & DOCUMENT BUGS FOR OUR DEV TEAM
         </h5>
         <h5 className='experience-content-h5'>
-          - DNS & AWS SSL SETUP, DATA IMPORTS & DATA REPORTING
+          - ASSIST CLIENTS WITH DNS, SSL & CUSTOM DOMAIN SETUP AS WELL AS DATA
+          REPORTING
         </h5>
       </div>
       <div className='experience-item-container'>
@@ -53,13 +54,12 @@ export default function ResumeExperience() {
             <h2>CODING BOOTCAMP</h2>
           </div>
           <div>
-            <h3 className='date'>20'</h3>
+            <h3 className='date'>21'</h3>
           </div>
         </div>
         <h3 className='experience-content-subtitle'>TECH TALENT SOUTH</h3>
         <h5 className='experience-content-h5'>
-          - AFTER BEING LAID OFF DURING COVID & DISCOVERING SOFTWARE
-          DEVELOPMENT, I ENROLLED IN A CODING BOOTCAMP AT TECH TALENT SOUTH
+          - AFTER BEING LAID OFF, I ENROLLED IN A CODING BOOTCAMP
         </h5>
       </div>
       <div className='experience-item-container'>
@@ -82,7 +82,7 @@ export default function ResumeExperience() {
           - THE BAD NEWS: I GOT LAID OFF DURING COVID
         </h5>
         <h5 className='experience-content-h5'>
-          - THE GOOD NEWS: THIS IS HOW & WHEN I FOUND COMPUTER PROGRAMMING.
+          - THE GOOD NEWS: THAT'S HOW I DISCOVERED COMPUTER PROGRAMMING
         </h5>
       </div>
       <div className='experience-item-container'>
@@ -98,8 +98,8 @@ export default function ResumeExperience() {
           COLLEGE OF BUSINESS & ECONOMICS
         </h3>
         <h5 className='experience-content-h5'>
-          - I WORKED WITH START-UPS IN OUR ENTREPRENEURSHIP INCUBATOR & I
-          PERFORMED MARKET RESEARCH, ANALYSIS & CONSULTING PROJECTS
+          - I HELPED START-UPS IN OUR ENTREPRENEURSHIP INCUBATOR & ALSO GOT TO
+          WORK ON CONSULTING PROJECTS
         </h5>
       </div>
       <div className='experience-item-container'>
@@ -112,7 +112,7 @@ export default function ResumeExperience() {
           </div>
         </div>
         <h3 className='experience-content-subtitle'>
-          BACHELORS OF APPLIED SCIENCE, EMPHASIS IN BUSINESS COMMUNICATION
+          BACHELORS OF APPLIED SCIENCE
         </h3>
         <h5 className='experience-content-h5'>- MAGNA CUM LAUDE</h5>
       </div>
@@ -127,7 +127,7 @@ export default function ResumeExperience() {
         </div>
         <h3 className='experience-content-subtitle'>FARM & RANCH MANAGER</h3>
         <h5 className='experience-content-h5'>
-          - MANAGED HARVEST OPERATIONS FOR MULTI-SITE FARM & RANCH
+          - MANAGED CATTLE, FARMING & HARVEST OPERATIONS ON MY FAMILY'S RANCH
         </h5>
         <h5 className='experience-content-h5'>
           - ANALYZED AGRICULTURAL MARKET RESEARCH & CATTLE ANALYTICS
