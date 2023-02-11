@@ -4,8 +4,6 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    width: 100vw;
-    background: linear-gradient(35deg, ivory, var(--sb4));
     background-blend-mode: multiply;
     background-blend-mode: multiply;
 }

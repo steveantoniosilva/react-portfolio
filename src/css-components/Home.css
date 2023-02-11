@@ -41,7 +41,7 @@
 
 .home .title .antonio {
     font-size: 1rem;
-    color: rgba(44, 44, 44, .6);
+    color: #111;
     text-transform: uppercase;
     background-color: antiquewhite;
     letter-spacing: 4vw;
@@ -90,7 +90,6 @@
 
     .home .title .antonio {
         font-size: 1rem;
-        color: rgba(44, 44, 44, .6);
         text-transform: uppercase;
         background-color: antiquewhite;
         letter-spacing: 1.5vw;

@@ -16,7 +16,7 @@ export default function ResumeExperience() {
           </div>
         </div>
         <h3 className='experience-content-subtitle'>
-          REACT TRAINING COURSE FOR PROFESSIONAL REACT DEVELOPERS
+          REACT COURSE FOR DEVELOPERS
         </h3>
         <h5 className='experience-content-h5'>
           - I LEFT MY PREVIOUS ROLE AT A SOFTWARE COMPANY TO FOCUS FULL-TIME ON
@@ -26,7 +26,7 @@ export default function ResumeExperience() {
       <div className='experience-item-container'>
         <div className='experience-content'>
           <div>
-            <h2>CLIENT SOFTWARE TRAINING & NEW CLIENT SOFTWARE ONBOARDING</h2>
+            <h2>SOFTWARE TRAINING & NEW CLIENT SOFTWARE ONBOARDING</h2>
           </div>
           <div>
             <h3 className='date'>21'-22'</h3>
@@ -38,10 +38,12 @@ export default function ResumeExperience() {
         </h3>
 
         <h5 className='experience-content-h5'>
-          - HOST LIVE SOFTWARE TRAINING SESSIONS FOR NON PROFITS ACROSS THE U.S.
+          - I HOSTED LIVE SOFTWARE TRAINING SESSIONS FOR NON PROFITS ALL ACROSS
+          THE U.S.
         </h5>
         <h5 className='experience-content-h5'>
-          - LIVE SOFTWARE TESTING TO IDENTIFY & DOCUMENT BUGS FOR OUR DEV TEAM
+          - I SUPPORTED OUR DEV TEAM BY PERFOMING LIVE WEBSITE TESTING TO
+          IDENTIFY & DOCUMENT BUGS IN OUR SOFTWARE
         </h5>
         <h5 className='experience-content-h5'>
           - ASSIST CLIENTS WITH DNS, SSL & CUSTOM DOMAIN SETUP AS WELL AS DATA
