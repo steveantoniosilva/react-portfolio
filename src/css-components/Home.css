@@ -78,22 +78,24 @@
     .home .title {
         transform: skew(-11deg);
         width: 711px;
-        border: none;
     }
 
     .home .title h1 {
         letter-spacing: 2vw;
         border-top: 1px solid tan;
         color: antiquewhite;
+        font-size: 3rem;
+        backdrop-filter: none;
     }
 
     .home .title .antonio {
-        border-top: transparent;
-        padding-left: 11px;
-        color: #111;
-        background-color: rgba(34, 34, 34, .6);
-        color: tan;
-        letter-spacing: 2vw;
+        font-size: 1rem;
+        color: rgba(44, 44, 44, .6);
+        text-transform: uppercase;
+        background-color: antiquewhite;
+        letter-spacing: 1.5vw;
+        border-top: 1px solid antiquewhite;
+        border-bottom: 1px solid antiquewhite;
     }
 
     .home-style {
@@ -101,5 +103,6 @@
         width: 777px;
         position: absolute;
         backdrop-filter: blur(11px);
+        z-index: -1;
     }
 }
