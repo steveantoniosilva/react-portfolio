@@ -14,7 +14,6 @@
     background-blend-mode: color;
     text-align: center;
     font-style: italic;
-    /* background-color: var(--sb9); */
     background-color: rgba(250, 235, 215, .2);
 }
 

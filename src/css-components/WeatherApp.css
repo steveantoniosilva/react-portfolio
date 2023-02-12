@@ -4,7 +4,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: multiply;
-    background-color: antiquewhite;
+    background-color: var(--sb1);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -55,17 +55,22 @@
 
 .weather-container {
     width: 75%;
+    background-color: rgba(77, 77, 77, 0.4);
+    border-radius: 11px;
+    border: 1px solid #333;
+    padding: 3em 2em;
 }
 
 .location-box .location {
     color: whitesmoke;
     font-size: 2rem;
+    letter-spacing: .5vw;
 }
 
 .location-box .date {
     color: whitesmoke;
-    font-size: 1.5rem;
-    margin: 5% 0;
+    font-size: 1.1rem;
+    letter-spacing: .5vw;
 }
 
 .weather-box {
@@ -74,15 +79,18 @@
 
 .weather-box .temp {
     display: inline-block;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(22, 22, 22, 0.4);
     border-radius: 16px;
-    padding: 15px 25px;
+    padding: 0 22px;
     color: whitesmoke;
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 900;
+    letter-spacing: 1vw;
+    margin-bottom: .1em;
 }
 
 .weather-box .weather {
     color: whitesmoke;
-    font-size: 3rem;
+    font-size: 2rem;
+    letter-spacing: .5vw;
 }

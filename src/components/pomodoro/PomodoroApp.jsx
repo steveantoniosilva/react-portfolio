@@ -77,10 +77,10 @@ export default function App() {
   };
 
   const divStyle = {
+    backgroundColor: darkMode ? 'var(--sb9)' : 'var(--sb6)',
     backgroundImage: darkMode
       ? `url(${darkbackground})`
       : `url(${lightBackground})`,
-    backgroundColor: darkMode ? 'var(--sb9)' : 'var(--sb6)',
   };
 
   const breakTime = {
