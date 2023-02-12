@@ -57,15 +57,19 @@ function WeatherApp() {
 
   return (
     <div className='app'>
-      <div className='search-box'>
-        <input
-          type='text'
-          className='search-bar'
-          placeholder='Search by city name...'
-          onChange={e => setQuery(e.target.value)}
-          value={query}
-          onKeyPress={search}
-        />
+      <div className='input-container'>
+        {' '}
+        <div className='search-box'>
+          <i className='fa-solid fa-magnifying-glass'></i>
+          <input
+            type='text'
+            className='search-bar'
+            placeholder='Search by city name...'
+            onChange={e => setQuery(e.target.value)}
+            value={query}
+            onKeyPress={search}
+          />
+        </div>
       </div>
       {typeof weather.main != 'undefined' ? (
         <div className='weather-container'>

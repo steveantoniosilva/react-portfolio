@@ -27,6 +27,9 @@ function Tesla() {
       center={[38.1230613, -95.9939304]}
       zoomControl={false}
       zoom={3}>
+      <div className='tesla'>
+        <h4>Tesla Charging Stations</h4>
+      </div>
       <ZoomControl position='topright' />
       <TileLayer
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'

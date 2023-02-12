@@ -19,3 +19,29 @@
     text-decoration: none;
     margin: .1em;
 }
+
+.tesla {
+    z-index: 1111;
+    position: absolute;
+    margin: 13px auto;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    text-align: center;
+    width: 75%;
+}
+
+.tesla h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    backdrop-filter: blur(10px);
+    letter-spacing: 1vw;
+    color: #665;
+}
+
+@media screen and (min-width: 777px) {
+    .tesla h4 {
+        font-size: 1.75em;
+    }
+}
