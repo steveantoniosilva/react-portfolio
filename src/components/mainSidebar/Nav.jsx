@@ -24,6 +24,9 @@ export default function Nav({ isOpen, setOpen, onClick }) {
             <Link to='/tesla-app'>- Tesla App</Link>
           </li>
           <li className='nested'>
+            <Link to='/weather-app'>- Weather App</Link>
+          </li>
+          <li className='nested'>
             <Link to='/pomodoro-app'>- Pomodoro App</Link>
           </li>
         </ul>

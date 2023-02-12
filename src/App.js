@@ -9,6 +9,7 @@ import Portfolio from './components/Portfolio';
 import MusicApp from './components/MusicApp';
 import PomodoroApp from './components/pomodoro/PomodoroApp';
 import Tesla from './components/Tesla';
+import WeatherApp from './components/WeatherApp';
 
 function App() {
   return (
@@ -46,10 +47,14 @@ function App() {
             element={<Tesla />}
           />
           <Route
-            path='*'
-            element={<NoPage />}
+            path='weather-app'
+            element={<WeatherApp />}
           />
         </Route>
+        <Route
+          path='*'
+          element={<NoPage />}
+        />
       </Routes>
     </div>
   );
