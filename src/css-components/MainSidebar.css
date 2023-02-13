@@ -3,10 +3,11 @@
     left: 22px;
     z-index: 11111;
     position: fixed;
+    backdrop-filter: blur(11px);
 }
 
 .main-sidebar-open {
-    width: 275px;
+    width: 295px;
     height: 100vh;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
     position: fixed;
@@ -47,13 +48,14 @@
 .navMenu nav li.nested {
     margin: -.3em;
     margin-left: 1.5em;
-    font-size: 1.1rem;
-    letter-spacing: 2px;
+    font-size: 1.15rem;
+    letter-spacing: 1px;
+    font-weight: 100;
 }
 
 .navMenu nav li:hover {
     padding-left: .2em;
-    transition: .5s;
+    transition: .25s;
 }
 
 .navMenu nav a {
