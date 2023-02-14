@@ -12,7 +12,7 @@ import { Icon } from 'leaflet';
 
 const teslaIcon = new Icon({
   iconUrl: teslaSvg,
-  iconSize: [22, 22],
+  iconSize: [44, 44],
 });
 
 function Tesla() {
@@ -41,10 +41,24 @@ function Tesla() {
           icon={teslaIcon}
           position={[location.gps.latitude, location.gps.longitude]}>
           <Popup position={[location.gps.latitude, location.gps.longitude]}>
-            <div>
+            <div
+              style={{
+                letterSpacing: '2px',
+                color: '#665',
+              }}>
               <h2>{location.name}</h2>
-              <p>CHARGING STATIONS: {location.stallCount}</p>
-              <p>STATUS: {location.status}</p>
+              <p
+                style={{
+                  letterSpacing: '5px',
+                }}>
+                CHARGING STATIONS: {location.stallCount}
+              </p>
+              <p
+                style={{
+                  letterSpacing: '5px',
+                }}>
+                STATUS: {location.status}
+              </p>
             </div>
           </Popup>
         </Marker>

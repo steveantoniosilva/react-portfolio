@@ -3,7 +3,6 @@
     left: 22px;
     z-index: 11111;
     position: fixed;
-    backdrop-filter: blur(11px);
 }
 
 .main-sidebar-open {

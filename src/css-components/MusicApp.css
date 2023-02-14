@@ -138,12 +138,14 @@
         height: 255px;
         width: 255px;
         transition: 1s;
-        margin: .5em 0;
+        margin: .5em auto;
     }
 
     .songTitle,
     .artist {
         font-size: 1.375rem;
+        width: 333px;
+        letter-spacing: .1vw;
     }
 
 }

@@ -12,6 +12,9 @@ export default function Nav({ isOpen, setOpen, onClick }) {
             <Link to='/contact'>Contact</Link>
           </li>
           <li>
+            <Link to='/skills'>Skills</Link>
+          </li>
+          <li>
             <Link to='/resume'>Resume</Link>
           </li>
           <li>
