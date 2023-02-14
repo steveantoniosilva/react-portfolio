@@ -4,6 +4,7 @@ import figmaIcon from '../assets/Figma-Icon.svg';
 import mongodbIcon from '../assets/mongodb.png';
 import expressIcon from '../assets/expressIcon.png';
 import router from '../assets/router.svg';
+import mongoose from '../assets/mongoose.png';
 
 export default function Skills() {
   return (
@@ -123,8 +124,12 @@ export default function Skills() {
             <p>Express js</p>
           </div>
           <div className='skills'>
-            <i className='fa-brands fa-bootstrap skills-bootstrap'></i>
-            <p>placeholder</p>
+            <img
+              className='mongoose-icon'
+              src={mongoose}
+              alt='express-logo'
+            />{' '}
+            <p>mongoose</p>
           </div>
         </div>
       </div>
