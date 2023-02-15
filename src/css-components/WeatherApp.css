@@ -60,7 +60,8 @@
 }
 
 ::placeholder {
-    color: rgba(255, 255, 255, 0.4);
+    color: antiquewhite;
+    font-weight: bold;
     font-size: 1rem;
     letter-spacing: 3px;
     text-transform: uppercase;

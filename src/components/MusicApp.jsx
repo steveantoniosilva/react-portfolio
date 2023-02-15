@@ -5,44 +5,55 @@ function MusicApp() {
   const sound = useRef(null);
   const [count, setCount] = useState(0);
   const [songs, setSongs] = useState(data);
-  const [running, setRunning] = useState(false);
+  const [autoPlay, setAutoPlay] = useState(false);
   const [progressBar, setProgressBar] = useState(0);
+  console.dir(sound.current);
 
   const play = () => {
     sound.current.play();
-    setRunning(true);
-    setProgressBar(0.001);
+    if (!autoPlay) {
+      setAutoPlay(true);
+    }
+    if (progressBar <= 0.001) {
+      setProgressBar(0.001);
+    }
   };
 
   const pause = () => {
     sound.current.pause();
-    setRunning(false);
   };
 
   const forward = () => {
     count < data.length - 1
       ? setCount(prevCount => prevCount + 1)
       : setCount(0);
+    if (!autoPlay) {
+      setAutoPlay(true);
+    }
+    setProgressBar(0);
   };
 
   const backward = () => {
     count > 0
       ? setCount(prevCount => prevCount - 1)
       : setCount(data.length - 1);
+    if (!autoPlay) {
+      setAutoPlay(true);
+    }
+    setProgressBar(0.001);
   };
 
   useEffect(() => {
     const duration = Math.floor(sound.current.duration);
     const currentTimeStamp = sound.current.currentTime;
-    if (running) {
-      const interval = setInterval(() => {
-        setProgressBar((currentTimeStamp / duration) * 100);
-      }, 500);
-      return () => {
-        clearInterval(interval);
-      };
-    }
-  }, [progressBar, running]);
+
+    const interval = setInterval(() => {
+      setProgressBar((currentTimeStamp / duration) * 100);
+    }, 250);
+    return () => {
+      clearInterval(interval);
+    };
+  }, [progressBar]);
 
   useEffect(() => {
     setSongs({
@@ -51,7 +62,6 @@ function MusicApp() {
       artist: data[count].artist,
       song: data[count].track,
     });
-    play();
   }, [count]);
 
   return (
@@ -59,7 +69,7 @@ function MusicApp() {
       <div className='overlay'>
         <div className='progressBar'>
           <div
-            style={{ width: `${progressBar}%`, transition: '1s' }}
+            style={{ width: `${progressBar}%`, transition: '.25s' }}
             className='progress'></div>
         </div>
         <div className='group1'>
@@ -78,7 +88,8 @@ function MusicApp() {
           <h2 className='songTitle'>{songs.title}</h2>
           <div className='albumCover'>
             <audio
-              autoPlay
+              onEnded={() => forward()}
+              autoPlay={autoPlay}
               ref={sound}
               src={songs.song}></audio>
             <img

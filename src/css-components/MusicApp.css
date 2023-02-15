@@ -42,6 +42,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     transition: .5s;
+    position: relative;
 }
 
 .albumCover {
