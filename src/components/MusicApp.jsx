@@ -1,13 +1,13 @@
 import { useEffect, useRef, useState } from 'react';
 import '../css-components/MusicApp.css';
 import data from '../data';
+
 function MusicApp() {
   const sound = useRef(null);
   const [count, setCount] = useState(0);
   const [songs, setSongs] = useState(data);
   const [autoPlay, setAutoPlay] = useState(false);
   const [progressBar, setProgressBar] = useState(0);
-  console.dir(sound.current);
 
   const play = () => {
     sound.current.play();

@@ -102,7 +102,7 @@ export default function Skills() {
         <div className='skills-inner-container'>
           {' '}
           <div className='skills'>
-            <i class='fa-brands fa-node skills-node'></i>
+            <i class='fa-brands fa-node-js skills-node'></i>
             <p>node js</p>
           </div>
           <div className='skills'>
