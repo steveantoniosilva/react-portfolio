@@ -31,17 +31,76 @@
     width: 75%;
 }
 
-.tesla h4 {
+.tesla-title {
     font-size: 1.5em;
     font-weight: bold;
     text-transform: uppercase;
     backdrop-filter: blur(10px);
     letter-spacing: 1vw;
+    color: red;
+}
+
+.popup {
+    font-style: italic;
+    padding: 0 1em;
+}
+
+.tesla-stall-count {
+    color: red;
+    font-size: 1.25rem;
+}
+
+.tesla-stall-status {
+    color: red;
+    font-size: .9rem;
+}
+
+.tesla-h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
     color: #665;
 }
 
+.tesla-h2 {
+    font-size: 1.25em;
+    text-transform: uppercase;
+    color: #665;
+    letter-spacing: 2px;
+    margin: .5em 0;
+}
+
+.tesla-h3 {
+    font-size: 1.1em;
+    text-transform: uppercase;
+    color: #665;
+    letter-spacing: 2px;
+}
+
 @media screen and (min-width: 777px) {
-    .tesla h4 {
+    .tesla-title {
         font-size: 1.75em;
     }
+
+    .tesla-h1 {
+        font-size: 1.75em;
+    }
+
+    .tesla-h2 {
+        font-size: 1.5em;
+    }
+
+    .tesla-h3 {
+        font-size: 1.25em;
+    }
+
+    .tesla-stall-count {
+        font-size: 1.5rem;
+    }
+
+    .tesla-stall-status {
+        font-size: 1.1rem;
+    }
+
 }

@@ -28,7 +28,7 @@ function Tesla() {
       zoomControl={false}
       zoom={3}>
       <div className='tesla'>
-        <h4>Tesla Charging Stations</h4>
+        <h4 className='tesla-title'>Tesla Charging Stations</h4>
       </div>
       <ZoomControl position='topright' />
       <TileLayer
@@ -40,25 +40,19 @@ function Tesla() {
           key={location.id}
           icon={teslaIcon}
           position={[location.gps.latitude, location.gps.longitude]}>
-          <Popup position={[location.gps.latitude, location.gps.longitude]}>
-            <div
-              style={{
-                letterSpacing: '2px',
-                color: '#665',
-              }}>
-              <h2>{location.name}</h2>
-              <p
-                style={{
-                  letterSpacing: '5px',
-                }}>
-                CHARGING STATIONS: {location.stallCount}
-              </p>
-              <p
-                style={{
-                  letterSpacing: '5px',
-                }}>
-                STATUS: {location.status}
-              </p>
+          <Popup
+            style={{ width: '4px' }}
+            position={[location.gps.latitude, location.gps.longitude]}>
+            <div className='popup'>
+              <h1 className='tesla-h1'>{location.name}</h1>
+              <h2 className='tesla-h2'>
+                CHARGING STATIONS:{' '}
+                <span className='tesla-stall-count'>{location.stallCount}</span>
+              </h2>
+              <h3 className='tesla-h3'>
+                STATUS:{' '}
+                <span className='tesla-stall-status'>{location.status}</span>
+              </h3>
             </div>
           </Popup>
         </Marker>
