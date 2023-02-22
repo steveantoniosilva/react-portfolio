@@ -1,8 +1,8 @@
 .home {
-    background-image: url('https://images.unsplash.com/photo-1517777811156-8107dd473aca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-image: url('https://cdn.midjourney.com/d980bd63-6c44-45d6-a0f4-d46ddafc962c/grid_0.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: top;
+    background-position: center;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -11,10 +11,10 @@
     justify-content: center;
     font-weight: 100;
     text-align: center;
-    background-blend-mode: color;
+    background-blend-mode: multiply;
     text-align: center;
     font-style: italic;
-    background-color: rgba(250, 235, 215, .2);
+    background-color: var(--sb4);
 }
 
 .home .title {
@@ -27,6 +27,7 @@
     transform: skew(-4deg);
     border: 1px dotted moccasin;
     width: 75%;
+    max-width: 444px;
 }
 
 .home .title h1 {
@@ -35,7 +36,6 @@
     letter-spacing: 30px;
     text-transform: uppercase;
     padding-left: 22px;
-    backdrop-filter: blur(8px);
 }
 
 .home .title .antonio {
@@ -43,27 +43,29 @@
     color: #111;
     text-transform: uppercase;
     background-color: antiquewhite;
-    letter-spacing: 4vw;
-    border-top: 1px solid antiquewhite;
-    border-bottom: 1px solid antiquewhite;
+    letter-spacing: 3vw;
+    border-top: 5px solid var(--sb4);
+    border-bottom: 5px solid var(--sb4);
+    width: 85%;
+    margin: 0 auto;
 }
 
 .home .sub-title p .react-span {
     font-size: 3.5rem;
-    color: white;
+    color: antiquewhite;
     text-transform: uppercase;
     letter-spacing: .5vw;
 }
 
 .home .sub-title p .engineer-span {
-    transform: skew(-11deg);
-    color: navajowhite;
-    padding-right: .5em;
+    color: antiquewhite;
     text-transform: uppercase;
-    font-size: 1.5rem;
+    margin-left: -.25em;
+    font-size: 1.35rem;
     letter-spacing: .5vw;
-    margin-top: 11px;
-    transform: skew(-11deg);
+    background-color: var(--sb3);
+    border-radius: 11px;
+    padding-left: 11px;
 }
 
 @media screen and (min-width: 877px) {
@@ -94,6 +96,7 @@
         letter-spacing: 1.5vw;
         border-top: 1px solid antiquewhite;
         border-bottom: 1px solid antiquewhite;
+        min-width: 100%;
     }
 
     .home-style {

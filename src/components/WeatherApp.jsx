@@ -12,7 +12,7 @@ function WeatherApp() {
 
   const search = event => {
     if (event.key === 'Enter') {
-      fetch(`${api.base}weather?q=${query}&units=imperial&APPID=${api.key}`)
+      fetch(`${api.base}weather?q=${query},us&units=imperial&APPID=${api.key}`)
         .then(res => res.json())
         .then(result => {
           setWeather(result);
@@ -64,7 +64,7 @@ function WeatherApp() {
           <input
             type='text'
             className='search-bar'
-            placeholder='Search by city name...'
+            placeholder='Search...'
             onChange={e => setQuery(e.target.value)}
             value={query}
             onKeyPress={search}
@@ -75,9 +75,7 @@ function WeatherApp() {
         <div className='weather-container'>
           <div className='location-box'>
             <div className='date'>{dateBuilder(new Date())}</div>
-            <div className='location'>
-              {weather.name}, {weather.sys.country}
-            </div>
+            <div className='location'>{weather.name}</div>
           </div>
           <div className='weather-box'>
             <div className='temp'>{Math.round(weather.main.temp)}°F</div>
