@@ -7,7 +7,7 @@
 }
 
 .contact-page .style-background-div1 {
-    background-color: var(--sb3);
+    background-color: var(--sb1);
     position: absolute;
     height: 55%;
     width: 100vw;
@@ -15,7 +15,7 @@
 }
 
 .contact-page .style-background-div2 {
-    background-color: var(--sb3);
+    background-color: var(--sb2);
     position: absolute;
     height: 55%;
     width: 100vw;

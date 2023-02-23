@@ -6,6 +6,12 @@ import feeling from './assets/tracks/feeling.mp3';
 import bridges from './assets/tracks/bridges.mp3';
 const data = [
   {
+    title: 'Escape',
+    albumCover: albumCover1,
+    artist: 'Salvador Trueza',
+    track: fluidity,
+  },
+  {
     title: 'Explore',
     albumCover: albumCover2,
     artist: 'Ellen Hazel',
@@ -16,12 +22,6 @@ const data = [
     albumCover: albumCover,
     artist: 'John Shumar',
     track: bridges,
-  },
-  {
-    title: 'Escape',
-    albumCover: albumCover1,
-    artist: 'Salvador Trueza',
-    track: fluidity,
   },
 ];
 

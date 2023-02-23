@@ -16,7 +16,7 @@ export default function ResumeAwards() {
               <i className='fa-solid fa-trophy'> 19'</i>
             </h2>
             <h5 className='awards'>
-              <span className='awards-h5'>NATIONAL CHAMPION</span> <br />
+              <span className='awards-h5'>NAT'L CHAMPION</span> <br />
               SPEECH & DEBATE TEAM
             </h5>
           </div>
@@ -27,7 +27,7 @@ export default function ResumeAwards() {
               <i className='fa-solid fa-trophy'> 19'</i>
             </h2>
             <h5 className='awards'>
-              <span className='awards-h5'>NATIONAL CHAMPION </span>
+              <span className='awards-h5'>NAT'L CHAMPION </span>
               <br />
               PERSUASIVE SPEAKING
             </h5>
@@ -39,7 +39,7 @@ export default function ResumeAwards() {
               <i className='fa-solid fa-trophy'> 17'</i>
             </h2>
             <h5 className='awards'>
-              <span className='awards-h5'>NATIONAL GOLD MEDALIST</span> <br />
+              <span className='awards-h5'>NAT'L GOLD MEDAL</span> <br />
               PREPARED SPEECH
             </h5>
           </div>
@@ -50,7 +50,7 @@ export default function ResumeAwards() {
               <i className='fa-solid fa-trophy'> 17'</i>
             </h2>
             <h5 className='awards'>
-              <span className='awards-h5'>STATE GOLD MEDALIST </span>
+              <span className='awards-h5'>STATE GOLD MEDAL </span>
               <br />
               PREPARED SPEECH
             </h5>

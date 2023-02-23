@@ -50,7 +50,7 @@ export default function Skills() {
         <div className='skills-inner-container'>
           {' '}
           <div className='skills'>
-            <i class='fa-brands fa-git-alt skills-git'></i>
+            <i className='fa-brands fa-git-alt skills-git'></i>
             <p>git</p>
           </div>
           <div className='skills'>
@@ -95,14 +95,14 @@ export default function Skills() {
       {/* LEARNING SECTION */}
 
       <h3 className='skills-h3'>
-        currently<span className='hand'>👇</span>learning:
+        currently<span className='hand'>👇</span>exploring:
       </h3>
 
       <div className='skills-container'>
         <div className='skills-inner-container'>
           {' '}
           <div className='skills'>
-            <i class='fa-brands fa-node-js skills-node'></i>
+            <i className='fa-brands fa-node-js skills-node'></i>
             <p>node js</p>
           </div>
           <div className='skills'>

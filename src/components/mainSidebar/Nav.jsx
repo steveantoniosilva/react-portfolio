@@ -21,16 +21,16 @@ export default function Nav({ isOpen, setOpen, onClick }) {
             <Link to='/portfolio'>Portfolio</Link>
           </li>
           <li className='nested'>
-            <Link to='/music-app'>- Music App</Link>
+            <Link to='/music-app'>Music App</Link>
           </li>
           <li className='nested'>
-            <Link to='/tesla-app'>- Tesla App</Link>
+            <Link to='/tesla-app'>Tesla App</Link>
           </li>
           <li className='nested'>
-            <Link to='/weather-app'>- Weather App</Link>
+            <Link to='/weather-app'>Weather App</Link>
           </li>
           <li className='nested'>
-            <Link to='/pomodoro-app'>- Pomodoro App</Link>
+            <Link to='/pomodoro-app'>Pomodoro App</Link>
           </li>
         </ul>
       </nav>

@@ -1,6 +1,6 @@
 .main-hamburger {
-    top: 22px;
-    left: 22px;
+    top: 11px;
+    left: 11px;
     z-index: 11111;
     position: fixed;
 }
@@ -8,17 +8,16 @@
 .main-sidebar-open {
     width: 295px;
     height: 100vh;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) .75s;
     position: fixed;
     z-index: 1111;
-    backdrop-filter: blur(11px);
-    background-color: rgba(250, 235, 215, .5);
+    background-color: white;
 }
 
 .main-sidebar-closed {
     width: 275px;
     height: 100vh;
-    transition: 1s;
+    transition: .25s;
     transform: translateX(-276px);
     position: absolute;
 }
@@ -32,31 +31,37 @@
 
 .navMenu nav ul {
     list-style: none;
+    font-weight: bold;
 }
 
 .navMenu nav li {
-    margin: .1em 0;
-    font-size: 1.35rem;
-    transition: .5s;
+    font-size: 1.5rem;
     text-transform: uppercase;
-    font-weight: bold;
     font-style: italic;
     letter-spacing: 7px;
+    transition: .5s;
 }
 
 .navMenu nav li.nested {
-    margin: -.3em;
+    margin-top: 5px;
     margin-left: 1.5em;
-    font-size: 1.15rem;
+    font-size: 1.25rem;
     letter-spacing: 1px;
-    font-weight: 100;
+    transition: .5s;
 }
 
 .navMenu nav li:hover {
     padding-left: .2em;
-    transition: .25s;
+    transition: .5s;
 }
 
 .navMenu nav a {
-    color: #333;
+    color: #665;
+    transition: .5s;
+}
+
+.navMenu nav a:hover {
+    color: #665;
+    padding-left: 5px;
+    transition: .5s;
 }
