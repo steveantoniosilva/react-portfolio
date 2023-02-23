@@ -3,23 +3,25 @@
     left: 11px;
     z-index: 11111;
     position: fixed;
+    border-radius: 11px;
 }
 
 .main-sidebar-open {
-    width: 295px;
+    width: 275px;
     height: 100vh;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) .75s;
     position: fixed;
     z-index: 1111;
-    background-color: white;
+    background: linear-gradient(gainsboro, gainsboro, gainsboro, transparent);
 }
 
 .main-sidebar-closed {
     width: 275px;
     height: 100vh;
-    transition: .25s;
+    transition: .1s;
     transform: translateX(-276px);
     position: absolute;
+    background: linear-gradient(gainsboro, gainsboro, gainsboro, transparent);
 }
 
 .navMenu {
@@ -44,7 +46,7 @@
 
 .navMenu nav li.nested {
     margin-top: 5px;
-    margin-left: 1.5em;
+    margin-left: .5em;
     font-size: 1.25rem;
     letter-spacing: 1px;
     transition: .5s;
@@ -58,10 +60,13 @@
 .navMenu nav a {
     color: #665;
     transition: .5s;
+    padding: 0 .5;
 }
 
 .navMenu nav a:hover {
     color: #665;
     padding-left: 5px;
     transition: .5s;
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 11px;
 }

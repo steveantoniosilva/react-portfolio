@@ -4,10 +4,10 @@ export default function MainHamburgerIcon({ isOpen, setOpen }) {
   return (
     <div className='main-hamburger'>
       <Hamburger
-        color='navajowhite'
+        color='tan'
         toggled={isOpen}
         toggle={setOpen}
-        duration={0.5}
+        duration={0.25}
         direction='left'
       />
     </div>

@@ -5,7 +5,7 @@
     width: 100%;
     background-position: center;
     background-blend-mode: multiply;
-    background-color: navajowhite;
+    background-color: rgba(0, 0, 0, .3);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
