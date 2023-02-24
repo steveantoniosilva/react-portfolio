@@ -72,19 +72,15 @@ export default function App() {
   const timerMinutes = minutes < 10 ? `0${minutes}` : minutes;
 
   const toggleStyle = {
-    color: darkMode ? 'rgba(112, 82, 53)' : 'navajowhite',
+    color: darkMode ? '#333' : 'navajowhite',
     transform: darkMode ? 'rotate(180deg)' : '',
   };
 
   const divStyle = {
-    backgroundColor: darkMode ? 'var(--sb9)' : 'var(--sb6)',
+    backgroundColor: darkMode ? 'darkgray' : 'var(--sb6)',
     backgroundImage: darkMode
       ? `url(${darkbackground})`
       : `url(${lightBackground})`,
-  };
-
-  const breakTime = {
-    color: darkMode ? 'rgba(112, 82, 53)' : 'white',
   };
 
   const timerStyle = {
@@ -104,9 +100,9 @@ export default function App() {
             darkMode ? 'fa-solid fa-toggle-off' : 'fa-solid fa-toggle-off'
           }></i>
       </div>
-      <div>
+      <div className='pomodoro-content-container'>
         <div className='pomodoro-heading'>
-          {count % 2 !== 0 ? '' : <h1 style={breakTime}>Take a Break</h1>}
+          {count % 2 !== 0 ? '' : <h1>Take a Break</h1>}
         </div>
         <div className='pomodoro-timer'>
           <h1 style={timerStyle}>

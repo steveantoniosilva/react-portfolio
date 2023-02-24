@@ -212,7 +212,7 @@
 .portfolio span:nth-child(45) {
     animation: fade-in 0.8s 4.5s forwards;
     font-size: 1.25rem;
-    color: tomato;
+    color: tan;
     font-weight: 100;
     font-style: italic;
 }
@@ -220,7 +220,7 @@
 .portfolio span:nth-child(46) {
     animation: fade-in 0.8s 4.6s forwards;
     font-size: 1.25rem;
-    color: tomato;
+    color: tan;
     font-weight: 100;
     text-transform: none;
     letter-spacing: 1px;
@@ -230,7 +230,7 @@
 .portfolio span:nth-child(47) {
     animation: fade-in 0.8s 4.7s forwards;
     font-size: 1.25rem;
-    color: tomato;
+    color: tan;
     font-weight: 100;
     text-transform: none;
     letter-spacing: 1px;

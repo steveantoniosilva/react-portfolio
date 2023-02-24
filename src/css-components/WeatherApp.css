@@ -51,6 +51,7 @@
     color: white;
     letter-spacing: 3px;
     border: 1px solid rgba(255, 255, 255, .8);
+    outline: none;
 }
 
 .search-box:hover .search-bar:hover {
@@ -68,13 +69,14 @@
 .search-box .search-bar:focus {
     border: 1px ridge white;
     background-color: rgba(255, 255, 255, 0.1);
+    outline: none;
 }
 
 .weather-container {
     width: 75%;
     background-color: rgba(77, 77, 77, 0.4);
     border-radius: 11px;
-    padding: 3em;
+    padding: 1em;
 }
 
 .location-box .location {
@@ -87,6 +89,7 @@
     color: whitesmoke;
     font-size: 1.1rem;
     letter-spacing: .5vw;
+    padding: 0 2em;
 }
 
 .weather-box {
