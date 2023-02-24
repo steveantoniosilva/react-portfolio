@@ -24,7 +24,7 @@
     padding: 3em 1em;
     transition: .1s;
     border-radius: 11px;
-    transform: skew(-4deg);
+    transform: skew(-7deg);
     border: 1px dotted moccasin;
     width: 75%;
     max-width: 444px;
@@ -44,8 +44,8 @@
     text-transform: uppercase;
     background-color: antiquewhite;
     letter-spacing: 3vw;
-    border-top: 5px solid var(--sb4);
-    border-bottom: 5px solid var(--sb4);
+    border-top: 2px solid var(--sb4);
+    border-bottom: 2px solid var(--sb4);
     width: 85%;
     margin: 0 auto;
 }
@@ -63,9 +63,10 @@
     margin-left: -.25em;
     font-size: 1.35rem;
     letter-spacing: .5vw;
-    background-color: var(--sb3);
-    border-radius: 11px;
-    padding-left: 11px;
+    background-color: var(--sb1);
+    padding: 0 11px;
+    backdrop-filter: blur(11px);
+    background-color: 0 0 5px #222;
 }
 
 @media screen and (min-width: 877px) {
@@ -86,7 +87,6 @@
         border-top: 1px solid tan;
         color: antiquewhite;
         font-size: 3rem;
-        backdrop-filter: none;
     }
 
     .home .title .antonio {
@@ -94,9 +94,9 @@
         text-transform: uppercase;
         background-color: antiquewhite;
         letter-spacing: 1.5vw;
-        border-top: 1px solid antiquewhite;
-        border-bottom: 1px solid antiquewhite;
         min-width: 100%;
+        margin-left: 4px;
+        padding-right: 4px;
     }
 
     .home-style {
