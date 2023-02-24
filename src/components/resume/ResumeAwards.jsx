@@ -17,7 +17,7 @@ export default function ResumeAwards() {
             </h2>
             <h5 className='awards'>
               <span className='awards-h5'>NAT'L CHAMPION</span> <br />
-              SPEECH & DEBATE TEAM
+              SPEECH & DEBATE
             </h5>
           </div>
         </div>
@@ -53,28 +53,6 @@ export default function ResumeAwards() {
               <span className='awards-h5'>STATE GOLD MEDAL </span>
               <br />
               PREPARED SPEECH
-            </h5>
-          </div>
-        </div>
-        <div>
-          <div className='trophy-div'>
-            <h2>
-              <i className='fa-solid fa-trophy'> 17'</i>
-            </h2>
-            <h5 className='awards'>
-              <span className='awards-h5'>WINNER</span> <br />
-              HULT PRIZE, BOISE STATE
-            </h5>
-          </div>
-        </div>
-        <div>
-          <div className='trophy-div'>
-            <h2>
-              <i className='fa-solid fa-trophy'> 17'</i>
-            </h2>
-            <h5 className='awards'>
-              <span className='awards-h5'>WINNER</span> <br />
-              SHARK TANK, BOISE STATE
             </h5>
           </div>
         </div>

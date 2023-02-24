@@ -113,25 +113,26 @@
 .awards-letter-container {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    width: 70vw;
-    height: 5px;
-    background-color: rgba(102, 102, 85, .8);
-    margin: 4em 0;
+    justify-content: center;
+    margin: 3em 0;
+    background-color: rgba(255, 255, 255, .5);
+    width: 95vw;
+    height: 22px;
 }
 
 .awards-letter {
-    width: 9vw;
+    font-size: 1.1rem;
+    color: #444;
+    border: 5px ridge white;
+    margin: 2px;
+    width: 44px;
     text-align: center;
-    font-size: 1.4rem;
-    color: antiquewhite;
-    border: 5px ridge rgba(102, 102, 85, .6);
-    background-color: rgba(102, 102, 85, .4);
 }
 
 .trophy-div {
     display: flex;
     align-items: center;
+    margin: 1em 0;
 }
 
 .awards {
@@ -282,16 +283,15 @@
     .awards-letter-container {
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-        height: 0%;
+        justify-content: center;
+        height: 95vh;
         width: 33px;
         align-items: center;
-        background-color: rgba(102, 102, 85, .5);
     }
 
     .awards-letter {
-        border: 5px ridge gray;
-        margin: 11px;
+        width: 111px;
+        font-size: 1.75rem;
     }
 
     .awards-h5 {
@@ -304,7 +304,7 @@
     }
 
     .trophy-div i {
-        font-size: 40px;
+        font-size: 3rem;
     }
 
     .experience-content-h5 {

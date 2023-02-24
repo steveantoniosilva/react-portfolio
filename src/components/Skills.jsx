@@ -31,8 +31,12 @@ export default function Skills() {
             <p>react router</p>
           </div>
           <div className='skills'>
-            <i className='fa-brands fa-bootstrap skills-bootstrap'></i>
-            <p>bootstrap</p>
+            <img
+              className='vs-icon'
+              src={vsIcon}
+              alt='vs-code-logo'
+            />
+            <p>vs code</p>
           </div>
         </div>
       </div>
@@ -54,40 +58,8 @@ export default function Skills() {
             <p>git</p>
           </div>
           <div className='skills'>
-            <img
-              className='figma-icon'
-              src={figmaIcon}
-              alt='figma-logo'
-            />{' '}
-            <p>figma</p>
-          </div>
-        </div>
-      </div>
-
-      <div className='skills-container'>
-        <div className='skills-inner-container'>
-          {' '}
-          <div className='skills'>
-            <img
-              className='vs-icon'
-              src={vsIcon}
-              alt='vs-code-logo'
-            />
-            <p>vs code</p>
-          </div>
-          <div className='skills'>
-            <i className='fa-solid fa-terminal skills-bootstrap'></i>
-            <p>Command Line</p>
-          </div>
-        </div>
-        <div className='skills-inner-container'>
-          <div className='skills'>
-            <i className='fa-brands fa-npm skills-npm'></i>
-            <p>npm</p>
-          </div>
-          <div className='skills'>
             <i className='fa-brands fa-github skills-github'></i>
-            <p>placeholder</p>
+            <p>github</p>
           </div>
         </div>
       </div>
@@ -95,7 +67,7 @@ export default function Skills() {
       {/* LEARNING SECTION */}
 
       <h3 className='skills-h3'>
-        currently<span className='hand'>👇</span>exploring:
+        currently <span className='hand'>👇</span> exploring:
       </h3>
 
       <div className='skills-container'>
