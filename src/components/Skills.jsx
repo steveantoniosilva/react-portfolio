@@ -1,6 +1,5 @@
 import '../css-components/Skills.css';
 import vsIcon from '../assets/vsIcon.png';
-import figmaIcon from '../assets/Figma-Icon.svg';
 import mongodbIcon from '../assets/mongodb.png';
 import expressIcon from '../assets/expressIcon.png';
 import router from '../assets/router.svg';
