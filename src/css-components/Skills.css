@@ -11,7 +11,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: burlywood;
     background-blend-mode: multiply;
     padding: 3em 0;
 }
@@ -57,7 +57,7 @@
 
 .skills p {
     font-size: .9rem;
-    color: #999;
+    color: navajowhite;
     font-weight: bold;
     letter-spacing: 4px;
     font-style: italic;

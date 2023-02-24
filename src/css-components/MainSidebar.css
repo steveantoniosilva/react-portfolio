@@ -12,7 +12,7 @@
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) .75s;
     position: fixed;
     z-index: 1111;
-    background: linear-gradient(gainsboro, gainsboro, gainsboro, transparent);
+    background: linear-gradient(gainsboro, gainsboro, transparent);
 }
 
 .main-sidebar-closed {
@@ -59,14 +59,12 @@
 
 .navMenu nav a {
     color: #665;
-    transition: .5s;
+    transition: .25s;
     padding: 0 .5;
 }
 
 .navMenu nav a:hover {
     color: #665;
-    padding-left: 5px;
-    transition: .5s;
-    background-color: rgba(255, 255, 255, .1);
-    border-radius: 11px;
+    padding-left: 2px;
+    transition: .25s;
 }

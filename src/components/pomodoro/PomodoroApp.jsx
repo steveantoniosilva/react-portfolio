@@ -88,8 +88,7 @@ export default function App() {
   };
 
   const timerStyle = {
-    color: darkMode ? 'navajowhite' : 'navajowhite',
-    opacity: darkMode ? '.1' : '.3',
+    color: darkMode ? 'tan' : 'navajowhite',
   };
 
   return (

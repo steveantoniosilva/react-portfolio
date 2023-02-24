@@ -22,7 +22,7 @@
     flex-direction: column;
     margin-bottom: 1em;
     padding: 3em 1em;
-    transition: .5s;
+    transition: .1s;
     border-radius: 11px;
     transform: skew(-4deg);
     border: 1px dotted moccasin;
