@@ -22,7 +22,7 @@
 
 .pomodoro-timer h1 {
     color: navajowhite;
-    font-size: 8rem;
+    font-size: 7rem;
     letter-spacing: 11px;
 }
 
@@ -49,14 +49,13 @@
     letter-spacing: 5px;
     text-transform: uppercase;
     color: rgba(112, 82, 53);
-
 }
 
 /* @media  */
 
 @media (min-width: 675px) {
-    .timer {
-        font-size: 3.1rem;
+    .pomodoro-timer h1 {
+        font-size: 8rem;
     }
 
     .heading {
@@ -69,8 +68,8 @@
 }
 
 @media (min-width: 1175px) {
-    .timer {
-        font-size: 3.2rem;
+    .pomodoro-timer h1 {
+        font-size: 9rem;
     }
 
     .heading {
