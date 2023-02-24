@@ -36,18 +36,21 @@
     letter-spacing: 30px;
     text-transform: uppercase;
     padding-left: 22px;
+    text-shadow: 0 0 11px #111;
+
 }
 
 .home .title .antonio {
     font-size: 1rem;
-    color: #111;
+    color: tan;
     text-transform: uppercase;
-    background-color: antiquewhite;
     letter-spacing: 3vw;
     border-top: 2px solid var(--sb4);
     border-bottom: 2px solid var(--sb4);
     width: 85%;
     margin: 0 auto;
+    text-shadow: 0 0 11px #111;
+
 }
 
 .home .sub-title p .react-span {
@@ -55,6 +58,7 @@
     color: antiquewhite;
     text-transform: uppercase;
     letter-spacing: .5vw;
+    text-shadow: 0 0 11px #111;
 }
 
 .home .sub-title p .engineer-span {
@@ -67,6 +71,7 @@
     padding: 0 11px;
     backdrop-filter: blur(11px);
     background-color: 0 0 5px #222;
+    text-shadow: 0 0 11px #111;
 }
 
 @media screen and (min-width: 877px) {
@@ -92,7 +97,6 @@
     .home .title .antonio {
         font-size: 1rem;
         text-transform: uppercase;
-        background-color: antiquewhite;
         letter-spacing: 1.5vw;
         min-width: 100%;
         margin-left: 4px;
