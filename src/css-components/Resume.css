@@ -15,7 +15,7 @@
     background-image: url('../assets/PortfolioPhoto.svg');
     background-repeat: no-repeat;
     background-size: cover;
-    outline: 3px ridge var(--sb4);
+    border: 3px ridge var(--sb4);
     background-blend-mode: multiply;
     border-radius: 50%;
     height: 333px;

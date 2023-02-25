@@ -12,18 +12,22 @@
     flex-direction: column;
     text-align: center;
     text-transform: uppercase;
+    font-style: italic;
 }
 
 .input-container {
     position: absolute;
-    top: 0;
-    width: 100%;
+    top: 22px;
+    height: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .search-box {
     width: 100%;
     position: relative;
-    top: 28px;
+    top: 3px;
     display: flex;
     align-items: center;
 }
@@ -36,13 +40,14 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 21%;
+    left: 2%;
 }
 
 .search-box .search-bar {
     font-size: 1.5rem;
-    width: 60%;
-    height: 33px;
+    width: 70vw;
+    max-width: 665px;
+    height: 55px;
     margin: auto;
     border-radius: 11px;
     text-align: center;
@@ -89,7 +94,8 @@
     color: whitesmoke;
     font-size: 1.1rem;
     letter-spacing: .5vw;
-    padding: 0 2em;
+    padding-top: 1.25em;
+    padding-bottom: 1em;
 }
 
 .weather-box {
@@ -104,7 +110,8 @@
     color: whitesmoke;
     font-size: 4rem;
     letter-spacing: 1.5vw;
-    margin-bottom: .1em;
+    margin: .25em;
+    padding: .5em;
 }
 
 .weather-box .weather {

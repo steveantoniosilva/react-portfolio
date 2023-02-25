@@ -36,7 +36,6 @@
     height: 201px;
     background: var(--sb4);
     border: 7px solid var(--sb3);
-    outline: 1px solid white;
     transition: .5s;
     display: flex;
     align-items: center;
