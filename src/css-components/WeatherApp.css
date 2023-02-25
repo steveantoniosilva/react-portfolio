@@ -81,7 +81,7 @@
     width: 75%;
     background-color: rgba(77, 77, 77, 0.4);
     border-radius: 11px;
-    padding: 1em;
+    padding: .5em;
 }
 
 .location-box .location {
@@ -95,7 +95,7 @@
     font-size: 1.1rem;
     letter-spacing: .5vw;
     padding-top: 1.25em;
-    padding-bottom: 1em;
+    padding-bottom: .5em;
 }
 
 .weather-box {
@@ -111,7 +111,7 @@
     font-size: 4rem;
     letter-spacing: 1.5vw;
     margin: .25em;
-    padding: .5em;
+    padding: .25em;
 }
 
 .weather-box .weather {
