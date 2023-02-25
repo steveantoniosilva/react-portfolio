@@ -1,6 +1,6 @@
 import '../css-components/Skills.css';
 import vsIcon from '../assets/vsIcon.png';
-import mongodbIcon from '../assets/mongodb.png';
+import mongodbIcon from '../assets/mongo.png';
 import expressIcon from '../assets/expressIcon.png';
 import router from '../assets/router.svg';
 import mongoose from '../assets/mongoose.png';
@@ -18,6 +18,30 @@ export default function Skills() {
           <div className='skills'>
             <i className='fa-brands fa-square-js skills-javascript'></i>
             <p>Javascript</p>
+          </div>
+        </div>
+
+        <div className='skills-inner-container'>
+          {' '}
+          <div className='skills'>
+            <i className='fa-brands fa-git-alt skills-git'></i>
+            <p>git</p>
+          </div>
+          <div className='skills'>
+            <i className='fa-brands fa-github skills-github'></i>
+            <p>github</p>
+          </div>
+        </div>
+      </div>
+
+      <div className='skills-container'>
+        <div className='skills-inner-container'>
+          <div className='skills'>
+            <i className='fa-brands fa-css3-alt skills-css'></i>
+            <p>CSS 3</p>
+          </div>
+          <div className='skills'>
+            <i className='fa-brands fa-html5 skills-html'></i> <p>html 5</p>
           </div>
         </div>
         <div className='skills-inner-container'>
@@ -40,35 +64,11 @@ export default function Skills() {
         </div>
       </div>
 
-      <div className='skills-container'>
-        <div className='skills-inner-container'>
-          <div className='skills'>
-            <i className='fa-brands fa-css3-alt skills-css'></i>
-            <p>CSS 3</p>
-          </div>
-          <div className='skills'>
-            <i className='fa-brands fa-html5 skills-html'></i> <p>html 5</p>
-          </div>
-        </div>
-        <div className='skills-inner-container'>
-          {' '}
-          <div className='skills'>
-            <i className='fa-brands fa-git-alt skills-git'></i>
-            <p>git</p>
-          </div>
-          <div className='skills'>
-            <i className='fa-brands fa-github skills-github'></i>
-            <p>github</p>
-          </div>
-        </div>
-      </div>
-
       {/* LEARNING SECTION */}
 
       <h3 className='skills-h3'>
         currently <span className='hand'>👇</span> exploring:
       </h3>
-
       <div className='skills-container'>
         <div className='skills-inner-container'>
           {' '}
