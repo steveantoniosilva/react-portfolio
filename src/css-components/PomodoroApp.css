@@ -51,8 +51,10 @@
     font-weight: bold;
     font-style: italic;
     border: 5px solid transparent;
-    box-shadow: 0 0 11px antiquewhite;
+    box-shadow: 0 0 5px antiquewhite;
     background-color: transparent;
+    width: 222px;
+    margin: 0 auto;
 }
 
 .pomodoro-button:hover {
