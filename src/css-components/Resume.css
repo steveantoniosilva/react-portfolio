@@ -100,13 +100,13 @@
 
 .awards-page {
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     align-items: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(47, 79, 79, .3);
+    background-color: gainsboro;
     text-transform: uppercase;
 }
 
@@ -116,7 +116,7 @@
     justify-content: center;
     margin: 3em 0;
     background-color: rgba(255, 255, 255, .5);
-    width: 95vw;
+    width: 97vw;
     height: 22px;
 }
 
@@ -140,8 +140,9 @@
 }
 
 .awards-h5 {
-    color: white;
+    color: #665;
     letter-spacing: .5vw;
+    font-weight: bold;
 }
 
 
@@ -150,11 +151,12 @@
     font-size: 1rem;
     font-weight: 100;
     line-height: 22px;
+    letter-spacing: 0;
 }
 
 .trophy-div i {
     margin: .5em;
-    color: rgba(102, 102, 111, .3);
+    color: #555;
     font-size: 2.5rem;
 }
 
@@ -284,7 +286,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 95vh;
+        height: 100vh;
         width: 33px;
         align-items: center;
     }
