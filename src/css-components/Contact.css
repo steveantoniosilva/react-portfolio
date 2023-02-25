@@ -46,12 +46,10 @@
 }
 
 .contact-page .card h1 {
-    color: #444;
-    background-color: antiquewhite;
+    color: #555;
     text-align: center;
-    width: 100vw;
     text-transform: uppercase;
-    border-bottom: 2px solid var(--sb2);
+    border-bottom: 2px solid var(--sb1);
     font-weight: bold;
     letter-spacing: 2px;
     font-size: 1.25rem;
