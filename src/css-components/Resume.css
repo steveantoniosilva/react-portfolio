@@ -115,14 +115,14 @@
     align-items: center;
     justify-content: center;
     margin: 3em 0;
-    background-color: rgba(255, 255, 255, .5);
+    background-color: #555;
     width: 97vw;
-    height: 22px;
+    height: 25px;
 }
 
 .awards-letter {
     font-size: 1.1rem;
-    color: #444;
+    color: white;
     border: 2px ridge white;
     margin: 2px;
     width: 44px;
