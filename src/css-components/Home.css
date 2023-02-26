@@ -92,12 +92,14 @@
         border-top: 1px solid tan;
         color: antiquewhite;
         font-size: 3rem;
+        margin-left: 2vw;
+        margin-right: 1vw;
     }
 
     .home .title .antonio {
         font-size: 1rem;
         text-transform: uppercase;
-        letter-spacing: 1.5vw;
+        letter-spacing: 15px;
         min-width: 100%;
         margin-left: 4px;
         padding-right: 4px;
