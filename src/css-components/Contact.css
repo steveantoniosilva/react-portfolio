@@ -15,7 +15,7 @@
 }
 
 .contact-page .style-background-div2 {
-    background-color: rgba(255, 222, 173, .5);
+    background-color: rgba(255, 222, 173, .4);
     position: absolute;
     height: 55%;
     width: 100vw;
@@ -42,7 +42,7 @@
     font-style: italic;
     font-weight: bold;
     transform: rotate3d(.3, 1, 0, 35deg);
-    box-shadow: 31px -14px 11px var(--sb6);
+    box-shadow: 20px -11px 11px var(--sb5);
     background-color: var(--sb7);
 }
 

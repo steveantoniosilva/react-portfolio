@@ -12,7 +12,7 @@ export default function App() {
   const [minutes, setMinutes] = useState(25);
   const [seconds, setSeconds] = useState(0);
   const [isActive, setIsActive] = useState(false);
-  const [count, setCount] = useState(1);
+  const [count, setCount] = useState(2);
   const [darkMode, setDarkMode] = useState(false);
 
   const handleIsActiveClick = () => {
@@ -72,12 +72,12 @@ export default function App() {
   const timerMinutes = minutes < 10 ? `0${minutes}` : minutes;
 
   const toggleStyle = {
-    color: darkMode ? '#333' : 'navajowhite',
+    color: darkMode ? 'antiquewhite' : '#222',
     transform: darkMode ? 'rotate(180deg)' : '',
   };
 
   const divStyle = {
-    backgroundColor: darkMode ? 'darkgray' : 'var(--sb6)',
+    backgroundColor: darkMode ? 'darkgray' : 'var(--sb7)',
     backgroundImage: darkMode
       ? `url(${darkbackground})`
       : `url(${lightBackground})`,
