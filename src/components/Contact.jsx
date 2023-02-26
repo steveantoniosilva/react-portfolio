@@ -10,8 +10,8 @@ export default function Contact() {
     VanillaTilt.init(tiltNode, {
       max: 15,
       speed: 0.1,
-      //   glare: true,
-      //   'max-glare': 0.5,
+      glare: true,
+      'max-glare': 0.25,
       transition: true,
       easing: '1',
       reverse: true,
@@ -29,7 +29,9 @@ export default function Contact() {
           className='container'>
           <a href='mailto:steveantoniosilva@gmail.com'>
             <div className='card'>
-              <span className='tooltiptext'>Click Card to Email</span>
+              <span className='tooltiptext'>
+                Click Card <span className='hand'>👇</span> to Email
+              </span>
               <div>
                 <h1>Steve Antonio Silva</h1>
               </div>

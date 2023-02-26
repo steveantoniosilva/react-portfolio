@@ -7,34 +7,33 @@
 }
 
 .contact-page .style-background-div1 {
-    background-color: var(--sb1);
     position: absolute;
     height: 55%;
     width: 100vw;
-    transform: skewY(-11deg);
+    transform: skewY(-7deg);
+    background-color: tan;
 }
 
 .contact-page .style-background-div2 {
-    background-color: var(--sb1);
+    background-color: rgba(255, 222, 173, .5);
     position: absolute;
     height: 55%;
     width: 100vw;
-    transform: skewY(11deg);
+    transform: skewY(7deg);
 }
 
 /* BUSINESS CARD */
 
 .contact-page .container {
-    padding: 11px;
     cursor: pointer;
-    border-radius: 33px;
+    border-radius: 29px;
 }
 
 .contact-page .card {
     width: 297px;
     height: 188px;
-    border: 7px solid tan;
-    transition: .5s;
+    border: 2px solid white;
+    transition: .25s;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,13 +41,19 @@
     border-radius: 22px;
     font-style: italic;
     font-weight: bold;
-    transform: rotate3d(.3, 1, .1, 33deg);
-    box-shadow: 11px 11px 5px var(--sb7);
+    transform: rotate3d(.3, 1, 0, 35deg);
+    box-shadow: 31px -14px 11px var(--sb6);
     background-color: var(--sb7);
 }
 
+.contact-page .card:hover {
+    transform: rotate3d(.1, 0, 0, -5deg);
+    box-shadow: 0 -21px 11px var(--sb6);
+
+}
+
 .contact-page .card h1 {
-    color: tan;
+    color: white;
     text-align: center;
     text-transform: uppercase;
     border-bottom: 1px solid tan;
@@ -59,7 +64,7 @@
 }
 
 .contact-page .card p {
-    color: white;
+    color: wheat;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1rem;
@@ -78,7 +83,7 @@
 /* Tooltip text */
 .tooltip .tooltiptext {
     visibility: hidden;
-    color: white;
+    color: #333;
     font-weight: bold;
     text-align: center;
     padding: 5px 0;
@@ -86,7 +91,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 1rem;
-    top: 11%;
+    top: -77px;
     opacity: .6;
     cursor: pointer;
     position: absolute;
@@ -104,9 +109,15 @@
         transition: .5s;
     }
 
-    .contact-page .title {
-        font-size: 1.2rem;
-        margin-left: 5px;
-        transition: .5s;
+    .contact-page .card h1 {
+        font-size: 1.5rem;
+    }
+
+    .contact-page .card p {
+        font-size: 1.25rem;
+    }
+
+    .tooltip .tooltiptext {
+        font-size: 1rem;
     }
 }
