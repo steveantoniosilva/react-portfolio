@@ -15,7 +15,7 @@
 }
 
 .contact-page .style-background-div2 {
-    background-color: var(--sb2);
+    background-color: var(--sb1);
     position: absolute;
     height: 55%;
     width: 100vw;
@@ -27,15 +27,13 @@
 .contact-page .container {
     padding: 11px;
     cursor: pointer;
-    border: 1px ridge navajowhite;
     border-radius: 33px;
 }
 
 .contact-page .card {
     width: 297px;
     height: 188px;
-    background: var(--sb4);
-    border: 7px solid var(--sb3);
+    border: 7px solid tan;
     transition: .5s;
     display: flex;
     align-items: center;
@@ -43,13 +41,17 @@
     flex-direction: column;
     border-radius: 22px;
     font-style: italic;
+    font-weight: bold;
+    transform: rotate3d(.3, 1, .1, 33deg);
+    box-shadow: 11px 11px 5px var(--sb7);
+    background-color: var(--sb7);
 }
 
 .contact-page .card h1 {
-    color: #555;
+    color: tan;
     text-align: center;
     text-transform: uppercase;
-    border-bottom: 2px solid var(--sb1);
+    border-bottom: 1px solid tan;
     font-weight: bold;
     letter-spacing: 2px;
     font-size: 1.25rem;
@@ -76,15 +78,15 @@
 /* Tooltip text */
 .tooltip .tooltiptext {
     visibility: hidden;
-    color: #111;
+    color: white;
     font-weight: bold;
     text-align: center;
     padding: 5px 0;
     border-radius: 6px;
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: .9rem;
-    bottom: 8%;
+    font-size: 1rem;
+    top: 11%;
     opacity: .6;
     cursor: pointer;
     position: absolute;
