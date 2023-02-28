@@ -16,7 +16,7 @@ export default function ResumeExperience() {
           </div>
         </div>
         <h3 className='experience-content-subtitle'>
-          REACT COURSE FOR DEVELOPERS
+          REACT COURSE
         </h3>
         <h5 className='experience-content-h5'>
           - I LEFT MY PREVIOUS ROLE AT A SOFTWARE COMPANY TO FOCUS FULL-TIME ON
@@ -129,7 +129,7 @@ export default function ResumeExperience() {
         </div>
         <h3 className='experience-content-subtitle'>FARM & RANCH MANAGER</h3>
         <h5 className='experience-content-h5'>
-          - MANAGED CATTLE, FARMING & HARVEST OPERATIONS ON MY FAMILY'S RANCH
+          - MANAGED CATTLE, FARMING & HARVEST OPERATIONS ON MY FAMILY'S FARM & RANCH
         </h5>
         <h5 className='experience-content-h5'>
           - ANALYZED AGRICULTURAL MARKET RESEARCH & CATTLE ANALYTICS
