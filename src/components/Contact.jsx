@@ -11,7 +11,7 @@ export default function Contact() {
       max: 15,
       speed: 0.1,
       glare: true,
-      'max-glare': 0.25,
+      'max-glare': 1,
       transition: true,
       easing: '1',
       reverse: true,

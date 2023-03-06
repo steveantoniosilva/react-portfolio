@@ -6,20 +6,20 @@
     height: 100vh;
 }
 
-.contact-page .style-background-div1 {
+/* .contact-page .style-background-div1 {
     position: absolute;
     height: 55%;
     width: 100vw;
-    transform: skewY(-7deg);
-    background-color: tan;
-}
+    transform: skewY(-8deg);
+    background-color: white;
+} */
 
 .contact-page .style-background-div2 {
     background-color: rgba(255, 222, 173, .4);
     position: absolute;
     height: 55%;
     width: 100vw;
-    transform: skewY(7deg);
+    transform: skewY(3deg);
 }
 
 /* BUSINESS CARD */
@@ -32,7 +32,7 @@
 .contact-page .card {
     width: 297px;
     height: 188px;
-    border: 2px solid white;
+    border: 3px solid white;
     transition: .25s;
     display: flex;
     align-items: center;
@@ -42,13 +42,14 @@
     font-style: italic;
     font-weight: bold;
     transform: rotate3d(.3, 1, 0, 35deg);
-    box-shadow: 20px -11px 11px var(--sb5);
+    transform-style: preserve-3d;
+    box-shadow: 22px -22px 15px var(--sb5);
     background-color: var(--sb7);
 }
 
 .contact-page .card:hover {
     transform: rotate3d(.1, 0, 0, -5deg);
-    box-shadow: 0 -21px 11px var(--sb6);
+    box-shadow: none;
 
 }
 

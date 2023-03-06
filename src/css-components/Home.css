@@ -13,7 +13,6 @@
     text-align: center;
     background-blend-mode: multiply;
     text-align: center;
-    font-style: italic;
     background-color: var(--sb6);
 }
 
@@ -27,7 +26,7 @@
     border: 1px solid rgba(255, 228, 181, .4);
     width: 75%;
     max-width: 444px;
-    transform: skew(-5deg);
+    transform: skew(-11deg);
 }
 
 .home .title h1 {
@@ -36,21 +35,24 @@
     letter-spacing: 30px;
     text-transform: uppercase;
     padding-left: 5px;
-    text-shadow: 0 0 11px #111;
-
 }
 
 .home .title .antonio {
-    font-size: 1rem;
-    color: tan;
+    font-size: 1.25rem;
+    color: #111;
     text-transform: uppercase;
-    letter-spacing: 3vw;
-    border-top: 2px solid var(--sb4);
-    border-bottom: 2px solid var(--sb4);
+    letter-spacing: 2vw;
+    border-top: 2px solid rgb(171, 121, 57);
+    border-bottom: 2px solid rgb(171, 121, 57);
+    background-color: rgb(171, 121, 57);
     width: 85%;
     margin: 0 auto;
-    text-shadow: 0 0 11px #111;
+    font-weight: bold;
+}
 
+.home .sub-title {
+    transform: skew(-22deg);
+    font-style: normal;
 }
 
 .home .sub-title p .react-span {
@@ -58,20 +60,18 @@
     color: antiquewhite;
     text-transform: uppercase;
     letter-spacing: .5vw;
-    text-shadow: 0 0 11px #111;
 }
 
 .home .sub-title p .engineer-span {
-    color: antiquewhite;
+    color: rgb(171, 121, 57);
     text-transform: uppercase;
-    margin-left: -.25em;
-    font-size: 1.25rem;
-    letter-spacing: .5vw;
-    background-color: var(--sb1);
-    padding: 0 11px;
-    backdrop-filter: blur(11px);
-    background-color: 0 0 5px #222;
-    text-shadow: 0 0 11px #111;
+    font-size: 1rem;
+    letter-spacing: 1vw;
+    padding: 0 7px;
+    padding-left: 11px;
+    margin-left: 11px;
+    background-color: rgba(24, 19, 19, .7);
+    border-left: 1px solid rgb(171, 121, 57);
 }
 
 @media screen and (min-width: 877px) {
@@ -82,9 +82,8 @@
         align-items: center;
     }
 
-    .home .title {
-        transform: skew(-11deg);
-        width: 711px;
+    .home-title {
+        transform: skew(-22deg);
     }
 
     .home .title h1 {
@@ -97,19 +96,10 @@
     }
 
     .home .title .antonio {
-        font-size: 1rem;
-        text-transform: uppercase;
         letter-spacing: 15px;
         min-width: 100%;
         margin-left: 4px;
-        padding-right: 4px;
-    }
-
-    .home-style {
-        height: 66px;
-        width: 777px;
-        position: absolute;
-        backdrop-filter: blur(11px);
-        z-index: -1;
+        padding: 0 3em;
+        border-top: 1px solid antiquewhite;
     }
 }
