@@ -32,6 +32,14 @@ export default function Nav({ isOpen, setOpen, onClick }) {
           <li className='nested'>
             <Link to='/pomodoro-app'>Pomodoro App</Link>
           </li>
+          <li className='nav-github'>
+            <a
+              target='_blank'
+              rel='noreferrer'
+              href='https://github.com/steveantoniosilva'>
+              <i class='fa-brands fa-github'></i>Github
+            </a>
+          </li>
         </ul>
       </nav>
     </div>

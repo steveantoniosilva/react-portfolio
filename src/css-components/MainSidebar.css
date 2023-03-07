@@ -44,11 +44,12 @@
     font-style: italic;
     letter-spacing: 7px;
     transition: .5s;
+    margin-top: .25em;
 }
 
 .navMenu nav li.nested {
-    margin-top: 5px;
-    margin-left: .5em;
+    margin: 0;
+    margin-left: 1em;
     font-size: 1.25rem;
     letter-spacing: 1px;
     transition: .5s;
@@ -69,4 +70,10 @@
     color: antiquewhite;
     padding-left: 2px;
     transition: .25s;
+}
+
+.nav-github i {
+    color: white;
+    margin-right: .25em;
+    cursor: pointer;
 }
