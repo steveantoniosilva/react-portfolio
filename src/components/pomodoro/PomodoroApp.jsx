@@ -85,6 +85,7 @@ export default function App() {
 
   const timerStyle = {
     color: darkMode ? 'tan' : 'navajowhite',
+    opacity: darkMode ? '0.25' : '1',
   };
 
   return (
