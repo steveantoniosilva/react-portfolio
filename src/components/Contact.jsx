@@ -21,8 +21,6 @@ export default function Contact() {
 
   return (
     <div className='contact-page'>
-      <div className='style-background-div1'></div>
-      <div className='style-background-div2'></div>
       <div className='tooltip'>
         <div
           ref={contactCardRef}
