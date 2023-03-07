@@ -78,7 +78,10 @@ export default function ResumeExperience() {
           - THE BAD NEWS: I GOT LAID OFF DURING COVID
         </h5>
         <h5 className='experience-content-h5'>
-          - THE GOOD NEWS: THAT'S HOW I DISCOVERED COMPUTER PROGRAMMING
+          - THE GOOD NEWS:{' '}
+          <span style={{ color: 'tomato' }}>
+            I DISCOVERED COMPUTER PROGRAMMING
+          </span>
         </h5>
       </div>
       <div className='experience-item-container'>

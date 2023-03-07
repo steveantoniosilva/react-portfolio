@@ -13,7 +13,7 @@ export default function ResumeCodingEducation() {
           </h1>
           <h2
             style={{
-              color: 'silver',
+              color: '#999',
               fontSize: '1.25rem',
               letterSpacing: '.25vw',
             }}>
@@ -23,43 +23,28 @@ export default function ResumeCodingEducation() {
         </div>
         <div className='education-container'>
           <div>
+            <div>
+              <h3
+                style={{ color: '#777', fontSize: '1.4rem' }}
+                className='resume-education-h3'>
+                Front-End DEV PATH
+              </h3>
+              <h4
+                style={{ color: '#999' }}
+                className='resume-education-h4'>
+                Scrimba, <span style={{ fontSize: '1.1rem' }}>2022</span>
+              </h4>
+            </div>
             <h3
               style={{ color: '#777', fontSize: '1.4rem' }}
               className='resume-education-h3'>
               Coding Bootcamp
             </h3>
             <h4
-              style={{ color: 'silver' }}
+              style={{ color: '#999' }}
               className='resume-education-h4'>
               Tech Talent South,{' '}
               <span style={{ fontSize: '1.1rem' }}>2021</span>
-            </h4>
-          </div>
-          <div>
-            <h3
-              style={{ color: '#777', fontSize: '1.4rem' }}
-              className='resume-education-h3'>
-              Front-End DEV PATH
-            </h3>
-            <h4
-              style={{ color: 'silver' }}
-              className='resume-education-h4'>
-              Scrimba, <span style={{ fontSize: '1.1rem' }}>2022</span>
-            </h4>
-          </div>
-          <div>
-            <h3
-              style={{ color: '#777', fontSize: '1.4rem' }}
-              className='resume-education-h3'>
-              Epic React{' '}
-            </h3>
-            <h4
-              style={{ color: 'silver' }}
-              className='resume-education-h4'>
-              Kent C. Dodds,{' '}
-              <span style={{ fontSize: '1.1rem', textTransform: 'capitalize' }}>
-                CURRENT
-              </span>
             </h4>
           </div>
         </div>
