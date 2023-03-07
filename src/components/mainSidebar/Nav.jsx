@@ -12,9 +12,6 @@ export default function Nav({ isOpen, setOpen, onClick }) {
             <Link to='/skills'>Skills</Link>
           </li>
           <li>
-            <Link to='/resume'>Resume</Link>
-          </li>
-          <li>
             <Link to='/contact'>Contact</Link>
           </li>
           <li>
@@ -31,6 +28,9 @@ export default function Nav({ isOpen, setOpen, onClick }) {
           </li>
           <li className='nested'>
             <Link to='/pomodoro-app'>Pomodoro App</Link>
+          </li>
+          <li>
+            <Link to='/resume'>Resume</Link>
           </li>
           <li className='nav-github'>
             <a
