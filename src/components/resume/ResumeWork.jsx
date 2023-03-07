@@ -6,27 +6,22 @@ export default function ResumeExperience() {
         <div className='experience-content'>
           <div>
             <h2>
-              CURRENTLY ENROLLED IN EPIC REACT{' '}
-              <span style={{ textTransform: 'lowercase' }}>by</span> KENT C.
-              DODDS (FULL-TIME)
+              "I decided to dedicate MYSELF FULLY TO{' '}
+              <span style={{ color: 'tomato' }}> SOFTWARE development</span> by
+              resigning FROM MY previous ROLE IN SOFTWARE TRAINING..."
             </h2>
           </div>
           <div>
-            <h3 className='date'>23'</h3>
+            <h3 className='date'>CURRENT</h3>
           </div>
         </div>
-        <h3 className='experience-content-subtitle'>
-          REACT COURSE
-        </h3>
-        <h5 className='experience-content-h5'>
-          - I LEFT MY PREVIOUS ROLE AT A SOFTWARE COMPANY TO FOCUS FULL-TIME ON
-          REACT
-        </h5>
       </div>
       <div className='experience-item-container'>
         <div className='experience-content'>
           <div>
-            <h2>SOFTWARE TRAINING & NEW CLIENT SOFTWARE ONBOARDING</h2>
+            <h2>
+              <span style={{ color: 'tomato' }}>SOFTWARE TRAINING</span>
+            </h2>
           </div>
           <div>
             <h3 className='date'>21'-22'</h3>
@@ -38,22 +33,21 @@ export default function ResumeExperience() {
         </h3>
 
         <h5 className='experience-content-h5'>
-          - I HOSTED LIVE SOFTWARE TRAINING SESSIONS FOR NON PROFITS ALL ACROSS
-          THE U.S.
+          - host live software training for NON-PROFITS across the U.s.
         </h5>
         <h5 className='experience-content-h5'>
-          - I SUPPORTED OUR DEV TEAM BY PERFOMING LIVE WEBSITE TESTING TO
-          IDENTIFY & DOCUMENT BUGS IN OUR SOFTWARE
+          - HELP non-profits INTEGRATE OUR SOFTWARE INTO THEIR ORG
         </h5>
         <h5 className='experience-content-h5'>
-          - ASSIST CLIENTS WITH DNS, SSL & CUSTOM DOMAIN SETUP AS WELL AS DATA
-          REPORTING
+          - FULLY AUTOMATE manual tasks IN OUR COMPANY USING SOFTWARE
         </h5>
       </div>
       <div className='experience-item-container'>
         <div className='experience-content'>
           <div>
-            <h2>CODING BOOTCAMP</h2>
+            <h2>
+              <span style={{ color: 'tomato' }}>CODING BOOTCAMP</span>
+            </h2>
           </div>
           <div>
             <h3 className='date'>21'</h3>
@@ -61,13 +55,14 @@ export default function ResumeExperience() {
         </div>
         <h3 className='experience-content-subtitle'>TECH TALENT SOUTH</h3>
         <h5 className='experience-content-h5'>
-          - AFTER BEING LAID OFF, I ENROLLED IN A CODING BOOTCAMP
+          - AFTER BEING LAID OFF DURING COVID, I ENROLLED IN TECH TALENT SOUTH'S
+          CODING BOOTCAMP
         </h5>
       </div>
       <div className='experience-item-container'>
         <div className='experience-content'>
           <div>
-            <h2>LABOR & FARM MANAGER</h2>
+            <h2>LABOR & FARM Manager (Laid-off during covid)</h2>
           </div>
           <div>
             <h3 className='date'>20'</h3>
@@ -77,8 +72,7 @@ export default function ResumeExperience() {
           HIGH-TECH FARMING START-UP
         </h3>
         <h5 className='experience-content-h5'>
-          - I LEARNED A TON ABOUT MANAGEMENT WHILE LEADING 40-50 WORKERS ON THE
-          FARM
+          - I managed 40-50 employees at a high-tech farming start-up
         </h5>
         <h5 className='experience-content-h5'>
           - THE BAD NEWS: I GOT LAID OFF DURING COVID
@@ -100,23 +94,22 @@ export default function ResumeExperience() {
           COLLEGE OF BUSINESS & ECONOMICS
         </h3>
         <h5 className='experience-content-h5'>
-          - I HELPED START-UPS IN OUR ENTREPRENEURSHIP INCUBATOR & ALSO GOT TO
-          WORK ON CONSULTING PROJECTS
+          - I WORKED W/ START-UPS IN OUR ENTREPRENEURSHIP INCUBATOR & GOT TO
+          WORK ON CHALLENGING CONSULTING PROJECTS
         </h5>
       </div>
       <div className='experience-item-container'>
         <div className='experience-content'>
           <div>
-            <h2>UNDERGRAD</h2>
+            <h2>BACHELOR OF APPLIED SCIENCE</h2>
           </div>
           <div>
             <h3>14'-17'</h3>
           </div>
         </div>
         <h3 className='experience-content-subtitle'>
-          BACHELORS OF APPLIED SCIENCE
+          BOISE STATE UNIVERSITY, MAGNA CUM LAUDE
         </h3>
-        <h5 className='experience-content-h5'>- MAGNA CUM LAUDE</h5>
       </div>
       <div className='experience-item-container'>
         <div className='experience-content'>
@@ -129,7 +122,8 @@ export default function ResumeExperience() {
         </div>
         <h3 className='experience-content-subtitle'>FARM & RANCH MANAGER</h3>
         <h5 className='experience-content-h5'>
-          - MANAGED CATTLE, FARMING & HARVEST OPERATIONS ON MY FAMILY'S FARM & RANCH
+          - MANAGED CATTLE, FARMING & HARVEST OPERATIONS ON MY FAMILY'S FARM &
+          RANCH
         </h5>
         <h5 className='experience-content-h5'>
           - ANALYZED AGRICULTURAL MARKET RESEARCH & CATTLE ANALYTICS

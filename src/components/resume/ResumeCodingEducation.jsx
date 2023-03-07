@@ -58,7 +58,7 @@ export default function ResumeCodingEducation() {
               className='resume-education-h4'>
               Kent C. Dodds,{' '}
               <span style={{ fontSize: '1.1rem', textTransform: 'capitalize' }}>
-                2023
+                CURRENT
               </span>
             </h4>
           </div>
