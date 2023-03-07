@@ -1,3 +1,5 @@
+import resume from '../../assets/resume.jpg';
+
 export default function ResumeExperience() {
   return (
     <div className='resume-experience-page'>
@@ -131,7 +133,8 @@ export default function ResumeExperience() {
         <h5 className='experience-content-h5'>
           - ANALYZED AGRICULTURAL MARKET RESEARCH & CATTLE ANALYTICS
         </h5>
-      </div>
+          </div>
+          <div className="resume"><img src={resume} alt="resume" /></div>
     </div>
   );
 }

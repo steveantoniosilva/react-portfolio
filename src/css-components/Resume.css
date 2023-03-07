@@ -162,6 +162,16 @@
     color: #333;
 }
 
+.resume {
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
 @media screen and (min-width: 956px) {
     .resume-landing-page {
         display: flex;
