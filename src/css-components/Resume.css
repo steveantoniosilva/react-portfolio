@@ -1,237 +1,42 @@
-/* LANDING PAGE */
-
-.resume-landing-page {
-    width: 100%;
-    min-height: 100vh;
+.professional-resume-container {
+    max-width: 100vw;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.resume-landing-page-img {
-    background-image: url('../assets/PortfolioPhoto.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 3px ridge var(--sb4);
-    background-blend-mode: multiply;
-    border-radius: 50%;
-    height: 333px;
-    width: 233px;
-    transition: .5s;
-}
-
-.resume-landing-page .resume-name {
-    letter-spacing: 1vw;
-    font-size: .75rem;
-    color: #665;
-    line-height: 33px;
-}
-
-.resume-landing-page h2 {
-    letter-spacing: 1vw;
-    color: #665;
-    font-size: 1rem;
-}
-
-/* EDUCATION PAGE  */
-
-.resume-education-page {
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.professional-resume {
+    width: 95%;
+    height: 100%;
+    border: 3px solid gainsboro;
     text-align: center;
-    padding: 22px;
-    text-transform: uppercase;
 }
 
-.resume-education-page-img {
-    width: 275px;
-    height: 275px;
-    background-image: url('../assets/BoiseState.png');
-    background-size: cover;
-    background-position: center;
-}
-
-.resume-education-coding-page-img {
-    width: 275px;
-    height: 215px;
-    background-image: url('../assets/codingImg.jpg');
-    background-size: cover;
-    background-position: center;
-    margin: auto;
-    margin-bottom: 1.5em;
-}
-
-.resume-education-h1 {
-    font-size: 1.8rem;
-    letter-spacing: .5vw;
-    margin-bottom: -.8em;
-    color: white;
-}
-
-.resume-education-h2 {
-    font-size: 1.5rem;
-    letter-spacing: .5vw;
-    color: darkslateblue;
-}
-
-.resume-education-h3 {
-    font-size: 2rem;
-    letter-spacing: .75vw;
-    color: white;
-    margin-bottom: -.75em;
-}
-
-.resume-education-h4 {
-    font-size: 1rem;
-    margin-bottom: 1em;
-    letter-spacing: .5vw;
-    color: #0033A0;
-    font-style: italic;
-}
-
-
-/* Experience Page */
-
-.resume-experience-page {
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-transform: uppercase;
-    background-image: url('https://images.unsplash.com/photo-1509624776920-0fac24a9dfda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHBhaW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-blend-mode: multiply;
-    background-color: var(--sb1);
-}
-
-.experience-item-container {
-    margin-bottom: 3em;
-    width: 85%;
-}
-
-.experience-page-title {
-    margin-top: 2em;
-    margin-bottom: 1em;
-    font-size: 2.25rem;
-    color: #111;
-}
-
-.experience-content {
+.download-cv-btn {
+    padding: .25em 1.5em;
+    border-radius: 11px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 85vw;
-    margin-right: 3em;
-    line-height: 25px;
-    margin-bottom: 1em;
-}
-
-.experience-content h2 {
-    padding-right: 3em;
-    line-height: 25px;
-    letter-spacing: 3px;
-    font-style: italic;
-}
-
-.experience-content-subtitle {
-    line-height: 22px;
-    margin: .75em 0;
-    color: #555;
-    letter-spacing: 3px;
-    width: 90%;
-}
-
-.experience-content .date {
-    font-style: italic;
-}
-
-.experience-content-h5 {
-    letter-spacing: 2px;
-    width: 90%;
-    font-size: .9em;
-    color: #333;
-}
-
-.resume {
-    max-width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    
-
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: var(--sb4);
+    font-size: 1rem;
+    background-color: white;
+    text-transform: uppercase;
+    margin: 2em 0;
+    border: 2px dotted var(--sb4);
 }
 
-@media screen and (min-width: 956px) {
-    .resume-landing-page {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-evenly;
-    }
+.download-cv-btn:hover {
+    border: 2px dotted var(--sb7);
+    color: var(--sb7);
+    transition: .25s;
+}
 
-    .resume-landing-page-img {
-        height: 385px;
-        width: 260px;
-        transition: .5s;
-    }
-
-    .resume-landing-page .resume-name {
-        font-size: 1.25rem;
-        margin: 2em;
-        line-height: 55px;
-        letter-spacing: 3vw;
-    }
-
-    .resume-landing-page h2 {
-        letter-spacing: 4px;
-        margin: .5em 0;
-        transition: .5s;
-    }
-
-    .resume-education-page {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-
-    .resume-education-page-img {
-        width: 255px;
-        height: 255px;
-        transition: .5s;
-    }
-
-    .resume-education-coding-page-img {
-        width: 266px;
-        height: 266px;
-        transition: .5s;
-    }
-
-    .resume-education-h1 {
-        font-size: 2.5rem;
-    }
-
-    .resume-education-h3 {
-        font-size: 2rem;
-    }
-
-    .resume-education-h4 {
-        font-size: rem;
-        margin-bottom: 2em;
-    }
-
-    .experience-content-h5 {
-        letter-spacing: 3px;
-        font-size: 1em;
-    }
+.download-cv-btn:active {
+    background-color: #1d2e4e;
+    box-shadow: none;
+    transform: translateY(0px);
 }

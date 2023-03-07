@@ -6,7 +6,7 @@ import {
   Popup,
   ZoomControl,
 } from 'react-leaflet';
-import teslaSvg from '../assets/teslaIcon.svg.png';
+import teslaSvg from '../assets/teslaIcon.png';
 import teslaData from '../../src/TeslaData';
 import { Icon } from 'leaflet';
 

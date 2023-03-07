@@ -1,15 +1,8 @@
-import ResumeCodingEducation from './ResumeCodingEducation';
-import ResumeFormalEducation from './ResumeFormalEducation';
-import ResumeLandingPage from './ResumeLandingPage';
-import ResumeWork from './ResumeWork';
+import ProfessionalResume from './ProfessionalResume';
+import '../../css-components/Resume.css'
 
 export default function Resume() {
   return (
-    <>
-      <ResumeLandingPage />
-      <ResumeFormalEducation />
-      <ResumeCodingEducation />
-      <ResumeWork />
-    </>
+      <ProfessionalResume />
   );
 }
