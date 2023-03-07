@@ -37,7 +37,7 @@ export default function Nav({ isOpen, setOpen, onClick }) {
               target='_blank'
               rel='noreferrer'
               href='https://github.com/steveantoniosilva'>
-              <i class='fa-brands fa-github'></i>Github
+              My Github
             </a>
           </li>
         </ul>
