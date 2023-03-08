@@ -32,7 +32,7 @@
 .overlay {
     max-width: 375px;
     width: 95vw;
-    height: 80vh;
+    height: 85vh;
     border-radius: 44px;
     background-color: rgba(255, 222, 173, .2);
     border: 3px solid #eee;
