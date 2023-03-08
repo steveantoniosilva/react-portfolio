@@ -34,8 +34,6 @@
     width: 95vw;
     height: 85vh;
     border-radius: 44px;
-    background-color: rgba(255, 222, 173, .2);
-    border: 3px solid #eee;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -83,7 +81,7 @@
 }
 
 .musicApp i {
-    color: #333;
+    color: antiquewhite;
     padding: .5em;
 }
 
