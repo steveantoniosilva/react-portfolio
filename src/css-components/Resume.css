@@ -27,12 +27,12 @@
     text-transform: uppercase;
     margin: 2em 0;
     border: 2px dotted var(--sb4);
+    cursor: pointer;
 }
 
 .download-cv-btn:hover {
     border: 2px dotted var(--sb7);
     color: var(--sb7);
-    transition: .25s;
 }
 
 .download-cv-btn:active {
