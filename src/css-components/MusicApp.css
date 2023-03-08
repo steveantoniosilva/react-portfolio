@@ -5,14 +5,14 @@
     width: 100%;
     background-position: center;
     background-blend-mode: multiply;
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(0, 0, 0, .5);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     font-style: italic;
-    border: 1px solid rgba(255, 255, 255, 1)
+    border: 1px solid #555;
 }
 
 .progressBar {
@@ -98,15 +98,21 @@
     text-transform: uppercase;
     font-size: 1.25rem;
     letter-spacing: .5vw;
+    padding: .25em 0;
 }
 
 @media screen and (min-width: 878px) {
+    .musicApp {
+        border: none;
+    }
+
     .overlay {
         width: 85%;
         height: 397px;
-        max-width: 898px;
+        max-width: 922px;
         display: flex;
         flex-direction: row;
+        background-color: rgba(255, 255, 255, .1);
     }
 
     .musicAppButton {
