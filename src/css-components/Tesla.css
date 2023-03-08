@@ -41,13 +41,12 @@
 }
 
 .popup {
-    font-style: italic;
     padding: 0 1em;
 }
 
 .tesla-stall-count {
     color: red;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
 }
 
 .tesla-stall-status {
@@ -82,25 +81,4 @@
     .tesla-title {
         font-size: 1.75em;
     }
-
-    .tesla-h1 {
-        font-size: 1.75em;
-    }
-
-    .tesla-h2 {
-        font-size: 1.5em;
-    }
-
-    .tesla-h3 {
-        font-size: 1.25em;
-    }
-
-    .tesla-stall-count {
-        font-size: 1.5rem;
-    }
-
-    .tesla-stall-status {
-        font-size: 1.1rem;
-    }
-
 }
