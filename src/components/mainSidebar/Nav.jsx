@@ -5,16 +5,16 @@ export default function Nav({ isOpen, setOpen, onClick }) {
     <div className='navMenu'>
       <nav onClick={onClick}>
         <ul>
-          <li>
+          <li className='main-link'>
             <Link to='/'>Home</Link>
           </li>
-          <li>
+          <li className='main-link'>
             <Link to='/skills'>Skills</Link>
           </li>
-          <li>
+          <li className='main-link'>
             <Link to='/resume'>Resume</Link>
           </li>
-          <li>
+          <li className='main-link'>
             <Link to='/contact'>Contact</Link>
           </li>
           <li>
@@ -29,7 +29,7 @@ export default function Nav({ isOpen, setOpen, onClick }) {
           <li>
             <Link to='/pomodoro-app'>👉 Pomodoro App</Link>
           </li>
-          <li className='nav-github'>
+          <li className='nav-github main-link'>
             <a
               target='_blank'
               rel='noreferrer'
