@@ -43,7 +43,7 @@
     text-transform: uppercase;
     font-style: italic;
     letter-spacing: 7px;
-    transition: .5s;
+    transition: .1s;
     margin-top: .25em;
 }
 
@@ -52,24 +52,24 @@
     margin-left: 1em;
     font-size: 1.25rem;
     letter-spacing: 1px;
-    transition: .5s;
+    transition: .1s;
 }
 
 .navMenu nav li:hover {
     padding-left: .2em;
-    transition: .5s;
+    transition: .1s;
 }
 
 .navMenu nav a {
     color: tan;
-    transition: .25s;
+    transition: .1s;
     padding: 0 .5;
 }
 
 .navMenu nav a:hover {
     color: antiquewhite;
     padding-left: 2px;
-    transition: .25s;
+    transition: .1s;
 }
 
 .nav-github i {
@@ -79,25 +79,17 @@
 }
 
 @media screen and (max-height: 644px) {
-    .main-sidebar-open {
-        min-height: 644px;
-    }
-
     .navMenu {
-        position: absolute;
-        top: 4em;
+
+        height: 100vh;
+        overflow-y: scroll;
+        scrollbar-width: thin;
+        scrollbar-color: red;
     }
 
-    .navMenu nav li {
-        font-size: 1.25rem;
-        letter-spacing: 7px;
-        margin-top: 0;
+    ul {
+        min-height: 644px;
+        margin-right: 30px;
     }
 
-    .navMenu nav li.nested {
-        margin-left: 1em;
-        font-size: 1.1rem;
-        letter-spacing: 1px;
-        transition: .5s;
-    }
 }
