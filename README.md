@@ -10,6 +10,7 @@ REACT ROUTER,
 REACT HAMBURGER,
 REACT LEAFLET,
 VANILLA-TILT
+<br/>
 
-**Steve Antonio Silva**
+- Steve Antonio Silva
 
