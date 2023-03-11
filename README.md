@@ -1,8 +1,8 @@
 # 👋 Hey there,
 
-To visit my website and see my portfolio live in action, navigate to <a href='steveantoniosilva.com'>steveantoniosilva.com</a>.
+To visit my website and see my portfolio live in action, navigate to <a href='[steveantoniosilva.com](https://www.steveantoniosilva.com/)'>steveantoniosilva.com</a>.
 
-## Learn More
+## TECH STACK
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
