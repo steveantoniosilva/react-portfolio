@@ -2,12 +2,15 @@
 
 To visit my website and see my portfolio live in action, navigate to <a href='https://www.steveantoniosilva.com'>steveantoniosilva.com</a>.
 
-## TECH STACK
+## PORTFOLIO CREATED USING:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+REACT
+JSX
+REACT ROUTER
+REACT HAMBURGER
+REACT LEAFLET
+VANILLA-TILT
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Cheers,
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Steve Silva**
