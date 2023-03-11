@@ -11,5 +11,5 @@ REACT HAMBURGER,
 REACT LEAFLET,
 VANILLA-TILT
 
-### **Steve Antonio Silva**
+**Steve Antonio Silva**
 
