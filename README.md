@@ -12,5 +12,3 @@ REACT LEAFLET,
 VANILLA-TILT
 <br/>
 
-- Steve Antonio Silva
-
