@@ -83,6 +83,11 @@
         min-height: 644px;
     }
 
+    .navMenu {
+        position: absolute;
+        top: 4em;
+    }
+
     .navMenu nav li {
         font-size: 1.25rem;
         letter-spacing: 7px;
