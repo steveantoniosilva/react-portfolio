@@ -1,6 +1,6 @@
 # 👋 Hey there,
 
-To visit my website and see my portfolio live in action, navigate to <a href='[steveantoniosilva.com](https://www.steveantoniosilva.com/)'>steveantoniosilva.com</a>.
+To visit my website and see my portfolio live in action, navigate to <a href='https://www.steveantoniosilva.com'>steveantoniosilva.com</a>.
 
 ## TECH STACK
 
