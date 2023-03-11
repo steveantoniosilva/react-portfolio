@@ -16,7 +16,7 @@
 .contact-page .card {
     width: 297px;
     height: 188px;
-    border: 3px solid white;
+    border: 3px dashed white;
     transition: .25s;
     display: flex;
     align-items: center;
@@ -34,7 +34,7 @@
 .contact-page .card:hover {
     transform: rotate3d(.1, 0, 0, -5deg);
     box-shadow: none;
-
+    border: 3px dashed white;
 }
 
 .contact-page .card h1 {
