@@ -4,11 +4,11 @@ To visit my website and see my portfolio live in action, navigate to <a href='ht
 
 ## PORTFOLIO CREATED USING:
 
-REACT
-JSX
-REACT ROUTER
-REACT HAMBURGER
-REACT LEAFLET
+REACT,
+JSX,
+REACT ROUTER,
+REACT HAMBURGER,
+REACT LEAFLET,
 VANILLA-TILT
 
 ### **Steve Antonio Silva**
