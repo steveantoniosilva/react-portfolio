@@ -10,8 +10,6 @@ export default function Contact() {
     VanillaTilt.init(tiltNode, {
       max: 15,
       speed: 0.1,
-      glare: true,
-      'max-glare': 1,
       transition: true,
       easing: '1',
       reverse: true,

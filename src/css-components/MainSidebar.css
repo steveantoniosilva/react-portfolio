@@ -7,7 +7,7 @@
 }
 
 .main-sidebar-open {
-    width: 301px;
+    width: 333px;
     min-height: 100vh;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) .75s;
     position: fixed;
@@ -17,10 +17,10 @@
 }
 
 .main-sidebar-closed {
-    width: 275px;
+    width: 333px;
     height: 100vh;
     transition: .1s;
-    transform: translateX(-276px);
+    transform: translateX(-333px);
     position: absolute;
     background: linear-gradient(gainsboro, gainsboro, gainsboro, transparent);
     background: #0c1e35;
@@ -42,22 +42,16 @@
     font-size: 1.5rem;
     text-transform: uppercase;
     font-style: italic;
-    letter-spacing: 7px;
-    transition: .1s;
-    margin-top: .25em;
-}
-
-.navMenu nav li.nested {
-    margin: 0;
-    margin-left: 1em;
-    font-size: 1.25rem;
     letter-spacing: 1px;
-    transition: .1s;
+    margin-top: .25em;
+    width: 299px;
+    transition: .25s;
 }
 
 .navMenu nav li:hover {
-    padding-left: .2em;
-    transition: .1s;
+    padding-left: 1em;
+    transition: .25s;
+    background-color: #0c1e35;
 }
 
 .navMenu nav a {
@@ -80,7 +74,6 @@
 
 @media screen and (max-height: 644px) {
     .navMenu {
-
         height: 100vh;
         overflow-y: scroll;
         scrollbar-width: thin;
@@ -91,5 +84,4 @@
         min-height: 644px;
         margin-right: 30px;
     }
-
 }

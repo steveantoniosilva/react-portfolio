@@ -25,9 +25,9 @@
     border-radius: 22px;
     font-style: italic;
     font-weight: bold;
-    transform: rotate3d(.3, 1, 0, 35deg);
+    transform: rotate3d(0, 0, 1, 33deg);
     transform-style: preserve-3d;
-    box-shadow: 22px -22px 15px var(--sb5);
+    box-shadow: 44px 44px 15px var(--sb5);
     background-color: var(--sb7);
 }
 

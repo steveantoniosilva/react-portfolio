@@ -5,7 +5,6 @@ import Contact from './components/Contact';
 import Resume from './components/resume/Resume.jsx';
 import NoPage from './components/NoPage';
 import MainSidebar from './components/mainSidebar/MainSidebar';
-import Portfolio from './components/Portfolio';
 import MusicApp from './components/MusicApp';
 import PomodoroApp from './components/pomodoro/PomodoroApp';
 import Tesla from './components/Tesla';
@@ -34,10 +33,6 @@ function App() {
           <Route
             path='resume'
             element={<Resume />}
-          />
-          <Route
-            path='portfolio'
-            element={<Portfolio />}
           />
           <Route
             path='music-app'

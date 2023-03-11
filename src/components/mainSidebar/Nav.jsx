@@ -18,26 +18,23 @@ export default function Nav({ isOpen, setOpen, onClick }) {
             <Link to='/contact'>Contact</Link>
           </li>
           <li>
-            <Link to='/portfolio'>Portfolio</Link>
+            <Link to='/music-app'>👉 Music App</Link>
           </li>
-          <li className='nested'>
-            <Link to='/music-app'>Music App</Link>
+          <li>
+            <Link to='/tesla-app'>👉 Tesla App</Link>
           </li>
-          <li className='nested'>
-            <Link to='/tesla-app'>Tesla App</Link>
+          <li>
+            <Link to='/weather-app'>👉 Weather App</Link>
           </li>
-          <li className='nested'>
-            <Link to='/weather-app'>Weather App</Link>
-          </li>
-          <li className='nested'>
-            <Link to='/pomodoro-app'>Pomodoro App</Link>
+          <li>
+            <Link to='/pomodoro-app'>👉 Pomodoro App</Link>
           </li>
           <li className='nav-github'>
             <a
               target='_blank'
               rel='noreferrer'
               href='https://github.com/steveantoniosilva'>
-              Source code
+              Source Code
             </a>
           </li>
         </ul>
