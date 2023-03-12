@@ -7,20 +7,20 @@
 }
 
 .main-sidebar-open {
-    width: 365px;
+    width: 325px;
     min-height: 100vh;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1) .75s;
     position: fixed;
     z-index: 11111;
-    background: rgba(12, 30, 53, .9);
+    background: rgba(12, 30, 53, .8);
     backdrop-filter: blur(5px);
 }
 
 .main-sidebar-closed {
-    width: 365px;
+    width: 325px;
     height: 100vh;
     transition: .1s;
-    transform: translateX(-365px);
+    transform: translateX(-325px);
     position: absolute;
     background: linear-gradient(gainsboro, gainsboro, gainsboro, transparent);
     background: #0c1e35;
@@ -28,7 +28,7 @@
 
 .navMenu {
     position: absolute;
-    top: 5em;
+    top: 4.5em;
     left: 1.5em;
     z-index: 1;
 }
@@ -48,8 +48,8 @@
     text-transform: uppercase;
     font-style: italic;
     letter-spacing: 1px;
-    margin-top: .5em;
-    width: 341px;
+    margin-top: .25em;
+    width: 301px;
     transition: .25s;
 }
 
@@ -68,7 +68,6 @@
 }
 
 .navMenu nav a:hover {
-    color: antiquewhite;
     padding-left: 2px;
     transition: .1s;
 }

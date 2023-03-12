@@ -40,6 +40,7 @@
     flex-direction: column;
     justify-content: center;
     position: relative;
+
 }
 
 .albumCover {
@@ -108,7 +109,7 @@
 
     .overlay {
         width: 85%;
-        height: 397px;
+        max-height: 397px;
         max-width: 922px;
         display: flex;
         flex-direction: row;
